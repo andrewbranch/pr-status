@@ -1,0 +1,23 @@
+{
+  "name": "pr-status",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@octokit/rest": "^21.1.0"
+  },
+  "devDependencies": {
+    "@octokit/graphql": "^8.1.2",
+    "@types/node": "^22.10.6"
+  },
+  "engines": {
+    "node": ">=23.6.0"
+  }
+}
