@@ -169,9 +169,7 @@ export async function getMergedPRs(): Promise<MergedPR[]> {
       // The GraphQL server keeps falling over when I try
       // to do this properly with a cursor in the initial query
       let hasMoreFiles = true;
-      if (hasMoreFiles) {
-        pr.files = { nodes: [] };
-      }
+      pr.files = { nodes: [] };
 
       while (hasMoreFiles) {
         const fileData = await request<FilePaginationQueryResponse>(
