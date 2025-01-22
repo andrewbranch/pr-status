@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "timestamp": "2025-01-21T16:57:29.776Z",
+  "timestamp": "2025-01-22T22:23:20.167Z",
   "prs": [
     {
       "id": "PR_kwDOAT9aAc58m0UV",
@@ -11192,6 +11192,667 @@
           },
           {
             "path": "tests/cases/fourslash/codeFixUnusedIdentifier_all_selfReferencingFunction.ts"
+          }
+        ]
+      }
+    },
+    {
+      "id": "PR_kwDOAT9aAc6GsJa4",
+      "title": "Fix ESM/CJS resolution cache collision in non-nodenext resolution modes",
+      "url": "https://github.com/microsoft/TypeScript/pull/60910",
+      "mergedAt": "2025-01-21T19:10:51Z",
+      "updatedAt": "2025-01-21T19:10:56Z",
+      "baseRefName": "main",
+      "author": {
+        "login": "andrewbranch"
+      },
+      "assignees": {
+        "nodes": [
+          {
+            "login": "andrewbranch"
+          }
+        ]
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "andrewbranch"
+            }
+          },
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "jakebailey"
+            }
+          }
+        ]
+      },
+      "files": {
+        "nodes": [
+          {
+            "path": "src/compiler/moduleNameResolver.ts"
+          },
+          {
+            "path": "src/testRunner/unittests/tsserver/inferredProjects.ts"
+          },
+          {
+            "path": "tests/baselines/reference/resolutionModeCache.errors.txt"
+          },
+          {
+            "path": "tests/baselines/reference/resolutionModeCache.symbols"
+          },
+          {
+            "path": "tests/baselines/reference/resolutionModeCache.trace.json"
+          },
+          {
+            "path": "tests/baselines/reference/resolutionModeCache.types"
+          },
+          {
+            "path": "tests/baselines/reference/tsserver/inferredProjects/closing-file-with-shared-resolutions.js"
+          },
+          {
+            "path": "tests/cases/conformance/moduleResolution/resolutionModeCache.ts"
+          }
+        ]
+      }
+    },
+    {
+      "id": "PR_kwDOAT9aAc59u1wb",
+      "title": "Add ESNext float16 features and fix TypedArrays of BigInt types",
+      "url": "https://github.com/microsoft/TypeScript/pull/60151",
+      "mergedAt": "2025-01-22T03:04:15Z",
+      "updatedAt": "2025-01-22T08:20:42Z",
+      "baseRefName": "main",
+      "author": {
+        "login": "petamoriken"
+      },
+      "assignees": {
+        "nodes": [
+          {
+            "login": "rbuckton"
+          }
+        ]
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "rbuckton"
+            }
+          }
+        ]
+      },
+      "files": {
+        "nodes": [
+          {
+            "path": "src/compiler/commandLineParser.ts"
+          },
+          {
+            "path": "src/compiler/utilities.ts"
+          },
+          {
+            "path": "src/lib/es2015.iterable.d.ts"
+          },
+          {
+            "path": "src/lib/es2020.bigint.d.ts"
+          },
+          {
+            "path": "src/lib/es2023.array.d.ts"
+          },
+          {
+            "path": "src/lib/es5.d.ts"
+          },
+          {
+            "path": "src/lib/esnext.d.ts"
+          },
+          {
+            "path": "src/lib/esnext.float16.d.ts"
+          },
+          {
+            "path": "src/lib/esnext.iterator.d.ts"
+          },
+          {
+            "path": "src/lib/libs.json"
+          },
+          {
+            "path": "tests/baselines/reference/builtinIterator.symbols"
+          },
+          {
+            "path": "tests/baselines/reference/bundlerDirectoryModule(moduleresolution=bundler).trace.json"
+          },
+          {
+            "path": "tests/baselines/reference/bundlerDirectoryModule(moduleresolution=nodenext).trace.json"
+          },
+          {
+            "path": "tests/baselines/reference/config/commandLineParsing/parseCommandLine/Parse --lib option with extra comma.js"
+          },
+          {
+            "path": "tests/baselines/reference/config/commandLineParsing/parseCommandLine/Parse --lib option with trailing white-space.js"
+          },
+          {
+            "path": "tests/baselines/reference/config/commandLineParsing/parseCommandLine/Parse invalid option of library flags.js"
+          },
+          {
+            "path": "tests/baselines/reference/config/convertCompilerOptionsFromJson/Convert empty string option of libs array to compiler-options with json api.js"
+          },
+          {
+            "path": "tests/baselines/reference/config/convertCompilerOptionsFromJson/Convert empty string option of libs array to compiler-options with jsonSourceFile api.js"
+          },
+          {
+            "path": "tests/baselines/reference/config/convertCompilerOptionsFromJson/Convert empty string option of libs to compiler-options with json api.js"
+          },
+          {
+            "path": "tests/baselines/reference/config/convertCompilerOptionsFromJson/Convert empty string option of libs to compiler-options with jsonSourceFile api.js"
+          },
+          {
+            "path": "tests/baselines/reference/config/convertCompilerOptionsFromJson/Convert incorrect option of libs to compiler-options with json api.js"
+          },
+          {
+            "path": "tests/baselines/reference/config/convertCompilerOptionsFromJson/Convert incorrect option of libs to compiler-options with jsonSourceFile api.js"
+          },
+          {
+            "path": "tests/baselines/reference/config/convertCompilerOptionsFromJson/Convert trailing-whitespace string option of libs to compiler-options with json api.js"
+          },
+          {
+            "path": "tests/baselines/reference/config/convertCompilerOptionsFromJson/Convert trailing-whitespace string option of libs to compiler-options with jsonSourceFile api.js"
+          },
+          {
+            "path": "tests/baselines/reference/dependentDestructuredVariables.symbols"
+          },
+          {
+            "path": "tests/baselines/reference/dependentDestructuredVariablesFromNestedPatterns.symbols"
+          },
+          {
+            "path": "tests/baselines/reference/dependentReturnType1.symbols"
+          },
+          {
+            "path": "tests/baselines/reference/generatorNoImplicitReturns.symbols"
+          },
+          {
+            "path": "tests/baselines/reference/generatorReturnTypeInference.symbols"
+          },
+          {
+            "path": "tests/baselines/reference/generatorReturnTypeInferenceNonStrict.symbols"
+          },
+          {
+            "path": "tests/baselines/reference/goToTypeDefinition_arrayType.baseline.jsonc"
+          },
+          {
+            "path": "tests/baselines/reference/inferenceOptionalPropertiesToIndexSignatures.symbols"
+          },
+          {
+            "path": "tests/baselines/reference/isolatedDeclarationErrorsExpressions.symbols"
+          },
+          {
+            "path": "tests/baselines/reference/isolatedDeclarationErrorsObjects.symbols"
+          },
+          {
+            "path": "tests/baselines/reference/modulePreserve2.trace.json"
+          },
+          {
+            "path": "tests/baselines/reference/modulePreserve3.trace.json"
+          },
+          {
+            "path": "tests/baselines/reference/nodeModulesExportsBlocksTypesVersions(module=nodenext).trace.json"
+          },
+          {
+            "path": "tests/baselines/reference/nodeModulesPackageImports(module=nodenext).trace.json"
+          },
+          {
+            "path": "tests/baselines/reference/nodeModulesPackagePatternExportsTrailers(module=nodenext).trace.json"
+          },
+          {
+            "path": "tests/baselines/reference/reactJsxReactResolvedNodeNext.trace.json"
+          },
+          {
+            "path": "tests/baselines/reference/reactJsxReactResolvedNodeNextEsm.trace.json"
+          },
+          {
+            "path": "tests/baselines/reference/simpleRecursionWithBaseCase2.symbols"
+          },
+          {
+            "path": "tests/baselines/reference/simpleRecursionWithBaseCase3.symbols"
+          },
+          {
+            "path": "tests/baselines/reference/tsc/commandLine/does-not-add-color-when-NO_COLOR-is-set.js"
+          },
+          {
+            "path": "tests/baselines/reference/tsc/commandLine/help-all.js"
+          },
+          {
+            "path": "tests/baselines/reference/tsc/commandLine/help.js"
+          },
+          {
+            "path": "tests/baselines/reference/tsc/commandLine/show-help-with-ExitStatus.DiagnosticsPresent_OutputsSkipped-when-host-can't-provide-terminal-width.js"
+          },
+          {
+            "path": "tests/baselines/reference/tsc/commandLine/show-help-with-ExitStatus.DiagnosticsPresent_OutputsSkipped.js"
+          },
+          {
+            "path": "tests/baselines/reference/tscWatch/symlinks/monorepo-style-sibling-packages-symlinked-Linux.js"
+          },
+          {
+            "path": "tests/baselines/reference/tscWatch/symlinks/monorepo-style-sibling-packages-symlinked-package1-built-Linux.js"
+          },
+          {
+            "path": "tests/baselines/reference/tscWatch/symlinks/packages-outside-project-folder-Linux.js"
+          },
+          {
+            "path": "tests/baselines/reference/tscWatch/symlinks/packages-outside-project-folder-MacOs.js"
+          },
+          {
+            "path": "tests/baselines/reference/tscWatch/symlinks/packages-outside-project-folder-built-Linux.js"
+          },
+          {
+            "path": "tests/baselines/reference/tscWatch/symlinks/packages-outside-project-folder-built-MacOs.js"
+          },
+          {
+            "path": "tests/baselines/reference/tscWatch/watchEnvironment/fsWatch/fsWatchWithTimestamp-true-useFsEventsOnParentDirectory.js"
+          },
+          {
+            "path": "tests/baselines/reference/tscWatch/watchEnvironment/fsWatch/fsWatchWithTimestamp-true.js"
+          },
+          {
+            "path": "tests/baselines/reference/tscWatch/watchEnvironment/fsWatch/when-using-file-watching-thats-on-inode-when-rename-event-ends-with-tilde.js"
+          },
+          {
+            "path": "tests/baselines/reference/tscWatch/watchEnvironment/fsWatch/when-using-file-watching-thats-on-inode-when-rename-occurs-when-file-is-still-on-the-disk.js"
+          },
+          {
+            "path": "tests/baselines/reference/tscWatch/watchEnvironment/fsWatch/when-using-file-watching-thats-on-inode.js"
+          },
+          {
+            "path": "tests/baselines/reference/tscWatch/watchEnvironment/watchDirectories/uses-non-recursive-dynamic-polling-when-renaming-file-in-subfolder.js"
+          },
+          {
+            "path": "tests/baselines/reference/tscWatch/watchEnvironment/watchDirectories/uses-non-recursive-watchDirectory-when-renaming-file-in-subfolder.js"
+          },
+          {
+            "path": "tests/baselines/reference/tscWatch/watchEnvironment/watchDirectories/uses-watchFile-when-renaming-file-in-subfolder.js"
+          },
+          {
+            "path": "tests/baselines/reference/tscWatch/watchEnvironment/watchDirectories/when-there-are-symlinks-to-folders-in-recursive-folders-with-synchronousWatchDirectory.js"
+          },
+          {
+            "path": "tests/baselines/reference/tscWatch/watchEnvironment/watchDirectories/when-there-are-symlinks-to-folders-in-recursive-folders.js"
+          },
+          {
+            "path": "tests/baselines/reference/tscWatch/watchEnvironment/watchDirectories/with-non-synchronous-watch-directory-renaming-a-file.js"
+          },
+          {
+            "path": "tests/baselines/reference/tscWatch/watchEnvironment/watchDirectories/with-non-synchronous-watch-directory-with-outDir-and-declaration-enabled.js"
+          },
+          {
+            "path": "tests/baselines/reference/tscWatch/watchEnvironment/watchDirectories/with-non-synchronous-watch-directory.js"
+          },
+          {
+            "path": "tests/baselines/reference/tscWatch/watchEnvironment/watchOptions/with-excludeDirectories-option-with-recursive-directory-watching-extendedDiagnostics.js"
+          },
+          {
+            "path": "tests/baselines/reference/tscWatch/watchEnvironment/watchOptions/with-excludeDirectories-option-with-recursive-directory-watching.js"
+          },
+          {
+            "path": "tests/baselines/reference/tscWatch/watchEnvironment/watchOptions/with-fallbackPolling-option.js"
+          },
+          {
+            "path": "tests/baselines/reference/tscWatch/watchEnvironment/watchOptions/with-watchDirectory-option.js"
+          },
+          {
+            "path": "tests/baselines/reference/tsserver/projectErrors/file-rename-on-wsl2.js"
+          },
+          {
+            "path": "tests/baselines/reference/tsserver/resolutionCache/when-resolution-fails-in-global-typings-location-with-currentDirectory-at-root.js"
+          },
+          {
+            "path": "tests/baselines/reference/tsserver/resolutionCache/when-resolution-fails-in-global-typings-location.js"
+          },
+          {
+            "path": "tests/baselines/reference/tsserver/resolutionCache/when-resolution-is-succeeds-in-global-typings-location-with-import-from-the-cache-file-failing-with-currentDirectory-at-root.js"
+          },
+          {
+            "path": "tests/baselines/reference/tsserver/resolutionCache/when-resolution-is-succeeds-in-global-typings-location-with-import-from-the-cache-file-failing.js"
+          },
+          {
+            "path": "tests/baselines/reference/tsserver/resolutionCache/when-resolution-is-succeeds-in-global-typings-location-with-import-from-the-cache-file-with-currentDirectory-at-root.js"
+          },
+          {
+            "path": "tests/baselines/reference/tsserver/resolutionCache/when-resolution-is-succeeds-in-global-typings-location-with-import-from-the-cache-file.js"
+          },
+          {
+            "path": "tests/baselines/reference/tsserver/resolutionCache/when-resolution-is-succeeds-in-global-typings-location-with-relative-import-from-the-cache-file-with-currentDirectory-at-root.js"
+          },
+          {
+            "path": "tests/baselines/reference/tsserver/resolutionCache/when-resolution-is-succeeds-in-global-typings-location-with-relative-import-from-the-cache-file.js"
+          },
+          {
+            "path": "tests/baselines/reference/tsserver/symLinks/monorepo-style-sibling-packages-symlinked-Linux-canUseWatchEvents.js"
+          },
+          {
+            "path": "tests/baselines/reference/tsserver/symLinks/monorepo-style-sibling-packages-symlinked-Linux.js"
+          },
+          {
+            "path": "tests/baselines/reference/tsserver/symLinks/monorepo-style-sibling-packages-symlinked-package1-built-Linux-canUseWatchEvents.js"
+          },
+          {
+            "path": "tests/baselines/reference/tsserver/symLinks/monorepo-style-sibling-packages-symlinked-package1-built-Linux.js"
+          },
+          {
+            "path": "tests/baselines/reference/tsserver/symLinks/packages-outside-project-folder-Linux-canUseWatchEvents.js"
+          },
+          {
+            "path": "tests/baselines/reference/tsserver/symLinks/packages-outside-project-folder-Linux.js"
+          },
+          {
+            "path": "tests/baselines/reference/tsserver/symLinks/packages-outside-project-folder-MacOs-canUseWatchEvents.js"
+          },
+          {
+            "path": "tests/baselines/reference/tsserver/symLinks/packages-outside-project-folder-MacOs.js"
+          },
+          {
+            "path": "tests/baselines/reference/tsserver/symLinks/packages-outside-project-folder-built-Linux-canUseWatchEvents.js"
+          },
+          {
+            "path": "tests/baselines/reference/tsserver/symLinks/packages-outside-project-folder-built-Linux.js"
+          },
+          {
+            "path": "tests/baselines/reference/tsserver/symLinks/packages-outside-project-folder-built-MacOs-canUseWatchEvents.js"
+          },
+          {
+            "path": "tests/baselines/reference/tsserver/symLinks/packages-outside-project-folder-built-MacOs.js"
+          },
+          {
+            "path": "tests/baselines/reference/tsserver/telemetry/does-not-expose-paths.js"
+          },
+          {
+            "path": "tests/baselines/reference/tsserver/watchEnvironment/recursive-directory-does-not-watch-files-starting-with-dot-in-node_modules.js"
+          },
+          {
+            "path": "tests/baselines/reference/tsserver/watchEnvironment/uses-dynamic-polling-when-file-is-added-to-subfolder.js"
+          },
+          {
+            "path": "tests/baselines/reference/tsserver/watchEnvironment/uses-non-recursive-watchDirectory-when-file-is-added-to-subfolder.js"
+          },
+          {
+            "path": "tests/baselines/reference/tsserver/watchEnvironment/uses-watchFile-when-file-is-added-to-subfolder.js"
+          },
+          {
+            "path": "tests/baselines/reference/tsserver/watchEnvironment/watching-npm-install-in-codespaces-where-workspaces-folder-is-hosted-at-root.js"
+          },
+          {
+            "path": "tests/baselines/reference/typedArrays.types"
+          },
+          {
+            "path": "tests/baselines/reference/typesVersions.ambientModules.trace.json"
+          },
+          {
+            "path": "tests/baselines/reference/typesVersions.emptyTypes.trace.json"
+          },
+          {
+            "path": "tests/baselines/reference/typesVersions.justIndex.trace.json"
+          },
+          {
+            "path": "tests/baselines/reference/typesVersions.multiFile.trace.json"
+          },
+          {
+            "path": "tests/baselines/reference/typesVersionsDeclarationEmit.ambient.trace.json"
+          },
+          {
+            "path": "tests/baselines/reference/typesVersionsDeclarationEmit.multiFile.trace.json"
+          },
+          {
+            "path": "tests/baselines/reference/typesVersionsDeclarationEmit.multiFileBackReferenceToSelf.trace.json"
+          },
+          {
+            "path": "tests/baselines/reference/typesVersionsDeclarationEmit.multiFileBackReferenceToUnmapped.trace.json"
+          },
+          {
+            "path": "tests/baselines/reference/uniqueSymbols.symbols"
+          },
+          {
+            "path": "tests/baselines/reference/uniqueSymbolsDeclarations.symbols"
+          }
+        ]
+      }
+    },
+    {
+      "id": "PR_kwDOAT9aAc6GTjuH",
+      "title": "Treat `BigInt` type references in JSDoc as intended `bigint`s",
+      "url": "https://github.com/microsoft/TypeScript/pull/60863",
+      "mergedAt": "2025-01-22T16:33:01Z",
+      "updatedAt": "2025-01-22T17:28:26Z",
+      "baseRefName": "main",
+      "author": {
+        "login": "Andarist"
+      },
+      "assignees": {
+        "nodes": []
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "jakebailey"
+            }
+          },
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "sandersn"
+            }
+          }
+        ]
+      },
+      "files": {
+        "nodes": [
+          {
+            "path": "src/compiler/checker.ts"
+          },
+          {
+            "path": "tests/baselines/reference/checkJsdocTypeTag8.symbols"
+          },
+          {
+            "path": "tests/baselines/reference/checkJsdocTypeTag8.types"
+          },
+          {
+            "path": "tests/baselines/reference/jsdocTypeTag.js"
+          },
+          {
+            "path": "tests/baselines/reference/jsdocTypeTag.symbols"
+          },
+          {
+            "path": "tests/baselines/reference/jsdocTypeTag.types"
+          },
+          {
+            "path": "tests/cases/conformance/jsdoc/checkJsdocTypeTag8.ts"
+          },
+          {
+            "path": "tests/cases/conformance/jsdoc/jsdocTypeTag.ts"
+          }
+        ]
+      }
+    },
+    {
+      "id": "PR_kwDOAT9aAc6IEwmm",
+      "title": "DOM update 2025/01/16",
+      "url": "https://github.com/microsoft/TypeScript/pull/60987",
+      "mergedAt": "2025-01-22T18:36:00Z",
+      "updatedAt": "2025-01-22T19:49:13Z",
+      "baseRefName": "main",
+      "author": {
+        "login": "sandersn"
+      },
+      "assignees": {
+        "nodes": [
+          {
+            "login": "sandersn"
+          }
+        ]
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "jakebailey"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "sandersn"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "jakebailey"
+            }
+          },
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "jakebailey"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "sandersn"
+            }
+          }
+        ]
+      },
+      "files": {
+        "nodes": [
+          {
+            "path": "src/lib/dom.generated.d.ts"
+          },
+          {
+            "path": "src/lib/dom.iterable.generated.d.ts"
+          },
+          {
+            "path": "src/lib/webworker.generated.d.ts"
+          },
+          {
+            "path": "src/lib/webworker.iterable.generated.d.ts"
+          },
+          {
+            "path": "tests/baselines/reference/globalThisBlockscopedProperties.types"
+          },
+          {
+            "path": "tests/baselines/reference/implicitAnyInCatch.types"
+          },
+          {
+            "path": "tests/baselines/reference/mappedTypeRecursiveInference.errors.txt"
+          },
+          {
+            "path": "tests/baselines/reference/mappedTypeRecursiveInference.types"
+          },
+          {
+            "path": "tests/baselines/reference/verifyDefaultLib_webworker.types"
+          }
+        ]
+      }
+    },
+    {
+      "id": "PR_kwDOAT9aAc6HauK5",
+      "title": "Fixed an issue with for statement's incrementor missing continue's control flow information",
+      "url": "https://github.com/microsoft/TypeScript/pull/60950",
+      "mergedAt": "2025-01-22T19:40:58Z",
+      "updatedAt": "2025-01-22T21:41:58Z",
+      "baseRefName": "main",
+      "author": {
+        "login": "Andarist"
+      },
+      "assignees": {
+        "nodes": [
+          {
+            "login": "andrewbranch"
+          }
+        ]
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "jakebailey"
+            }
+          },
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "andrewbranch"
+            }
+          }
+        ]
+      },
+      "files": {
+        "nodes": [
+          {
+            "path": "src/compiler/binder.ts"
+          },
+          {
+            "path": "tests/baselines/reference/controlFlowForStatementContinueIntoIncrementor1.errors.txt"
+          },
+          {
+            "path": "tests/baselines/reference/controlFlowForStatementContinueIntoIncrementor1.symbols"
+          },
+          {
+            "path": "tests/baselines/reference/controlFlowForStatementContinueIntoIncrementor1.types"
+          },
+          {
+            "path": "tests/cases/compiler/controlFlowForStatementContinueIntoIncrementor1.ts"
+          }
+        ]
+      }
+    },
+    {
+      "id": "PR_kwDOAT9aAc6FdTJ9",
+      "title": "Narrow types by satisfies expressions",
+      "url": "https://github.com/microsoft/TypeScript/pull/60782",
+      "mergedAt": "2025-01-22T21:44:58Z",
+      "updatedAt": "2025-01-22T22:13:37Z",
+      "baseRefName": "main",
+      "author": {
+        "login": "Andarist"
+      },
+      "assignees": {
+        "nodes": []
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "jakebailey"
+            }
+          }
+        ]
+      },
+      "files": {
+        "nodes": [
+          {
+            "path": "src/compiler/checker.ts"
+          },
+          {
+            "path": "tests/baselines/reference/inferTypePredicates.errors.txt"
+          },
+          {
+            "path": "tests/baselines/reference/inferTypePredicates.js"
+          },
+          {
+            "path": "tests/baselines/reference/inferTypePredicates.symbols"
+          },
+          {
+            "path": "tests/baselines/reference/inferTypePredicates.types"
+          },
+          {
+            "path": "tests/cases/compiler/inferTypePredicates.ts"
           }
         ]
       }
