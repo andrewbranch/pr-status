@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "timestamp": "2025-01-22T22:23:20.167Z",
+  "timestamp": "2025-03-24T16:17:50.403Z",
   "prs": [
     {
       "id": "PR_kwDOAT9aAc58m0UV",
@@ -11853,6 +11853,4481 @@
           },
           {
             "path": "tests/cases/compiler/inferTypePredicates.ts"
+          }
+        ]
+      }
+    },
+    {
+      "id": "PR_kwDOAT9aAc6FLYXC",
+      "title": "Support `require(esm)` in `--module nodenext`",
+      "url": "https://github.com/microsoft/TypeScript/pull/60761",
+      "mergedAt": "2025-01-23T00:56:17Z",
+      "updatedAt": "2025-01-23T17:20:39Z",
+      "baseRefName": "main",
+      "author": {
+        "login": "andrewbranch"
+      },
+      "assignees": {
+        "nodes": [
+          {
+            "login": "andrewbranch"
+          }
+        ]
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "jakebailey"
+            }
+          },
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "jakebailey"
+            }
+          }
+        ]
+      },
+      "files": {
+        "nodes": [
+          {
+            "path": "src/compiler/checker.ts"
+          },
+          {
+            "path": "src/compiler/diagnosticMessages.json"
+          },
+          {
+            "path": "tests/baselines/reference/bundlerDirectoryModule(module=node18,moduleresolution=bundler).errors.txt"
+          },
+          {
+            "path": "tests/baselines/reference/bundlerDirectoryModule(module=node18,moduleresolution=bundler).trace.json"
+          },
+          {
+            "path": "tests/baselines/reference/bundlerDirectoryModule(module=node18,moduleresolution=nodenext).trace.json"
+          },
+          {
+            "path": "tests/baselines/reference/bundlerDirectoryModule(module=nodenext,moduleresolution=bundler).errors.txt"
+          },
+          {
+            "path": "tests/baselines/reference/bundlerDirectoryModule(module=nodenext,moduleresolution=bundler).trace.json"
+          },
+          {
+            "path": "tests/baselines/reference/bundlerDirectoryModule(module=nodenext,moduleresolution=nodenext).trace.json"
+          },
+          {
+            "path": "tests/baselines/reference/cjsErrors(module=node18).errors.txt"
+          },
+          {
+            "path": "tests/baselines/reference/cjsErrors(module=node18).js"
+          },
+          {
+            "path": "tests/baselines/reference/cjsErrors(module=nodenext).errors.txt"
+          },
+          {
+            "path": "tests/baselines/reference/cjsErrors(module=nodenext).js"
+          },
+          {
+            "path": "tests/baselines/reference/declarationFileForTsJsImport(module=node18).errors.txt"
+          },
+          {
+            "path": "tests/baselines/reference/declarationFileForTsJsImport(module=node18).js"
+          },
+          {
+            "path": "tests/baselines/reference/declarationFileForTsJsImport(module=node18).symbols"
+          },
+          {
+            "path": "tests/baselines/reference/declarationFileForTsJsImport(module=node18).types"
+          },
+          {
+            "path": "tests/baselines/reference/declarationFileForTsJsImport(module=nodenext).errors.txt"
+          },
+          {
+            "path": "tests/baselines/reference/declarationFileForTsJsImport(module=nodenext).js"
+          },
+          {
+            "path": "tests/baselines/reference/declarationFileForTsJsImport(module=nodenext).symbols"
+          },
+          {
+            "path": "tests/baselines/reference/declarationFileForTsJsImport(module=nodenext).types"
+          },
+          {
+            "path": "tests/baselines/reference/declarationFilesForNodeNativeModules(allowarbitraryextensions=false,module=node18).errors.txt"
+          },
+          {
+            "path": "tests/baselines/reference/declarationFilesForNodeNativeModules(allowarbitraryextensions=false,module=node18).js"
+          },
+          {
+            "path": "tests/baselines/reference/declarationFilesForNodeNativeModules(allowarbitraryextensions=false,module=node18).symbols"
+          },
+          {
+            "path": "tests/baselines/reference/declarationFilesForNodeNativeModules(allowarbitraryextensions=false,module=node18).types"
+          },
+          {
+            "path": "tests/baselines/reference/declarationFilesForNodeNativeModules(allowarbitraryextensions=false,module=nodenext).errors.txt"
+          },
+          {
+            "path": "tests/baselines/reference/declarationFilesForNodeNativeModules(allowarbitraryextensions=false,module=nodenext).js"
+          },
+          {
+            "path": "tests/baselines/reference/declarationFilesForNodeNativeModules(allowarbitraryextensions=false,module=nodenext).symbols"
+          },
+          {
+            "path": "tests/baselines/reference/declarationFilesForNodeNativeModules(allowarbitraryextensions=false,module=nodenext).types"
+          },
+          {
+            "path": "tests/baselines/reference/declarationFilesForNodeNativeModules(allowarbitraryextensions=true,module=node18).js"
+          },
+          {
+            "path": "tests/baselines/reference/declarationFilesForNodeNativeModules(allowarbitraryextensions=true,module=node18).symbols"
+          },
+          {
+            "path": "tests/baselines/reference/declarationFilesForNodeNativeModules(allowarbitraryextensions=true,module=node18).types"
+          },
+          {
+            "path": "tests/baselines/reference/declarationFilesForNodeNativeModules(allowarbitraryextensions=true,module=nodenext).js"
+          },
+          {
+            "path": "tests/baselines/reference/declarationFilesForNodeNativeModules(allowarbitraryextensions=true,module=nodenext).symbols"
+          },
+          {
+            "path": "tests/baselines/reference/declarationFilesForNodeNativeModules(allowarbitraryextensions=true,module=nodenext).types"
+          },
+          {
+            "path": "tests/baselines/reference/importAssertionNonstring.errors.txt"
+          },
+          {
+            "path": "tests/baselines/reference/importAttributes6(module=node18).errors.txt"
+          },
+          {
+            "path": "tests/baselines/reference/importAttributes6(module=node18).js"
+          },
+          {
+            "path": "tests/baselines/reference/importAttributes6(module=node18).symbols"
+          },
+          {
+            "path": "tests/baselines/reference/importAttributes6(module=node18).types"
+          },
+          {
+            "path": "tests/baselines/reference/importAttributes6(module=nodenext).errors.txt"
+          },
+          {
+            "path": "tests/baselines/reference/importAttributes6(module=nodenext).js"
+          },
+          {
+            "path": "tests/baselines/reference/importAttributes6(module=nodenext).symbols"
+          },
+          {
+            "path": "tests/baselines/reference/importAttributes6(module=nodenext).types"
+          },
+          {
+            "path": "tests/baselines/reference/moduleResolutionWithoutExtension3(module=node18).errors.txt"
+          },
+          {
+            "path": "tests/baselines/reference/moduleResolutionWithoutExtension3(module=node18).js"
+          },
+          {
+            "path": "tests/baselines/reference/moduleResolutionWithoutExtension3(module=node18).symbols"
+          },
+          {
+            "path": "tests/baselines/reference/moduleResolutionWithoutExtension3(module=node18).types"
+          },
+          {
+            "path": "tests/baselines/reference/moduleResolutionWithoutExtension3(module=nodenext).errors.txt"
+          },
+          {
+            "path": "tests/baselines/reference/moduleResolutionWithoutExtension3(module=nodenext).js"
+          },
+          {
+            "path": "tests/baselines/reference/moduleResolutionWithoutExtension3(module=nodenext).symbols"
+          },
+          {
+            "path": "tests/baselines/reference/moduleResolutionWithoutExtension3(module=nodenext).types"
+          },
+          {
+            "path": "tests/baselines/reference/moduleResolutionWithoutExtension4(module=node18).errors.txt"
+          },
+          {
+            "path": "tests/baselines/reference/moduleResolutionWithoutExtension4(module=node18).js"
+          },
+          {
+            "path": "tests/baselines/reference/moduleResolutionWithoutExtension4(module=node18).symbols"
+          },
+          {
+            "path": "tests/baselines/reference/moduleResolutionWithoutExtension4(module=node18).types"
+          },
+          {
+            "path": "tests/baselines/reference/moduleResolutionWithoutExtension4(module=nodenext).errors.txt"
+          },
+          {
+            "path": "tests/baselines/reference/moduleResolutionWithoutExtension4(module=nodenext).js"
+          },
+          {
+            "path": "tests/baselines/reference/moduleResolutionWithoutExtension4(module=nodenext).symbols"
+          },
+          {
+            "path": "tests/baselines/reference/moduleResolutionWithoutExtension4(module=nodenext).types"
+          },
+          {
+            "path": "tests/baselines/reference/nodeAllowJsPackageSelfName(module=nodenext).errors.txt"
+          },
+          {
+            "path": "tests/baselines/reference/nodeModules1(module=nodenext).errors.txt"
+          },
+          {
+            "path": "tests/baselines/reference/nodeModulesAllowJs1(module=nodenext).errors.txt"
+          },
+          {
+            "path": "tests/baselines/reference/nodeModulesAllowJsConditionalPackageExports(module=nodenext).errors.txt"
+          },
+          {
+            "path": "tests/baselines/reference/nodeModulesAllowJsPackageExports(module=nodenext).errors.txt"
+          },
+          {
+            "path": "tests/baselines/reference/nodeModulesAllowJsPackageImports(module=nodenext).errors.txt"
+          },
+          {
+            "path": "tests/baselines/reference/nodeModulesAllowJsPackagePatternExports(module=nodenext).errors.txt"
+          },
+          {
+            "path": "tests/baselines/reference/nodeModulesAllowJsPackagePatternExportsTrailers(module=nodenext).errors.txt"
+          },
+          {
+            "path": "tests/baselines/reference/nodeModulesAllowJsSynchronousCallErrors(module=nodenext).errors.txt"
+          },
+          {
+            "path": "tests/baselines/reference/nodeModulesCJSEmit1(module=node18).errors.txt"
+          },
+          {
+            "path": "tests/baselines/reference/nodeModulesCJSEmit1(module=node18).js"
+          },
+          {
+            "path": "tests/baselines/reference/nodeModulesCJSEmit1(module=nodenext).errors.txt"
+          },
+          {
+            "path": "tests/baselines/reference/nodeModulesCJSEmit1(module=nodenext).js"
+          },
+          {
+            "path": "tests/baselines/reference/nodeModulesConditionalPackageExports(module=nodenext).errors.txt"
+          },
+          {
+            "path": "tests/baselines/reference/nodeModulesDeclarationEmitDynamicImportWithPackageExports(module=node18).js"
+          },
+          {
+            "path": "tests/baselines/reference/nodeModulesDeclarationEmitDynamicImportWithPackageExports(module=node18).symbols"
+          },
+          {
+            "path": "tests/baselines/reference/nodeModulesDeclarationEmitDynamicImportWithPackageExports(module=node18).types"
+          },
+          {
+            "path": "tests/baselines/reference/nodeModulesDeclarationEmitDynamicImportWithPackageExports(module=nodenext).js"
+          },
+          {
+            "path": "tests/baselines/reference/nodeModulesDeclarationEmitDynamicImportWithPackageExports(module=nodenext).symbols"
+          },
+          {
+            "path": "tests/baselines/reference/nodeModulesDeclarationEmitDynamicImportWithPackageExports(module=nodenext).types"
+          },
+          {
+            "path": "tests/baselines/reference/nodeModulesDeclarationEmitWithPackageExports(module=nodenext).errors.txt"
+          },
+          {
+            "path": "tests/baselines/reference/nodeModulesExportsDoubleAsterisk(module=node18).errors.txt"
+          },
+          {
+            "path": "tests/baselines/reference/nodeModulesExportsDoubleAsterisk(module=nodenext).errors.txt"
+          },
+          {
+            "path": "tests/baselines/reference/nodeModulesImportAssertions(module=nodenext).errors.txt"
+          },
+          {
+            "path": "tests/baselines/reference/nodeModulesImportModeDeclarationEmit1(module=nodenext).errors.txt"
+          },
+          {
+            "path": "tests/baselines/reference/nodeModulesImportModeDeclarationEmit2(module=nodenext).errors.txt"
+          },
+          {
+            "path": "tests/baselines/reference/nodeModulesImportModeDeclarationEmitErrors1(module=nodenext).errors.txt"
+          },
+          {
+            "path": "tests/baselines/reference/nodeModulesPackageExports(module=nodenext).errors.txt"
+          },
+          {
+            "path": "tests/baselines/reference/nodeModulesPackageImports(module=nodenext).errors.txt"
+          },
+          {
+            "path": "tests/baselines/reference/nodeModulesPackagePatternExports(module=nodenext).errors.txt"
+          },
+          {
+            "path": "tests/baselines/reference/nodeModulesPackagePatternExportsExclude(module=nodenext).errors.txt"
+          },
+          {
+            "path": "tests/baselines/reference/nodeModulesPackagePatternExportsTrailers(module=nodenext).errors.txt"
+          },
+          {
+            "path": "tests/baselines/reference/nodeModulesSynchronousCallErrors(module=nodenext).errors.txt"
+          },
+          {
+            "path": "tests/baselines/reference/nodePackageSelfName(module=nodenext).errors.txt"
+          },
+          {
+            "path": "tests/baselines/reference/nodePackageSelfNameScoped(module=nodenext).errors.txt"
+          },
+          {
+            "path": "tests/baselines/reference/nonTSExtensions(module=node18).js"
+          },
+          {
+            "path": "tests/baselines/reference/nonTSExtensions(module=nodenext).js"
+          },
+          {
+            "path": "tests/baselines/reference/packageJsonImportsErrors(module=node18).errors.txt"
+          },
+          {
+            "path": "tests/baselines/reference/packageJsonImportsErrors(module=node18).js"
+          },
+          {
+            "path": "tests/baselines/reference/packageJsonImportsErrors(module=nodenext).errors.txt"
+          },
+          {
+            "path": "tests/baselines/reference/packageJsonImportsErrors(module=nodenext).js"
+          },
+          {
+            "path": "tests/baselines/reference/typeOnlyESMImportFromCJS(module=node18).errors.txt"
+          },
+          {
+            "path": "tests/baselines/reference/typeOnlyESMImportFromCJS(module=node18).js"
+          },
+          {
+            "path": "tests/baselines/reference/typeOnlyESMImportFromCJS(module=node18).symbols"
+          },
+          {
+            "path": "tests/baselines/reference/typeOnlyESMImportFromCJS(module=node18).types"
+          },
+          {
+            "path": "tests/baselines/reference/typeOnlyESMImportFromCJS(module=nodenext).js"
+          },
+          {
+            "path": "tests/baselines/reference/typeOnlyESMImportFromCJS(module=nodenext).symbols"
+          },
+          {
+            "path": "tests/baselines/reference/typeOnlyESMImportFromCJS(module=nodenext).types"
+          },
+          {
+            "path": "tests/cases/conformance/externalModules/moduleResolutionWithoutExtension3.ts"
+          },
+          {
+            "path": "tests/cases/conformance/externalModules/moduleResolutionWithoutExtension4.ts"
+          },
+          {
+            "path": "tests/cases/conformance/externalModules/rewriteRelativeImportExtensions/cjsErrors.ts"
+          },
+          {
+            "path": "tests/cases/conformance/externalModules/rewriteRelativeImportExtensions/nodeModulesTsFiles.ts"
+          },
+          {
+            "path": "tests/cases/conformance/externalModules/rewriteRelativeImportExtensions/nonTSExtensions.ts"
+          },
+          {
+            "path": "tests/cases/conformance/externalModules/rewriteRelativeImportExtensions/packageJsonImportsErrors.ts"
+          },
+          {
+            "path": "tests/cases/conformance/externalModules/typeOnly/typeOnlyESMImportFromCJS.ts"
+          },
+          {
+            "path": "tests/cases/conformance/importAttributes/importAttributes6.ts"
+          },
+          {
+            "path": "tests/cases/conformance/moduleResolution/bundler/bundlerDirectoryModule.ts"
+          },
+          {
+            "path": "tests/cases/conformance/node/nodeModulesCJSEmit1.ts"
+          },
+          {
+            "path": "tests/cases/conformance/node/nodeModulesDeclarationEmitDynamicImportWithPackageExports.ts"
+          },
+          {
+            "path": "tests/cases/conformance/node/nodeModulesExportsDoubleAsterisk.ts"
+          },
+          {
+            "path": "tests/cases/conformance/nonjsExtensions/declarationFileForTsJsImport.ts"
+          },
+          {
+            "path": "tests/cases/conformance/nonjsExtensions/declarationFilesForNodeNativeModules.ts"
+          },
+          {
+            "path": "tests/cases/fourslash/autoImportAllowImportingTsExtensionsPackageJsonImports1.ts"
+          },
+          {
+            "path": "tests/cases/fourslash/autoImportCompletionExportListAugmentation1.ts"
+          },
+          {
+            "path": "tests/cases/fourslash/autoImportCompletionExportListAugmentation2.ts"
+          },
+          {
+            "path": "tests/cases/fourslash/autoImportCompletionExportListAugmentation3.ts"
+          },
+          {
+            "path": "tests/cases/fourslash/autoImportCompletionExportListAugmentation4.ts"
+          },
+          {
+            "path": "tests/cases/fourslash/autoImportNoPackageJson_nodenext.ts"
+          },
+          {
+            "path": "tests/cases/fourslash/autoImportNodeNextJSRequire.ts"
+          },
+          {
+            "path": "tests/cases/fourslash/autoImportPackageJsonExportsSpecifierEndsInTs.ts"
+          },
+          {
+            "path": "tests/cases/fourslash/autoImportPackageJsonImportsCaseSensitivity.ts"
+          },
+          {
+            "path": "tests/cases/fourslash/autoImportPackageJsonImportsConditions.ts"
+          },
+          {
+            "path": "tests/cases/fourslash/autoImportPackageJsonImportsLength1.ts"
+          },
+          {
+            "path": "tests/cases/fourslash/autoImportPackageJsonImportsLength2.ts"
+          },
+          {
+            "path": "tests/cases/fourslash/autoImportPackageJsonImportsPattern.ts"
+          },
+          {
+            "path": "tests/cases/fourslash/autoImportPackageJsonImportsPattern_js.ts"
+          },
+          {
+            "path": "tests/cases/fourslash/autoImportPackageJsonImportsPattern_js_ts.ts"
+          },
+          {
+            "path": "tests/cases/fourslash/autoImportPackageJsonImportsPattern_ts.ts"
+          },
+          {
+            "path": "tests/cases/fourslash/autoImportPackageJsonImportsPattern_ts_js.ts"
+          },
+          {
+            "path": "tests/cases/fourslash/autoImportPackageJsonImportsPattern_ts_ts.ts"
+          },
+          {
+            "path": "tests/cases/fourslash/autoImportPackageJsonImportsPreference1.ts"
+          },
+          {
+            "path": "tests/cases/fourslash/autoImportPackageJsonImportsPreference2.ts"
+          },
+          {
+            "path": "tests/cases/fourslash/autoImportPackageJsonImportsPreference3.ts"
+          },
+          {
+            "path": "tests/cases/fourslash/autoImportPackageJsonImports_capsInPath1.ts"
+          },
+          {
+            "path": "tests/cases/fourslash/autoImportPackageJsonImports_capsInPath2.ts"
+          },
+          {
+            "path": "tests/cases/fourslash/autoImportPackageJsonImports_js.ts"
+          },
+          {
+            "path": "tests/cases/fourslash/autoImportPackageJsonImports_ts.ts"
+          },
+          {
+            "path": "tests/cases/fourslash/autoImportVerbatimCJS1.ts"
+          },
+          {
+            "path": "tests/cases/fourslash/autoImportVerbatimTypeOnly1.ts"
+          },
+          {
+            "path": "tests/cases/fourslash/autoImportsNodeNext1.ts"
+          },
+          {
+            "path": "tests/cases/fourslash/codeFixMissingResolutionModeImportAttribute.ts"
+          },
+          {
+            "path": "tests/cases/fourslash/completionsClassMemberImportTypeNodeParameter1.ts"
+          },
+          {
+            "path": "tests/cases/fourslash/completionsClassMemberImportTypeNodeParameter2.ts"
+          },
+          {
+            "path": "tests/cases/fourslash/completionsClassMemberImportTypeNodeParameter3.ts"
+          },
+          {
+            "path": "tests/cases/fourslash/completionsClassMemberImportTypeNodeParameter4.ts"
+          },
+          {
+            "path": "tests/cases/fourslash/completionsImportDefaultExportCrash1.ts"
+          },
+          {
+            "path": "tests/cases/fourslash/completionsImportDefaultExportCrash2.ts"
+          },
+          {
+            "path": "tests/cases/fourslash/completionsImportTypeKeyword.ts"
+          },
+          {
+            "path": "tests/cases/fourslash/completionsImport_promoteTypeOnly6.ts"
+          },
+          {
+            "path": "tests/cases/fourslash/completionsImport_promoteTypeOnly7.ts"
+          },
+          {
+            "path": "tests/cases/fourslash/getOccurrencesNonStringImportAssertion.ts"
+          },
+          {
+            "path": "tests/cases/fourslash/getOccurrencesNonStringImportAttributes.ts"
+          },
+          {
+            "path": "tests/cases/fourslash/importCompletionsPackageJsonExportsSpecifierEndsInTs.ts"
+          },
+          {
+            "path": "tests/cases/fourslash/importCompletionsPackageJsonExportsTrailingSlash1.ts"
+          },
+          {
+            "path": "tests/cases/fourslash/importCompletionsPackageJsonImportsConditions1.ts"
+          },
+          {
+            "path": "tests/cases/fourslash/importCompletionsPackageJsonImportsLength1.ts"
+          },
+          {
+            "path": "tests/cases/fourslash/importCompletionsPackageJsonImportsLength2.ts"
+          },
+          {
+            "path": "tests/cases/fourslash/importCompletionsPackageJsonImportsPattern.ts"
+          },
+          {
+            "path": "tests/cases/fourslash/importCompletionsPackageJsonImportsPattern2.ts"
+          },
+          {
+            "path": "tests/cases/fourslash/importCompletionsPackageJsonImportsPattern_capsInPath1.ts"
+          },
+          {
+            "path": "tests/cases/fourslash/importCompletionsPackageJsonImportsPattern_capsInPath2.ts"
+          },
+          {
+            "path": "tests/cases/fourslash/importCompletionsPackageJsonImportsPattern_js.ts"
+          },
+          {
+            "path": "tests/cases/fourslash/importCompletionsPackageJsonImportsPattern_js_ts.ts"
+          },
+          {
+            "path": "tests/cases/fourslash/importCompletionsPackageJsonImportsPattern_ts.ts"
+          },
+          {
+            "path": "tests/cases/fourslash/importCompletionsPackageJsonImportsPattern_ts_js.ts"
+          },
+          {
+            "path": "tests/cases/fourslash/importCompletionsPackageJsonImportsPattern_ts_ts.ts"
+          },
+          {
+            "path": "tests/cases/fourslash/importCompletionsPackageJsonImports_js.ts"
+          },
+          {
+            "path": "tests/cases/fourslash/importCompletionsPackageJsonImports_ts.ts"
+          },
+          {
+            "path": "tests/cases/fourslash/importNameCodeFix_barrelExport5.ts"
+          },
+          {
+            "path": "tests/cases/fourslash/inlayHintsInteractiveMultifileFunctionCalls.ts"
+          },
+          {
+            "path": "tests/cases/fourslash/moveToFile_ctsTomts.ts"
+          },
+          {
+            "path": "tests/cases/fourslash/moveToFile_impossibleImport.ts"
+          },
+          {
+            "path": "tests/cases/fourslash/nodeModulesImportCompletions1.ts"
+          },
+          {
+            "path": "tests/cases/fourslash/pathCompletionsPackageJsonExportsCustomConditions.ts"
+          },
+          {
+            "path": "tests/cases/fourslash/pathCompletionsPackageJsonExportsWildcard1.ts"
+          },
+          {
+            "path": "tests/cases/fourslash/pathCompletionsPackageJsonExportsWildcard12.ts"
+          },
+          {
+            "path": "tests/cases/fourslash/pathCompletionsPackageJsonExportsWildcard2.ts"
+          },
+          {
+            "path": "tests/cases/fourslash/pathCompletionsPackageJsonExportsWildcard3.ts"
+          },
+          {
+            "path": "tests/cases/fourslash/pathCompletionsPackageJsonExportsWildcard4.ts"
+          },
+          {
+            "path": "tests/cases/fourslash/pathCompletionsPackageJsonExportsWildcard5.ts"
+          },
+          {
+            "path": "tests/cases/fourslash/pathCompletionsPackageJsonExportsWildcard6.ts"
+          },
+          {
+            "path": "tests/cases/fourslash/pathCompletionsPackageJsonExportsWildcard7.ts"
+          },
+          {
+            "path": "tests/cases/fourslash/pathCompletionsPackageJsonExportsWildcard8.ts"
+          },
+          {
+            "path": "tests/cases/fourslash/pathCompletionsPackageJsonExportsWildcard9.ts"
+          },
+          {
+            "path": "tests/cases/fourslash/pathCompletionsPackageJsonImportsCustomConditions.ts"
+          },
+          {
+            "path": "tests/cases/fourslash/pathCompletionsPackageJsonImportsIgnoreMatchingNodeModule1.ts"
+          },
+          {
+            "path": "tests/cases/fourslash/pathCompletionsPackageJsonImportsIgnoreMatchingNodeModule2.ts"
+          },
+          {
+            "path": "tests/cases/fourslash/pathCompletionsPackageJsonImportsOnlyFromClosestScope1.ts"
+          },
+          {
+            "path": "tests/cases/fourslash/pathCompletionsPackageJsonImportsWildcard1.ts"
+          },
+          {
+            "path": "tests/cases/fourslash/pathCompletionsPackageJsonImportsWildcard12.ts"
+          },
+          {
+            "path": "tests/cases/fourslash/pathCompletionsPackageJsonImportsWildcard2.ts"
+          },
+          {
+            "path": "tests/cases/fourslash/pathCompletionsPackageJsonImportsWildcard3.ts"
+          },
+          {
+            "path": "tests/cases/fourslash/pathCompletionsPackageJsonImportsWildcard4.ts"
+          },
+          {
+            "path": "tests/cases/fourslash/pathCompletionsPackageJsonImportsWildcard5.ts"
+          },
+          {
+            "path": "tests/cases/fourslash/pathCompletionsPackageJsonImportsWildcard6.ts"
+          },
+          {
+            "path": "tests/cases/fourslash/pathCompletionsPackageJsonImportsWildcard7.ts"
+          },
+          {
+            "path": "tests/cases/fourslash/pathCompletionsPackageJsonImportsWildcard8.ts"
+          },
+          {
+            "path": "tests/cases/fourslash/pathCompletionsPackageJsonImportsWildcard9.ts"
+          },
+          {
+            "path": "tests/cases/fourslash/refactorConvertToEsModule_module_nodenext.ts"
+          },
+          {
+            "path": "tests/cases/fourslash/refactorToReturnTypeWithImportAssertions.ts"
+          }
+        ]
+      }
+    },
+    {
+      "id": "PR_kwDOAT9aAc6I0IQ9",
+      "title": "Ensure createProgram stops referencing rootNamesOrOptions to ensure oldProgram is GC'd",
+      "url": "https://github.com/microsoft/TypeScript/pull/61034",
+      "mergedAt": "2025-01-23T23:05:21Z",
+      "updatedAt": "2025-01-23T23:05:26Z",
+      "baseRefName": "main",
+      "author": {
+        "login": "jakebailey"
+      },
+      "assignees": {
+        "nodes": [
+          {
+            "login": "jakebailey"
+          },
+          {
+            "login": "sheetalkamat"
+          }
+        ]
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "jakebailey"
+            }
+          },
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "andrewbranch"
+            }
+          }
+        ]
+      },
+      "files": {
+        "nodes": [
+          {
+            "path": "src/compiler/program.ts"
+          }
+        ]
+      }
+    },
+    {
+      "id": "PR_kwDOAT9aAc6G391C",
+      "title": "Fix missing failed lookup locations when resolving bare-specifier package.json `\"imports\"`",
+      "url": "https://github.com/microsoft/TypeScript/pull/60924",
+      "mergedAt": "2025-01-23T23:28:53Z",
+      "updatedAt": "2025-01-23T23:28:58Z",
+      "baseRefName": "main",
+      "author": {
+        "login": "andrewbranch"
+      },
+      "assignees": {
+        "nodes": [
+          {
+            "login": "andrewbranch"
+          }
+        ]
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "jakebailey"
+            }
+          }
+        ]
+      },
+      "files": {
+        "nodes": [
+          {
+            "path": "src/compiler/moduleNameResolver.ts"
+          },
+          {
+            "path": "tests/baselines/reference/tsserver/fourslashServer/packageJsonImportsFailedLookups.js"
+          },
+          {
+            "path": "tests/cases/fourslash/server/packageJsonImportsFailedLookups.ts"
+          }
+        ]
+      }
+    },
+    {
+      "id": "PR_kwDOAT9aAc6Ik99K",
+      "title": "`--erasableSyntaxOnly`",
+      "url": "https://github.com/microsoft/TypeScript/pull/61011",
+      "mergedAt": "2025-01-23T23:56:35Z",
+      "updatedAt": "2025-01-29T21:46:36Z",
+      "baseRefName": "main",
+      "author": {
+        "login": "RyanCavanaugh"
+      },
+      "assignees": {
+        "nodes": [
+          {
+            "login": "RyanCavanaugh"
+          }
+        ]
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "jakebailey"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "jakebailey"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "RyanCavanaugh"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "DanielRosenwasser"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "RyanCavanaugh"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "jakebailey"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "jakebailey"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "RyanCavanaugh"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "jakebailey"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "DanielRosenwasser"
+            }
+          }
+        ]
+      },
+      "files": {
+        "nodes": [
+          {
+            "path": "src/compiler/checker.ts"
+          },
+          {
+            "path": "src/compiler/commandLineParser.ts"
+          },
+          {
+            "path": "src/compiler/diagnosticMessages.json"
+          },
+          {
+            "path": "src/compiler/types.ts"
+          },
+          {
+            "path": "tests/baselines/reference/api/typescript.d.ts"
+          },
+          {
+            "path": "tests/baselines/reference/config/initTSConfig/Default initialized TSConfig/tsconfig.json"
+          },
+          {
+            "path": "tests/baselines/reference/config/initTSConfig/Initialized TSConfig with --help/tsconfig.json"
+          },
+          {
+            "path": "tests/baselines/reference/config/initTSConfig/Initialized TSConfig with --watch/tsconfig.json"
+          },
+          {
+            "path": "tests/baselines/reference/config/initTSConfig/Initialized TSConfig with advanced options/tsconfig.json"
+          },
+          {
+            "path": "tests/baselines/reference/config/initTSConfig/Initialized TSConfig with boolean value compiler options/tsconfig.json"
+          },
+          {
+            "path": "tests/baselines/reference/config/initTSConfig/Initialized TSConfig with enum value compiler options/tsconfig.json"
+          },
+          {
+            "path": "tests/baselines/reference/config/initTSConfig/Initialized TSConfig with files options/tsconfig.json"
+          },
+          {
+            "path": "tests/baselines/reference/config/initTSConfig/Initialized TSConfig with incorrect compiler option value/tsconfig.json"
+          },
+          {
+            "path": "tests/baselines/reference/config/initTSConfig/Initialized TSConfig with incorrect compiler option/tsconfig.json"
+          },
+          {
+            "path": "tests/baselines/reference/config/initTSConfig/Initialized TSConfig with list compiler options with enum value/tsconfig.json"
+          },
+          {
+            "path": "tests/baselines/reference/config/initTSConfig/Initialized TSConfig with list compiler options/tsconfig.json"
+          },
+          {
+            "path": "tests/baselines/reference/config/showConfig/Shows tsconfig for single option/erasableSyntaxOnly/tsconfig.json"
+          },
+          {
+            "path": "tests/baselines/reference/erasableSyntaxOnly.errors.txt"
+          },
+          {
+            "path": "tests/baselines/reference/erasableSyntaxOnly.symbols"
+          },
+          {
+            "path": "tests/baselines/reference/erasableSyntaxOnly.types"
+          },
+          {
+            "path": "tests/baselines/reference/erasableSyntaxOnlyDeclaration.errors.txt"
+          },
+          {
+            "path": "tests/baselines/reference/erasableSyntaxOnlyDeclaration.symbols"
+          },
+          {
+            "path": "tests/baselines/reference/erasableSyntaxOnlyDeclaration.types"
+          },
+          {
+            "path": "tests/baselines/reference/tsc/commandLine/help-all.js"
+          },
+          {
+            "path": "tests/cases/compiler/erasableSyntaxOnly.ts"
+          },
+          {
+            "path": "tests/cases/compiler/erasableSyntaxOnlyDeclaration.ts"
+          }
+        ]
+      }
+    },
+    {
+      "id": "PR_kwDOAT9aAc6GZ9jv",
+      "title": "fix: do not use `JSX.ElementChildrenAttribute` under `jsx: react-jsx` or `jsx: react-jsxdev`",
+      "url": "https://github.com/microsoft/TypeScript/pull/60880",
+      "mergedAt": "2025-01-24T00:03:08Z",
+      "updatedAt": "2025-01-24T01:14:37Z",
+      "baseRefName": "main",
+      "author": {
+        "login": "uhyo"
+      },
+      "assignees": {
+        "nodes": []
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "Andarist"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "uhyo"
+            }
+          },
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "andrewbranch"
+            }
+          },
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "iisaduan"
+            }
+          }
+        ]
+      },
+      "files": {
+        "nodes": [
+          {
+            "path": "src/compiler/checker.ts"
+          },
+          {
+            "path": "tests/baselines/reference/jsxNamespaceElementChildrenAttributeIgnoredWhenReactJsx(jsx=react-jsx).errors.txt"
+          },
+          {
+            "path": "tests/baselines/reference/jsxNamespaceElementChildrenAttributeIgnoredWhenReactJsx(jsx=react-jsx).js"
+          },
+          {
+            "path": "tests/baselines/reference/jsxNamespaceElementChildrenAttributeIgnoredWhenReactJsx(jsx=react-jsx).symbols"
+          },
+          {
+            "path": "tests/baselines/reference/jsxNamespaceElementChildrenAttributeIgnoredWhenReactJsx(jsx=react-jsx).types"
+          },
+          {
+            "path": "tests/baselines/reference/jsxNamespaceElementChildrenAttributeIgnoredWhenReactJsx(jsx=react-jsxdev).errors.txt"
+          },
+          {
+            "path": "tests/baselines/reference/jsxNamespaceElementChildrenAttributeIgnoredWhenReactJsx(jsx=react-jsxdev).js"
+          },
+          {
+            "path": "tests/baselines/reference/jsxNamespaceElementChildrenAttributeIgnoredWhenReactJsx(jsx=react-jsxdev).symbols"
+          },
+          {
+            "path": "tests/baselines/reference/jsxNamespaceElementChildrenAttributeIgnoredWhenReactJsx(jsx=react-jsxdev).types"
+          },
+          {
+            "path": "tests/baselines/reference/jsxNamespaceNoElementChildrenAttributeReactJsx(jsx=react-jsx).js"
+          },
+          {
+            "path": "tests/baselines/reference/jsxNamespaceNoElementChildrenAttributeReactJsx(jsx=react-jsx).symbols"
+          },
+          {
+            "path": "tests/baselines/reference/jsxNamespaceNoElementChildrenAttributeReactJsx(jsx=react-jsx).types"
+          },
+          {
+            "path": "tests/baselines/reference/jsxNamespaceNoElementChildrenAttributeReactJsx(jsx=react-jsxdev).js"
+          },
+          {
+            "path": "tests/baselines/reference/jsxNamespaceNoElementChildrenAttributeReactJsx(jsx=react-jsxdev).symbols"
+          },
+          {
+            "path": "tests/baselines/reference/jsxNamespaceNoElementChildrenAttributeReactJsx(jsx=react-jsxdev).types"
+          },
+          {
+            "path": "tests/cases/compiler/jsxNamespaceElementChildrenAttributeIgnoredWhenReactJsx.tsx"
+          },
+          {
+            "path": "tests/cases/compiler/jsxNamespaceNoElementChildrenAttributeReactJsx.tsx"
+          }
+        ]
+      }
+    },
+    {
+      "id": "PR_kwDOAT9aAc5-YC-V",
+      "title": "Expose method for retrieving inferred generic type arguments for a signature on the TypeChecker (#59637)",
+      "url": "https://github.com/microsoft/TypeScript/pull/60201",
+      "mergedAt": "2025-01-24T00:43:59Z",
+      "updatedAt": "2025-01-24T00:44:00Z",
+      "baseRefName": "main",
+      "author": {
+        "login": "tristanmenzel"
+      },
+      "assignees": {
+        "nodes": []
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "RyanCavanaugh"
+            }
+          }
+        ]
+      },
+      "files": {
+        "nodes": [
+          {
+            "path": "src/compiler/checker.ts"
+          },
+          {
+            "path": "src/compiler/types.ts"
+          },
+          {
+            "path": "tests/baselines/reference/api/typescript.d.ts"
+          }
+        ]
+      }
+    },
+    {
+      "id": "PR_kwDOAT9aAc6Aj5ox",
+      "title": "allow calling `goToDef` on modifiers of named declarations",
+      "url": "https://github.com/microsoft/TypeScript/pull/60384",
+      "mergedAt": "2025-01-24T01:30:35Z",
+      "updatedAt": "2025-01-24T01:30:40Z",
+      "baseRefName": "main",
+      "author": {
+        "login": "iisaduan"
+      },
+      "assignees": {
+        "nodes": [
+          {
+            "login": "iisaduan"
+          }
+        ]
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "mjbvz"
+            }
+          },
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "sandersn"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "DanielRosenwasser"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "iisaduan"
+            }
+          },
+          {
+            "state": "DISMISSED",
+            "author": {
+              "login": "DanielRosenwasser"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "DanielRosenwasser"
+            }
+          },
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "mjbvz"
+            }
+          },
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "RyanCavanaugh"
+            }
+          }
+        ]
+      },
+      "files": {
+        "nodes": [
+          {
+            "path": "src/services/goToDefinition.ts"
+          },
+          {
+            "path": "tests/baselines/reference/goToDefinitionAwait1.baseline.jsonc"
+          },
+          {
+            "path": "tests/baselines/reference/goToDefinitionAwait3.baseline.jsonc"
+          },
+          {
+            "path": "tests/baselines/reference/goToDefinitionMember.baseline.jsonc"
+          },
+          {
+            "path": "tests/baselines/reference/goToDefinitionModifiers.baseline.jsonc"
+          },
+          {
+            "path": "tests/baselines/reference/goToDefinitionOverriddenMember6.baseline.jsonc"
+          },
+          {
+            "path": "tests/baselines/reference/goToDefinitionOverriddenMember7.baseline.jsonc"
+          },
+          {
+            "path": "tests/baselines/reference/goToDefinitionReturn5.baseline.jsonc"
+          },
+          {
+            "path": "tests/baselines/reference/goToDefinitionYield3.baseline.jsonc"
+          },
+          {
+            "path": "tests/baselines/reference/goToDefinitionYield4.baseline.jsonc"
+          },
+          {
+            "path": "tests/baselines/reference/goToTypeDefinitionModifiers.baseline.jsonc"
+          },
+          {
+            "path": "tests/cases/fourslash/goToDefinitionMember.ts"
+          },
+          {
+            "path": "tests/cases/fourslash/goToDefinitionModifiers.ts"
+          },
+          {
+            "path": "tests/cases/fourslash/goToTypeDefinitionModifiers.ts"
+          }
+        ]
+      }
+    },
+    {
+      "id": "PR_kwDOAT9aAc6F2rAA",
+      "title": "Add new option \"libReplacement\"",
+      "url": "https://github.com/microsoft/TypeScript/pull/60829",
+      "mergedAt": "2025-01-24T01:34:52Z",
+      "updatedAt": "2025-01-24T01:34:52Z",
+      "baseRefName": "main",
+      "author": {
+        "login": "jakebailey"
+      },
+      "assignees": {
+        "nodes": [
+          {
+            "login": "jakebailey"
+          }
+        ]
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "jakebailey"
+            }
+          },
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "andrewbranch"
+            }
+          },
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "RyanCavanaugh"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "jakebailey"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "jakebailey"
+            }
+          }
+        ]
+      },
+      "files": {
+        "nodes": [
+          {
+            "path": "src/compiler/commandLineParser.ts"
+          },
+          {
+            "path": "src/compiler/diagnosticMessages.json"
+          },
+          {
+            "path": "src/compiler/program.ts"
+          },
+          {
+            "path": "src/compiler/types.ts"
+          },
+          {
+            "path": "src/testRunner/unittests/helpers/libraryResolution.ts"
+          },
+          {
+            "path": "tests/baselines/reference/api/typescript.d.ts"
+          },
+          {
+            "path": "tests/baselines/reference/config/initTSConfig/Default initialized TSConfig/tsconfig.json"
+          },
+          {
+            "path": "tests/baselines/reference/config/initTSConfig/Initialized TSConfig with --help/tsconfig.json"
+          },
+          {
+            "path": "tests/baselines/reference/config/initTSConfig/Initialized TSConfig with --watch/tsconfig.json"
+          },
+          {
+            "path": "tests/baselines/reference/config/initTSConfig/Initialized TSConfig with advanced options/tsconfig.json"
+          },
+          {
+            "path": "tests/baselines/reference/config/initTSConfig/Initialized TSConfig with boolean value compiler options/tsconfig.json"
+          },
+          {
+            "path": "tests/baselines/reference/config/initTSConfig/Initialized TSConfig with enum value compiler options/tsconfig.json"
+          },
+          {
+            "path": "tests/baselines/reference/config/initTSConfig/Initialized TSConfig with files options/tsconfig.json"
+          },
+          {
+            "path": "tests/baselines/reference/config/initTSConfig/Initialized TSConfig with incorrect compiler option value/tsconfig.json"
+          },
+          {
+            "path": "tests/baselines/reference/config/initTSConfig/Initialized TSConfig with incorrect compiler option/tsconfig.json"
+          },
+          {
+            "path": "tests/baselines/reference/config/initTSConfig/Initialized TSConfig with list compiler options with enum value/tsconfig.json"
+          },
+          {
+            "path": "tests/baselines/reference/config/initTSConfig/Initialized TSConfig with list compiler options/tsconfig.json"
+          },
+          {
+            "path": "tests/baselines/reference/config/showConfig/Shows tsconfig for single option/libReplacement/tsconfig.json"
+          },
+          {
+            "path": "tests/baselines/reference/libReplacement(libreplacement=false).trace.json"
+          },
+          {
+            "path": "tests/baselines/reference/libReplacement(libreplacement=true).trace.json"
+          },
+          {
+            "path": "tests/baselines/reference/libTypeScriptOverrideSimple.errors.txt"
+          },
+          {
+            "path": "tests/baselines/reference/libTypeScriptOverrideSimple.js"
+          },
+          {
+            "path": "tests/baselines/reference/libTypeScriptOverrideSimple.symbols"
+          },
+          {
+            "path": "tests/baselines/reference/libTypeScriptOverrideSimpleConfig.errors.txt"
+          },
+          {
+            "path": "tests/baselines/reference/libTypeScriptOverrideSimpleConfig.js"
+          },
+          {
+            "path": "tests/baselines/reference/libTypeScriptOverrideSimpleConfig.symbols"
+          },
+          {
+            "path": "tests/baselines/reference/libTypeScriptSubfileResolving.errors.txt"
+          },
+          {
+            "path": "tests/baselines/reference/libTypeScriptSubfileResolving.js"
+          },
+          {
+            "path": "tests/baselines/reference/libTypeScriptSubfileResolving.symbols"
+          },
+          {
+            "path": "tests/baselines/reference/libTypeScriptSubfileResolvingConfig.errors.txt"
+          },
+          {
+            "path": "tests/baselines/reference/libTypeScriptSubfileResolvingConfig.js"
+          },
+          {
+            "path": "tests/baselines/reference/libTypeScriptSubfileResolvingConfig.symbols"
+          },
+          {
+            "path": "tests/baselines/reference/tsbuild/libraryResolution/with-config-with-redirection.js"
+          },
+          {
+            "path": "tests/baselines/reference/tsbuildWatch/libraryResolution/with-config-with-redirection.js"
+          },
+          {
+            "path": "tests/baselines/reference/tsc/commandLine/help-all.js"
+          },
+          {
+            "path": "tests/baselines/reference/tsc/libraryResolution/unknown-lib.js"
+          },
+          {
+            "path": "tests/baselines/reference/tsc/libraryResolution/with-config-with-redirection.js"
+          },
+          {
+            "path": "tests/baselines/reference/tsc/libraryResolution/without-config-with-redirection.js"
+          },
+          {
+            "path": "tests/baselines/reference/tscWatch/libraryResolution/unknwon-lib.js"
+          },
+          {
+            "path": "tests/baselines/reference/tscWatch/libraryResolution/with-config-with-redirection.js"
+          },
+          {
+            "path": "tests/baselines/reference/tscWatch/libraryResolution/with-config.js"
+          },
+          {
+            "path": "tests/baselines/reference/tscWatch/libraryResolution/without-config-with-redirection.js"
+          },
+          {
+            "path": "tests/baselines/reference/tsserver/libraryResolution/with-config-with-redirection.js"
+          },
+          {
+            "path": "tests/baselines/reference/tsserver/libraryResolution/with-config.js"
+          },
+          {
+            "path": "tests/cases/compiler/libReplacement.ts"
+          },
+          {
+            "path": "tests/cases/compiler/libTypeScriptOverrideSimple.ts"
+          },
+          {
+            "path": "tests/cases/compiler/libTypeScriptOverrideSimpleConfig.ts"
+          },
+          {
+            "path": "tests/cases/compiler/libTypeScriptSubfileResolving.ts"
+          },
+          {
+            "path": "tests/cases/compiler/libTypeScriptSubfileResolvingConfig.ts"
+          }
+        ]
+      }
+    },
+    {
+      "id": "PR_kwDOAT9aAc6I2FZ9",
+      "title": "Disable broken CodeQL query",
+      "url": "https://github.com/microsoft/TypeScript/pull/61040",
+      "mergedAt": "2025-01-24T16:20:52Z",
+      "updatedAt": "2025-01-24T16:20:56Z",
+      "baseRefName": "main",
+      "author": {
+        "login": "jakebailey"
+      },
+      "assignees": {
+        "nodes": [
+          {
+            "login": "jakebailey"
+          }
+        ]
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "sandersn"
+            }
+          }
+        ]
+      },
+      "files": {
+        "nodes": [
+          {
+            "path": ".github/codeql/codeql-configuration.yml"
+          }
+        ]
+      }
+    },
+    {
+      "id": "PR_kwDOAT9aAc58lLHq",
+      "title": "Computed names in declarations files are resolved even when non-literal, preserve computed names when expressions are entity names",
+      "url": "https://github.com/microsoft/TypeScript/pull/60052",
+      "mergedAt": "2025-01-24T19:44:54Z",
+      "updatedAt": "2025-01-27T15:42:37Z",
+      "baseRefName": "main",
+      "author": {
+        "login": "weswigham"
+      },
+      "assignees": {
+        "nodes": [
+          {
+            "login": "weswigham"
+          }
+        ]
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "RyanCavanaugh"
+            }
+          }
+        ]
+      },
+      "files": {
+        "nodes": [
+          {
+            "path": "src/compiler/checker.ts"
+          },
+          {
+            "path": "src/compiler/types.ts"
+          },
+          {
+            "path": "tests/baselines/reference/ES5SymbolProperty1.types"
+          },
+          {
+            "path": "tests/baselines/reference/api/typescript.d.ts"
+          },
+          {
+            "path": "tests/baselines/reference/capturedParametersInInitializers1.types"
+          },
+          {
+            "path": "tests/baselines/reference/capturedParametersInInitializers2.errors.txt"
+          },
+          {
+            "path": "tests/baselines/reference/checkJsObjectLiteralIndexSignatures.types"
+          },
+          {
+            "path": "tests/baselines/reference/classNonUniqueSymbolMethodHasSymbolIndexer.js"
+          },
+          {
+            "path": "tests/baselines/reference/commaOperatorInConditionalExpression.types"
+          },
+          {
+            "path": "tests/baselines/reference/complicatedPrivacy.errors.txt"
+          },
+          {
+            "path": "tests/baselines/reference/computedPropertiesInDestructuring1.types"
+          },
+          {
+            "path": "tests/baselines/reference/computedPropertiesInDestructuring1_ES6.types"
+          },
+          {
+            "path": "tests/baselines/reference/computedPropertiesNarrowed.errors.txt"
+          },
+          {
+            "path": "tests/baselines/reference/computedPropertiesNarrowed.types"
+          },
+          {
+            "path": "tests/baselines/reference/computedPropertyNames12_ES5.errors.txt"
+          },
+          {
+            "path": "tests/baselines/reference/computedPropertyNames12_ES6.errors.txt"
+          },
+          {
+            "path": "tests/baselines/reference/computedPropertyNames48_ES5.types"
+          },
+          {
+            "path": "tests/baselines/reference/computedPropertyNames48_ES6.types"
+          },
+          {
+            "path": "tests/baselines/reference/computedPropertyNames6_ES5.types"
+          },
+          {
+            "path": "tests/baselines/reference/computedPropertyNames6_ES6.types"
+          },
+          {
+            "path": "tests/baselines/reference/computedPropertyNamesOnOverloads_ES5.errors.txt"
+          },
+          {
+            "path": "tests/baselines/reference/computedPropertyNamesOnOverloads_ES6.errors.txt"
+          },
+          {
+            "path": "tests/baselines/reference/declarationEmitAnyComputedPropertyInClass.js"
+          },
+          {
+            "path": "tests/baselines/reference/declarationEmitClassMemberWithComputedPropertyName.js"
+          },
+          {
+            "path": "tests/baselines/reference/declarationEmitComputedNameWithQuestionToken.js"
+          },
+          {
+            "path": "tests/baselines/reference/declarationEmitComputedNameWithQuestionToken.symbols"
+          },
+          {
+            "path": "tests/baselines/reference/declarationEmitComputedNameWithQuestionToken.types"
+          },
+          {
+            "path": "tests/baselines/reference/declarationEmitComputedNamesInaccessible.js"
+          },
+          {
+            "path": "tests/baselines/reference/declarationEmitComputedNamesInaccessible.symbols"
+          },
+          {
+            "path": "tests/baselines/reference/declarationEmitComputedNamesInaccessible.types"
+          },
+          {
+            "path": "tests/baselines/reference/declarationEmitComputedPropertyNameEnum2.errors.txt"
+          },
+          {
+            "path": "tests/baselines/reference/declarationEmitComputedPropertyNameEnum3.errors.txt"
+          },
+          {
+            "path": "tests/baselines/reference/declarationEmitMultipleComputedNamesSameDomain.js"
+          },
+          {
+            "path": "tests/baselines/reference/declarationEmitMultipleComputedNamesSameDomain.symbols"
+          },
+          {
+            "path": "tests/baselines/reference/declarationEmitMultipleComputedNamesSameDomain.types"
+          },
+          {
+            "path": "tests/baselines/reference/declarationEmitSimpleComputedNames1.js"
+          },
+          {
+            "path": "tests/baselines/reference/declarationEmitSimpleComputedNames1.symbols"
+          },
+          {
+            "path": "tests/baselines/reference/declarationEmitSimpleComputedNames1.types"
+          },
+          {
+            "path": "tests/baselines/reference/decoratorsOnComputedProperties.errors.txt"
+          },
+          {
+            "path": "tests/baselines/reference/destructuringObjectBindingPatternAndAssignment8(target=es5).types"
+          },
+          {
+            "path": "tests/baselines/reference/destructuringObjectBindingPatternAndAssignment8(target=esnext).types"
+          },
+          {
+            "path": "tests/baselines/reference/duplicateObjectLiteralProperty_computedNameNegative1.types"
+          },
+          {
+            "path": "tests/baselines/reference/es5-asyncFunctionObjectLiterals.types"
+          },
+          {
+            "path": "tests/baselines/reference/esDecorators-classDeclaration-missingEmitHelpers-staticComputedAutoAccessor.errors.txt"
+          },
+          {
+            "path": "tests/baselines/reference/esDecorators-classDeclaration-missingEmitHelpers-staticComputedField.errors.txt"
+          },
+          {
+            "path": "tests/baselines/reference/esDecorators-classExpression-missingEmitHelpers-classDecorator.16.errors.txt"
+          },
+          {
+            "path": "tests/baselines/reference/indexSignatureMustHaveTypeAnnotation.errors.txt"
+          },
+          {
+            "path": "tests/baselines/reference/indexSignatures1.types"
+          },
+          {
+            "path": "tests/baselines/reference/indexWithoutParamType2.errors.txt"
+          },
+          {
+            "path": "tests/baselines/reference/isolatedDeclarationErrorsClasses.errors.txt"
+          },
+          {
+            "path": "tests/baselines/reference/overloadsWithComputedNames.errors.txt"
+          },
+          {
+            "path": "tests/baselines/reference/overrideDynamicName1(noimplicitoverride=false).js"
+          },
+          {
+            "path": "tests/baselines/reference/overrideDynamicName1(noimplicitoverride=true).js"
+          },
+          {
+            "path": "tests/baselines/reference/overrideLateBindableIndexSignature1(noimplicitoverride=false).js"
+          },
+          {
+            "path": "tests/baselines/reference/overrideLateBindableIndexSignature1(noimplicitoverride=true).js"
+          },
+          {
+            "path": "tests/baselines/reference/parserComputedPropertyName10.errors.txt"
+          },
+          {
+            "path": "tests/baselines/reference/parserComputedPropertyName11.errors.txt"
+          },
+          {
+            "path": "tests/baselines/reference/parserComputedPropertyName13.errors.txt"
+          },
+          {
+            "path": "tests/baselines/reference/parserComputedPropertyName14.errors.txt"
+          },
+          {
+            "path": "tests/baselines/reference/parserComputedPropertyName15.errors.txt"
+          },
+          {
+            "path": "tests/baselines/reference/parserComputedPropertyName18.errors.txt"
+          },
+          {
+            "path": "tests/baselines/reference/parserComputedPropertyName19.errors.txt"
+          },
+          {
+            "path": "tests/baselines/reference/parserComputedPropertyName20.errors.txt"
+          },
+          {
+            "path": "tests/baselines/reference/parserComputedPropertyName21.errors.txt"
+          },
+          {
+            "path": "tests/baselines/reference/parserComputedPropertyName22.errors.txt"
+          },
+          {
+            "path": "tests/baselines/reference/parserComputedPropertyName25.errors.txt"
+          },
+          {
+            "path": "tests/baselines/reference/parserComputedPropertyName28.errors.txt"
+          },
+          {
+            "path": "tests/baselines/reference/parserComputedPropertyName29.errors.txt"
+          },
+          {
+            "path": "tests/baselines/reference/parserComputedPropertyName31.errors.txt"
+          },
+          {
+            "path": "tests/baselines/reference/parserComputedPropertyName32.errors.txt"
+          },
+          {
+            "path": "tests/baselines/reference/parserComputedPropertyName36.errors.txt"
+          },
+          {
+            "path": "tests/baselines/reference/parserComputedPropertyName7.errors.txt"
+          },
+          {
+            "path": "tests/baselines/reference/parserComputedPropertyName8.errors.txt"
+          },
+          {
+            "path": "tests/baselines/reference/parserComputedPropertyName9.errors.txt"
+          },
+          {
+            "path": "tests/baselines/reference/parserES5ComputedPropertyName1.errors.txt"
+          },
+          {
+            "path": "tests/baselines/reference/parserES5ComputedPropertyName10.errors.txt"
+          },
+          {
+            "path": "tests/baselines/reference/parserES5ComputedPropertyName11.errors.txt"
+          },
+          {
+            "path": "tests/baselines/reference/parserES5ComputedPropertyName5.errors.txt"
+          },
+          {
+            "path": "tests/baselines/reference/parserES5ComputedPropertyName7.errors.txt"
+          },
+          {
+            "path": "tests/baselines/reference/parserES5ComputedPropertyName8.errors.txt"
+          },
+          {
+            "path": "tests/baselines/reference/parserES5ComputedPropertyName9.errors.txt"
+          },
+          {
+            "path": "tests/baselines/reference/parserES5SymbolProperty1.errors.txt"
+          },
+          {
+            "path": "tests/baselines/reference/parserES5SymbolProperty2.errors.txt"
+          },
+          {
+            "path": "tests/baselines/reference/parserES5SymbolProperty3.errors.txt"
+          },
+          {
+            "path": "tests/baselines/reference/parserES5SymbolProperty4.errors.txt"
+          },
+          {
+            "path": "tests/baselines/reference/parserES5SymbolProperty5.errors.txt"
+          },
+          {
+            "path": "tests/baselines/reference/parserES5SymbolProperty6.errors.txt"
+          },
+          {
+            "path": "tests/baselines/reference/parserES5SymbolProperty8.errors.txt"
+          },
+          {
+            "path": "tests/baselines/reference/parserES5SymbolProperty9.errors.txt"
+          },
+          {
+            "path": "tests/baselines/reference/parserIndexSignature11.errors.txt"
+          },
+          {
+            "path": "tests/baselines/reference/parserIndexSignature5.errors.txt"
+          },
+          {
+            "path": "tests/baselines/reference/privateIndexer2.types"
+          },
+          {
+            "path": "tests/baselines/reference/propertiesOfGenericConstructorFunctions.types"
+          },
+          {
+            "path": "tests/baselines/reference/propertyAssignment.errors.txt"
+          },
+          {
+            "path": "tests/baselines/reference/spreadInvalidArgumentType.types"
+          },
+          {
+            "path": "tests/baselines/reference/symbolProperty1.types"
+          },
+          {
+            "path": "tests/baselines/reference/symbolProperty2.types"
+          },
+          {
+            "path": "tests/baselines/reference/symbolProperty52.types"
+          },
+          {
+            "path": "tests/baselines/reference/symbolProperty58.types"
+          },
+          {
+            "path": "tests/baselines/reference/symbolProperty59.errors.txt"
+          },
+          {
+            "path": "tests/baselines/reference/transformParenthesizesConditionalSubexpression.types"
+          },
+          {
+            "path": "tests/baselines/reference/tsxEmitSpreadAttribute(target=es2015).types"
+          },
+          {
+            "path": "tests/baselines/reference/tsxEmitSpreadAttribute(target=es2018).types"
+          },
+          {
+            "path": "tests/baselines/reference/tsxEmitSpreadAttribute(target=esnext).types"
+          },
+          {
+            "path": "tests/baselines/reference/tsxReactEmitSpreadAttribute(target=es2015).types"
+          },
+          {
+            "path": "tests/baselines/reference/tsxReactEmitSpreadAttribute(target=es2018).types"
+          },
+          {
+            "path": "tests/baselines/reference/tsxReactEmitSpreadAttribute(target=esnext).types"
+          },
+          {
+            "path": "tests/baselines/reference/typeUsedAsTypeLiteralIndex.errors.txt"
+          },
+          {
+            "path": "tests/baselines/reference/useBeforeDeclaration_propertyAssignment.types"
+          },
+          {
+            "path": "tests/cases/compiler/declarationEmitComputedNameWithQuestionToken.ts"
+          },
+          {
+            "path": "tests/cases/compiler/declarationEmitComputedNamesInaccessible.ts"
+          },
+          {
+            "path": "tests/cases/compiler/declarationEmitMultipleComputedNamesSameDomain.ts"
+          },
+          {
+            "path": "tests/cases/compiler/declarationEmitSimpleComputedNames1.ts"
+          }
+        ]
+      }
+    },
+    {
+      "id": "PR_kwDOAT9aAc6JBiyJ",
+      "title": "Bump the github-actions group with 2 updates",
+      "url": "https://github.com/microsoft/TypeScript/pull/61055",
+      "mergedAt": "2025-01-27T15:54:45Z",
+      "updatedAt": "2025-01-27T15:54:47Z",
+      "baseRefName": "main",
+      "author": {
+        "login": "dependabot"
+      },
+      "assignees": {
+        "nodes": []
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "jakebailey"
+            }
+          }
+        ]
+      },
+      "files": {
+        "nodes": [
+          {
+            "path": ".github/workflows/ci.yml"
+          },
+          {
+            "path": ".github/workflows/codeql.yml"
+          },
+          {
+            "path": ".github/workflows/scorecard.yml"
+          }
+        ]
+      }
+    },
+    {
+      "id": "PR_kwDOAT9aAc6JR6Rr",
+      "title": "LEGO: Pull request from lego/hb_5378966c-b857-470a-8675-daebef4a6da1_20250128203517120 to main",
+      "url": "https://github.com/microsoft/TypeScript/pull/61067",
+      "mergedAt": "2025-01-28T21:07:00Z",
+      "updatedAt": "2025-01-28T21:07:02Z",
+      "baseRefName": "main",
+      "author": {
+        "login": "csigs"
+      },
+      "assignees": {
+        "nodes": []
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "jakebailey"
+            }
+          }
+        ]
+      },
+      "files": {
+        "nodes": [
+          {
+            "path": "src/loc/lcl/chs/diagnosticMessages/diagnosticMessages.generated.json.lcl"
+          },
+          {
+            "path": "src/loc/lcl/cht/diagnosticMessages/diagnosticMessages.generated.json.lcl"
+          },
+          {
+            "path": "src/loc/lcl/csy/diagnosticMessages/diagnosticMessages.generated.json.lcl"
+          },
+          {
+            "path": "src/loc/lcl/deu/diagnosticMessages/diagnosticMessages.generated.json.lcl"
+          },
+          {
+            "path": "src/loc/lcl/esn/diagnosticMessages/diagnosticMessages.generated.json.lcl"
+          },
+          {
+            "path": "src/loc/lcl/fra/diagnosticMessages/diagnosticMessages.generated.json.lcl"
+          },
+          {
+            "path": "src/loc/lcl/ita/diagnosticMessages/diagnosticMessages.generated.json.lcl"
+          },
+          {
+            "path": "src/loc/lcl/jpn/diagnosticMessages/diagnosticMessages.generated.json.lcl"
+          },
+          {
+            "path": "src/loc/lcl/kor/diagnosticMessages/diagnosticMessages.generated.json.lcl"
+          },
+          {
+            "path": "src/loc/lcl/plk/diagnosticMessages/diagnosticMessages.generated.json.lcl"
+          },
+          {
+            "path": "src/loc/lcl/ptb/diagnosticMessages/diagnosticMessages.generated.json.lcl"
+          },
+          {
+            "path": "src/loc/lcl/rus/diagnosticMessages/diagnosticMessages.generated.json.lcl"
+          },
+          {
+            "path": "src/loc/lcl/trk/diagnosticMessages/diagnosticMessages.generated.json.lcl"
+          }
+        ]
+      }
+    },
+    {
+      "id": "PR_kwDOAT9aAc6JRcK7",
+      "title": "Fix error message incorrectly referencing 'asserts' instead of 'assert'.",
+      "url": "https://github.com/microsoft/TypeScript/pull/61066",
+      "mergedAt": "2025-01-28T22:42:35Z",
+      "updatedAt": "2025-01-28T22:42:37Z",
+      "baseRefName": "main",
+      "author": {
+        "login": "DanielRosenwasser"
+      },
+      "assignees": {
+        "nodes": [
+          {
+            "login": "DanielRosenwasser"
+          }
+        ]
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "jakebailey"
+            }
+          }
+        ]
+      },
+      "files": {
+        "nodes": [
+          {
+            "path": "src/compiler/checker.ts"
+          },
+          {
+            "path": "src/compiler/diagnosticMessages.json"
+          },
+          {
+            "path": "tests/baselines/reference/importAssertionNonstring.errors.txt"
+          },
+          {
+            "path": "tests/baselines/reference/nodeModulesImportAssertions(module=nodenext).errors.txt"
+          },
+          {
+            "path": "tests/baselines/reference/nodeModulesImportModeDeclarationEmit1(module=nodenext).errors.txt"
+          },
+          {
+            "path": "tests/baselines/reference/nodeModulesImportModeDeclarationEmit2(module=nodenext).errors.txt"
+          },
+          {
+            "path": "tests/baselines/reference/nodeModulesImportModeDeclarationEmitErrors1(module=nodenext).errors.txt"
+          }
+        ]
+      }
+    },
+    {
+      "id": "PR_kwDOAT9aAc6JiA3B",
+      "title": "Fix accidental ESM-mode directory module lookup in package non-root",
+      "url": "https://github.com/microsoft/TypeScript/pull/61082",
+      "mergedAt": "2025-01-30T18:17:14Z",
+      "updatedAt": "2025-01-30T18:58:12Z",
+      "baseRefName": "main",
+      "author": {
+        "login": "andrewbranch"
+      },
+      "assignees": {
+        "nodes": [
+          {
+            "login": "andrewbranch"
+          }
+        ]
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "weswigham"
+            }
+          }
+        ]
+      },
+      "files": {
+        "nodes": [
+          {
+            "path": "src/compiler/moduleNameResolver.ts"
+          },
+          {
+            "path": "tests/baselines/reference/nodeModulesNoDirectoryModule.errors.txt"
+          },
+          {
+            "path": "tests/cases/conformance/node/nodeModulesNoDirectoryModule.ts"
+          }
+        ]
+      }
+    },
+    {
+      "id": "PR_kwDOAT9aAc6JY5iA",
+      "title": "DOM update 2025/01/29",
+      "url": "https://github.com/microsoft/TypeScript/pull/61073",
+      "mergedAt": "2025-01-30T19:39:52Z",
+      "updatedAt": "2025-01-30T19:39:56Z",
+      "baseRefName": "main",
+      "author": {
+        "login": "sandersn"
+      },
+      "assignees": {
+        "nodes": [
+          {
+            "login": "sandersn"
+          }
+        ]
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "jakebailey"
+            }
+          }
+        ]
+      },
+      "files": {
+        "nodes": [
+          {
+            "path": "src/lib/dom.generated.d.ts"
+          },
+          {
+            "path": "src/lib/webworker.generated.d.ts"
+          }
+        ]
+      }
+    },
+    {
+      "id": "PR_kwDOAT9aAc6JiVpo",
+      "title": "[moveToFile] Fix symbols with empty `declarations` being treated as importable",
+      "url": "https://github.com/microsoft/TypeScript/pull/61084",
+      "mergedAt": "2025-01-30T21:49:26Z",
+      "updatedAt": "2025-01-30T21:49:31Z",
+      "baseRefName": "main",
+      "author": {
+        "login": "andrewbranch"
+      },
+      "assignees": {
+        "nodes": [
+          {
+            "login": "andrewbranch"
+          }
+        ]
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "navya9singh"
+            }
+          }
+        ]
+      },
+      "files": {
+        "nodes": [
+          {
+            "path": "src/services/refactors/moveToFile.ts"
+          },
+          {
+            "path": "tests/cases/fourslash/moveToFile_undefined.ts"
+          }
+        ]
+      }
+    },
+    {
+      "id": "PR_kwDOAT9aAc6JxpCm",
+      "title": "Bump the github-actions group with 2 updates",
+      "url": "https://github.com/microsoft/TypeScript/pull/61102",
+      "mergedAt": "2025-02-03T16:36:45Z",
+      "updatedAt": "2025-02-03T16:36:48Z",
+      "baseRefName": "main",
+      "author": {
+        "login": "dependabot"
+      },
+      "assignees": {
+        "nodes": []
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "jakebailey"
+            }
+          }
+        ]
+      },
+      "files": {
+        "nodes": [
+          {
+            "path": ".github/workflows/accept-baselines-fix-lints.yaml"
+          },
+          {
+            "path": ".github/workflows/ci.yml"
+          },
+          {
+            "path": ".github/workflows/codeql.yml"
+          },
+          {
+            "path": ".github/workflows/insiders.yaml"
+          },
+          {
+            "path": ".github/workflows/lkg.yml"
+          },
+          {
+            "path": ".github/workflows/new-release-branch.yaml"
+          },
+          {
+            "path": ".github/workflows/nightly.yaml"
+          },
+          {
+            "path": ".github/workflows/release-branch-artifact.yaml"
+          },
+          {
+            "path": ".github/workflows/scorecard.yml"
+          },
+          {
+            "path": ".github/workflows/set-version.yaml"
+          },
+          {
+            "path": ".github/workflows/sync-branch.yaml"
+          },
+          {
+            "path": ".github/workflows/twoslash-repros.yaml"
+          },
+          {
+            "path": ".github/workflows/update-package-lock.yaml"
+          }
+        ]
+      }
+    },
+    {
+      "id": "PR_kwDOAT9aAc6JkJNd",
+      "title": "DOM update MessageEventTarget missed this parameters",
+      "url": "https://github.com/microsoft/TypeScript/pull/61086",
+      "mergedAt": "2025-02-03T21:32:35Z",
+      "updatedAt": "2025-02-03T21:32:35Z",
+      "baseRefName": "main",
+      "author": {
+        "login": "sandersn"
+      },
+      "assignees": {
+        "nodes": [
+          {
+            "login": "sandersn"
+          }
+        ]
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "jakebailey"
+            }
+          }
+        ]
+      },
+      "files": {
+        "nodes": [
+          {
+            "path": "src/lib/dom.generated.d.ts"
+          },
+          {
+            "path": "src/lib/webworker.generated.d.ts"
+          }
+        ]
+      }
+    },
+    {
+      "id": "PR_kwDOAT9aAc6KDHJM",
+      "title": "LEGO: Pull request from lego/hb_5378966c-b857-470a-8675-daebef4a6da1_20250204202444390 to main",
+      "url": "https://github.com/microsoft/TypeScript/pull/61114",
+      "mergedAt": "2025-02-04T20:46:49Z",
+      "updatedAt": "2025-02-04T20:46:51Z",
+      "baseRefName": "main",
+      "author": {
+        "login": "csigs"
+      },
+      "assignees": {
+        "nodes": []
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "jakebailey"
+            }
+          }
+        ]
+      },
+      "files": {
+        "nodes": [
+          {
+            "path": "src/loc/lcl/chs/diagnosticMessages/diagnosticMessages.generated.json.lcl"
+          },
+          {
+            "path": "src/loc/lcl/cht/diagnosticMessages/diagnosticMessages.generated.json.lcl"
+          },
+          {
+            "path": "src/loc/lcl/csy/diagnosticMessages/diagnosticMessages.generated.json.lcl"
+          },
+          {
+            "path": "src/loc/lcl/deu/diagnosticMessages/diagnosticMessages.generated.json.lcl"
+          },
+          {
+            "path": "src/loc/lcl/esn/diagnosticMessages/diagnosticMessages.generated.json.lcl"
+          },
+          {
+            "path": "src/loc/lcl/fra/diagnosticMessages/diagnosticMessages.generated.json.lcl"
+          },
+          {
+            "path": "src/loc/lcl/ita/diagnosticMessages/diagnosticMessages.generated.json.lcl"
+          },
+          {
+            "path": "src/loc/lcl/jpn/diagnosticMessages/diagnosticMessages.generated.json.lcl"
+          },
+          {
+            "path": "src/loc/lcl/kor/diagnosticMessages/diagnosticMessages.generated.json.lcl"
+          },
+          {
+            "path": "src/loc/lcl/plk/diagnosticMessages/diagnosticMessages.generated.json.lcl"
+          },
+          {
+            "path": "src/loc/lcl/ptb/diagnosticMessages/diagnosticMessages.generated.json.lcl"
+          },
+          {
+            "path": "src/loc/lcl/rus/diagnosticMessages/diagnosticMessages.generated.json.lcl"
+          },
+          {
+            "path": "src/loc/lcl/trk/diagnosticMessages/diagnosticMessages.generated.json.lcl"
+          }
+        ]
+      }
+    },
+    {
+      "id": "PR_kwDOAT9aAc6KXLTe",
+      "title": "Revert return type narrowing",
+      "url": "https://github.com/microsoft/TypeScript/pull/61136",
+      "mergedAt": "2025-02-07T18:55:35Z",
+      "updatedAt": "2025-02-07T18:55:36Z",
+      "baseRefName": "main",
+      "author": {
+        "login": "gabritto"
+      },
+      "assignees": {
+        "nodes": []
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "jakebailey"
+            }
+          }
+        ]
+      },
+      "files": {
+        "nodes": [
+          {
+            "path": "src/compiler/checker.ts"
+          },
+          {
+            "path": "src/compiler/types.ts"
+          },
+          {
+            "path": "tests/baselines/reference/conditionalReturnExpression.errors.txt"
+          },
+          {
+            "path": "tests/baselines/reference/conditionalReturnExpression.symbols"
+          },
+          {
+            "path": "tests/baselines/reference/conditionalReturnExpression.types"
+          },
+          {
+            "path": "tests/baselines/reference/dependentReturnType1.errors.txt"
+          },
+          {
+            "path": "tests/baselines/reference/dependentReturnType1.symbols"
+          },
+          {
+            "path": "tests/baselines/reference/dependentReturnType1.types"
+          },
+          {
+            "path": "tests/baselines/reference/dependentReturnType2.errors.txt"
+          },
+          {
+            "path": "tests/baselines/reference/dependentReturnType2.symbols"
+          },
+          {
+            "path": "tests/baselines/reference/dependentReturnType2.types"
+          },
+          {
+            "path": "tests/baselines/reference/dependentReturnType3.errors.txt"
+          },
+          {
+            "path": "tests/baselines/reference/dependentReturnType3.symbols"
+          },
+          {
+            "path": "tests/baselines/reference/dependentReturnType3.types"
+          },
+          {
+            "path": "tests/baselines/reference/dependentReturnType4.errors.txt"
+          },
+          {
+            "path": "tests/baselines/reference/dependentReturnType4.symbols"
+          },
+          {
+            "path": "tests/baselines/reference/dependentReturnType4.types"
+          },
+          {
+            "path": "tests/baselines/reference/dependentReturnType5.errors.txt"
+          },
+          {
+            "path": "tests/baselines/reference/dependentReturnType5.symbols"
+          },
+          {
+            "path": "tests/baselines/reference/dependentReturnType5.types"
+          },
+          {
+            "path": "tests/baselines/reference/dependentReturnType6.errors.txt"
+          },
+          {
+            "path": "tests/baselines/reference/dependentReturnType6.symbols"
+          },
+          {
+            "path": "tests/baselines/reference/dependentReturnType6.types"
+          },
+          {
+            "path": "tests/baselines/reference/dependentReturnType8.symbols"
+          },
+          {
+            "path": "tests/baselines/reference/dependentReturnType8.types"
+          },
+          {
+            "path": "tests/baselines/reference/dependentReturnType9.errors.txt"
+          },
+          {
+            "path": "tests/baselines/reference/dependentReturnType9.symbols"
+          },
+          {
+            "path": "tests/baselines/reference/dependentReturnType9.types"
+          },
+          {
+            "path": "tests/cases/compiler/conditionalReturnExpression.ts"
+          },
+          {
+            "path": "tests/cases/compiler/dependentReturnType1.ts"
+          },
+          {
+            "path": "tests/cases/compiler/dependentReturnType2.ts"
+          },
+          {
+            "path": "tests/cases/compiler/dependentReturnType3.ts"
+          },
+          {
+            "path": "tests/cases/compiler/dependentReturnType4.ts"
+          },
+          {
+            "path": "tests/cases/compiler/dependentReturnType5.ts"
+          },
+          {
+            "path": "tests/cases/compiler/dependentReturnType6.ts"
+          },
+          {
+            "path": "tests/cases/compiler/dependentReturnType8.ts"
+          },
+          {
+            "path": "tests/cases/compiler/dependentReturnType9.ts"
+          },
+          {
+            "path": "tests/cases/fourslash/returnTypeNarrowingAfterCachingTypes.ts"
+          }
+        ]
+      }
+    },
+    {
+      "id": "PR_kwDOAT9aAc6KUqJn",
+      "title": "Revert \"Proposed expandable hover API\"",
+      "url": "https://github.com/microsoft/TypeScript/pull/61132",
+      "mergedAt": "2025-02-07T20:44:02Z",
+      "updatedAt": "2025-02-10T17:25:16Z",
+      "baseRefName": "main",
+      "author": {
+        "login": "gabritto"
+      },
+      "assignees": {
+        "nodes": [
+          {
+            "login": "gabritto"
+          }
+        ]
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "jakebailey"
+            }
+          }
+        ]
+      },
+      "files": {
+        "nodes": [
+          {
+            "path": "src/compiler/checker.ts"
+          },
+          {
+            "path": "src/compiler/types.ts"
+          },
+          {
+            "path": "src/harness/client.ts"
+          },
+          {
+            "path": "src/harness/fourslashImpl.ts"
+          },
+          {
+            "path": "src/harness/fourslashInterfaceImpl.ts"
+          },
+          {
+            "path": "src/server/protocol.ts"
+          },
+          {
+            "path": "src/server/session.ts"
+          },
+          {
+            "path": "src/services/services.ts"
+          },
+          {
+            "path": "src/services/symbolDisplay.ts"
+          },
+          {
+            "path": "src/services/types.ts"
+          },
+          {
+            "path": "src/services/utilities.ts"
+          },
+          {
+            "path": "tests/baselines/reference/api/typescript.d.ts"
+          },
+          {
+            "path": "tests/baselines/reference/quickinfoVerbosity1.baseline"
+          },
+          {
+            "path": "tests/baselines/reference/quickinfoVerbosity2.baseline"
+          },
+          {
+            "path": "tests/baselines/reference/quickinfoVerbosityClass1.baseline"
+          },
+          {
+            "path": "tests/baselines/reference/quickinfoVerbosityInterface1.baseline"
+          },
+          {
+            "path": "tests/baselines/reference/quickinfoVerbosityIntersection1.baseline"
+          },
+          {
+            "path": "tests/baselines/reference/quickinfoVerbosityObjectType1.baseline"
+          },
+          {
+            "path": "tests/baselines/reference/quickinfoVerbosityServer.baseline"
+          },
+          {
+            "path": "tests/baselines/reference/quickinfoVerbosityTruncation.baseline"
+          },
+          {
+            "path": "tests/baselines/reference/tsserver/fourslashServer/quickinfoVerbosityServer.js"
+          },
+          {
+            "path": "tests/cases/fourslash/fourslash.ts"
+          },
+          {
+            "path": "tests/cases/fourslash/quickinfoVerbosity1.ts"
+          },
+          {
+            "path": "tests/cases/fourslash/quickinfoVerbosity2.ts"
+          },
+          {
+            "path": "tests/cases/fourslash/quickinfoVerbosityClass1.ts"
+          },
+          {
+            "path": "tests/cases/fourslash/quickinfoVerbosityInterface1.ts"
+          },
+          {
+            "path": "tests/cases/fourslash/quickinfoVerbosityIntersection1.ts"
+          },
+          {
+            "path": "tests/cases/fourslash/quickinfoVerbosityObjectType1.ts"
+          },
+          {
+            "path": "tests/cases/fourslash/quickinfoVerbosityTruncation.ts"
+          },
+          {
+            "path": "tests/cases/fourslash/server/quickinfoVerbosityServer.ts"
+          }
+        ]
+      }
+    },
+    {
+      "id": "PR_kwDOAT9aAc6KeEeC",
+      "title": "Pass ignoreErrors=true to more resolveEntityName callers",
+      "url": "https://github.com/microsoft/TypeScript/pull/61144",
+      "mergedAt": "2025-02-10T17:26:52Z",
+      "updatedAt": "2025-02-10T17:26:57Z",
+      "baseRefName": "main",
+      "author": {
+        "login": "jakebailey"
+      },
+      "assignees": {
+        "nodes": []
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "DanielRosenwasser"
+            }
+          }
+        ]
+      },
+      "files": {
+        "nodes": [
+          {
+            "path": "src/compiler/checker.ts"
+          }
+        ]
+      }
+    },
+    {
+      "id": "PR_kwDOAT9aAc6KkocN",
+      "title": "Bump github/codeql-action from 3.28.8 to 3.28.9 in the github-actions group",
+      "url": "https://github.com/microsoft/TypeScript/pull/61156",
+      "mergedAt": "2025-02-10T17:27:08Z",
+      "updatedAt": "2025-02-10T17:27:11Z",
+      "baseRefName": "main",
+      "author": {
+        "login": "dependabot"
+      },
+      "assignees": {
+        "nodes": []
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "jakebailey"
+            }
+          }
+        ]
+      },
+      "files": {
+        "nodes": [
+          {
+            "path": ".github/workflows/codeql.yml"
+          },
+          {
+            "path": ".github/workflows/scorecard.yml"
+          }
+        ]
+      }
+    },
+    {
+      "id": "PR_kwDOAT9aAc6KkWQo",
+      "title": "Fixed `rewriteRelativeImportExtensions` for `import()` within call expressions",
+      "url": "https://github.com/microsoft/TypeScript/pull/61154",
+      "mergedAt": "2025-02-10T23:02:37Z",
+      "updatedAt": "2025-02-10T23:02:37Z",
+      "baseRefName": "main",
+      "author": {
+        "login": "Andarist"
+      },
+      "assignees": {
+        "nodes": []
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "DanielRosenwasser"
+            }
+          },
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "andrewbranch"
+            }
+          }
+        ]
+      },
+      "files": {
+        "nodes": [
+          {
+            "path": "src/compiler/transformers/module/esnextAnd2015.ts"
+          },
+          {
+            "path": "tests/baselines/reference/emit(jsx=preserve).errors.txt"
+          },
+          {
+            "path": "tests/baselines/reference/emit(jsx=preserve).js"
+          },
+          {
+            "path": "tests/baselines/reference/emit(jsx=react).errors.txt"
+          },
+          {
+            "path": "tests/baselines/reference/emit(jsx=react).js"
+          },
+          {
+            "path": "tests/cases/conformance/externalModules/rewriteRelativeImportExtensions/emit.ts"
+          }
+        ]
+      }
+    },
+    {
+      "id": "PR_kwDOAT9aAc6K7_IC",
+      "title": "Bump esbuild from 0.24.0 to 0.25.0",
+      "url": "https://github.com/microsoft/TypeScript/pull/61166",
+      "mergedAt": "2025-02-12T17:15:11Z",
+      "updatedAt": "2025-02-12T17:15:13Z",
+      "baseRefName": "main",
+      "author": {
+        "login": "dependabot"
+      },
+      "assignees": {
+        "nodes": []
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "jakebailey"
+            }
+          },
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "jakebailey"
+            }
+          }
+        ]
+      },
+      "files": {
+        "nodes": [
+          {
+            "path": "package-lock.json"
+          },
+          {
+            "path": "package.json"
+          }
+        ]
+      }
+    },
+    {
+      "id": "PR_kwDOAT9aAc6LLNZe",
+      "title": "Ban import=require and export= under erasableSyntaxOnly",
+      "url": "https://github.com/microsoft/TypeScript/pull/61175",
+      "mergedAt": "2025-02-14T20:55:17Z",
+      "updatedAt": "2025-02-18T16:41:06Z",
+      "baseRefName": "main",
+      "author": {
+        "login": "jakebailey"
+      },
+      "assignees": {
+        "nodes": [
+          {
+            "login": "jakebailey"
+          }
+        ]
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "RyanCavanaugh"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "jakebailey"
+            }
+          }
+        ]
+      },
+      "files": {
+        "nodes": [
+          {
+            "path": "src/compiler/checker.ts"
+          },
+          {
+            "path": "tests/baselines/reference/erasableSyntaxOnly.errors.txt"
+          },
+          {
+            "path": "tests/baselines/reference/erasableSyntaxOnly.js"
+          },
+          {
+            "path": "tests/baselines/reference/erasableSyntaxOnly.symbols"
+          },
+          {
+            "path": "tests/baselines/reference/erasableSyntaxOnly.types"
+          },
+          {
+            "path": "tests/baselines/reference/erasableSyntaxOnlyDeclaration.errors.txt"
+          },
+          {
+            "path": "tests/baselines/reference/erasableSyntaxOnlyDeclaration.symbols"
+          },
+          {
+            "path": "tests/baselines/reference/erasableSyntaxOnlyDeclaration.types"
+          },
+          {
+            "path": "tests/cases/compiler/erasableSyntaxOnly.ts"
+          },
+          {
+            "path": "tests/cases/compiler/erasableSyntaxOnlyDeclaration.ts"
+          }
+        ]
+      }
+    },
+    {
+      "id": "PR_kwDOAT9aAc6Ljq8E",
+      "title": "Fix mistakenly disallowed default export under erasableSyntaxOnly",
+      "url": "https://github.com/microsoft/TypeScript/pull/61210",
+      "mergedAt": "2025-02-18T16:06:12Z",
+      "updatedAt": "2025-03-04T21:32:55Z",
+      "baseRefName": "main",
+      "author": {
+        "login": "jakebailey"
+      },
+      "assignees": {
+        "nodes": []
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "jakebailey"
+            }
+          },
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "sandersn"
+            }
+          }
+        ]
+      },
+      "files": {
+        "nodes": [
+          {
+            "path": "src/compiler/checker.ts"
+          },
+          {
+            "path": "tests/baselines/reference/erasableSyntaxOnly.errors.txt"
+          },
+          {
+            "path": "tests/baselines/reference/erasableSyntaxOnly.js"
+          },
+          {
+            "path": "tests/baselines/reference/erasableSyntaxOnly.symbols"
+          },
+          {
+            "path": "tests/baselines/reference/erasableSyntaxOnly.types"
+          },
+          {
+            "path": "tests/baselines/reference/erasableSyntaxOnlyDeclaration.errors.txt"
+          },
+          {
+            "path": "tests/baselines/reference/erasableSyntaxOnlyDeclaration.symbols"
+          },
+          {
+            "path": "tests/baselines/reference/erasableSyntaxOnlyDeclaration.types"
+          },
+          {
+            "path": "tests/cases/compiler/erasableSyntaxOnly.ts"
+          },
+          {
+            "path": "tests/cases/compiler/erasableSyntaxOnlyDeclaration.ts"
+          }
+        ]
+      }
+    },
+    {
+      "id": "PR_kwDOAT9aAc6LpPQL",
+      "title": "Bump version to 5.9",
+      "url": "https://github.com/microsoft/TypeScript/pull/61218",
+      "mergedAt": "2025-02-18T19:16:22Z",
+      "updatedAt": "2025-02-18T19:16:26Z",
+      "baseRefName": "main",
+      "author": {
+        "login": "DanielRosenwasser"
+      },
+      "assignees": {
+        "nodes": [
+          {
+            "login": "DanielRosenwasser"
+          }
+        ]
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "jakebailey"
+            }
+          }
+        ]
+      },
+      "files": {
+        "nodes": [
+          {
+            "path": "package-lock.json"
+          },
+          {
+            "path": "package.json"
+          },
+          {
+            "path": "src/compiler/corePublic.ts"
+          },
+          {
+            "path": "tests/baselines/reference/api/typescript.d.ts"
+          }
+        ]
+      }
+    },
+    {
+      "id": "PR_kwDOAT9aAc6HlUMg",
+      "title": "Update deps, a few majors",
+      "url": "https://github.com/microsoft/TypeScript/pull/60967",
+      "mergedAt": "2025-02-20T00:54:44Z",
+      "updatedAt": "2025-02-20T00:54:50Z",
+      "baseRefName": "main",
+      "author": {
+        "login": "jakebailey"
+      },
+      "assignees": {
+        "nodes": [
+          {
+            "login": "jakebailey"
+          }
+        ]
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "andrewbranch"
+            }
+          }
+        ]
+      },
+      "files": {
+        "nodes": [
+          {
+            "path": ".dprint.jsonc"
+          },
+          {
+            "path": "Herebyfile.mjs"
+          },
+          {
+            "path": "package-lock.json"
+          },
+          {
+            "path": "package.json"
+          },
+          {
+            "path": "scripts/browserIntegrationTest.mjs"
+          },
+          {
+            "path": "scripts/build/tests.mjs"
+          },
+          {
+            "path": "scripts/build/utils.mjs"
+          }
+        ]
+      }
+    },
+    {
+      "id": "PR_kwDOAT9aAc5i-ZW2",
+      "title": "Treat contextually typed functions in JS files as typed",
+      "url": "https://github.com/microsoft/TypeScript/pull/56907",
+      "mergedAt": "2025-02-20T00:58:32Z",
+      "updatedAt": "2025-02-20T00:58:33Z",
+      "baseRefName": "main",
+      "author": {
+        "login": "Andarist"
+      },
+      "assignees": {
+        "nodes": [
+          {
+            "login": "sandersn"
+          }
+        ]
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "CHANGES_REQUESTED",
+            "author": {
+              "login": "sandersn"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "Andarist"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "Andarist"
+            }
+          },
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "sandersn"
+            }
+          },
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "jakebailey"
+            }
+          }
+        ]
+      },
+      "files": {
+        "nodes": [
+          {
+            "path": "src/compiler/checker.ts"
+          },
+          {
+            "path": "tests/baselines/reference/checkJsdocSatisfiesTag15.errors.txt"
+          },
+          {
+            "path": "tests/baselines/reference/checkJsdocSatisfiesTag15.js"
+          },
+          {
+            "path": "tests/baselines/reference/checkJsdocSatisfiesTag15.symbols"
+          },
+          {
+            "path": "tests/baselines/reference/checkJsdocSatisfiesTag15.types"
+          },
+          {
+            "path": "tests/cases/conformance/jsdoc/checkJsdocSatisfiesTag15.ts"
+          }
+        ]
+      }
+    },
+    {
+      "id": "PR_kwDOAT9aAc6L0BY2",
+      "title": "Fix quick fix for isolatedDeclarations to keep trailing unknown in generics",
+      "url": "https://github.com/microsoft/TypeScript/pull/61227",
+      "mergedAt": "2025-02-20T01:28:50Z",
+      "updatedAt": "2025-02-20T01:28:50Z",
+      "baseRefName": "main",
+      "author": {
+        "login": "blickly"
+      },
+      "assignees": {
+        "nodes": []
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "jakebailey"
+            }
+          },
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "jakebailey"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "blickly"
+            }
+          }
+        ]
+      },
+      "files": {
+        "nodes": [
+          {
+            "path": "src/services/codefixes/helpers.ts"
+          },
+          {
+            "path": "tests/cases/fourslash/codeFixMissingTypeAnnotationOnExports57-generics-doesnt-drop-trailing-unknown.ts"
+          },
+          {
+            "path": "tests/cases/fourslash/codeFixMissingTypeAnnotationOnExports58-genercs-doesnt-drop-trailing-unknown-2.ts"
+          },
+          {
+            "path": "tests/cases/fourslash/codeFixMissingTypeAnnotationOnExports59-drops-unneeded-after-unknown.ts"
+          },
+          {
+            "path": "tests/cases/fourslash/codeFixMissingTypeAnnotationOnExports60-drops-unneeded-non-trailing-unknown.ts"
+          }
+        ]
+      }
+    },
+    {
+      "id": "PR_kwDOAT9aAc555Gf2",
+      "title": "Remove redundant `getStringLiteralType` call",
+      "url": "https://github.com/microsoft/TypeScript/pull/59803",
+      "mergedAt": "2025-02-20T18:48:09Z",
+      "updatedAt": "2025-02-20T18:48:09Z",
+      "baseRefName": "main",
+      "author": {
+        "login": "MichalMarsalek"
+      },
+      "assignees": {
+        "nodes": []
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "jakebailey"
+            }
+          }
+        ]
+      },
+      "files": {
+        "nodes": [
+          {
+            "path": "src/compiler/checker.ts"
+          }
+        ]
+      }
+    },
+    {
+      "id": "PR_kwDOAT9aAc6LWSWy",
+      "title": "Fixed JSDoc checking on enum members",
+      "url": "https://github.com/microsoft/TypeScript/pull/61184",
+      "mergedAt": "2025-02-20T18:48:34Z",
+      "updatedAt": "2025-02-20T18:48:34Z",
+      "baseRefName": "main",
+      "author": {
+        "login": "Andarist"
+      },
+      "assignees": {
+        "nodes": []
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "jakebailey"
+            }
+          }
+        ]
+      },
+      "files": {
+        "nodes": [
+          {
+            "path": "src/compiler/checker.ts"
+          },
+          {
+            "path": "tests/baselines/reference/jsdocLinkTag9.symbols"
+          },
+          {
+            "path": "tests/baselines/reference/jsdocLinkTag9.types"
+          },
+          {
+            "path": "tests/cases/conformance/jsdoc/jsdocLinkTag9.ts"
+          }
+        ]
+      }
+    },
+    {
+      "id": "PR_kwDOAT9aAc50krDu",
+      "title": "Fix of #58996",
+      "url": "https://github.com/microsoft/TypeScript/pull/59155",
+      "mergedAt": "2025-02-20T19:41:32Z",
+      "updatedAt": "2025-02-20T19:41:32Z",
+      "baseRefName": "main",
+      "author": {
+        "login": "MichalMarsalek"
+      },
+      "assignees": {
+        "nodes": [
+          {
+            "login": "weswigham"
+          }
+        ]
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "Andarist"
+            }
+          },
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "jakebailey"
+            }
+          }
+        ]
+      },
+      "files": {
+        "nodes": [
+          {
+            "path": "src/compiler/checker.ts"
+          },
+          {
+            "path": "tests/baselines/reference/inferTypePredicates.errors.txt"
+          },
+          {
+            "path": "tests/baselines/reference/inferTypePredicates.js"
+          },
+          {
+            "path": "tests/baselines/reference/inferTypePredicates.symbols"
+          },
+          {
+            "path": "tests/baselines/reference/inferTypePredicates.types"
+          },
+          {
+            "path": "tests/cases/compiler/inferTypePredicates.ts"
+          }
+        ]
+      }
+    },
+    {
+      "id": "PR_kwDOAT9aAc6Hffz3",
+      "title": "Infer from annotated return type nodes before assigning contextual parameter types",
+      "url": "https://github.com/microsoft/TypeScript/pull/60964",
+      "mergedAt": "2025-02-20T20:06:50Z",
+      "updatedAt": "2025-02-22T08:35:01Z",
+      "baseRefName": "main",
+      "author": {
+        "login": "Andarist"
+      },
+      "assignees": {
+        "nodes": []
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "jakebailey"
+            }
+          }
+        ]
+      },
+      "files": {
+        "nodes": [
+          {
+            "path": "src/compiler/checker.ts"
+          },
+          {
+            "path": "tests/baselines/reference/inferFromAnnotatedReturn1.errors.txt"
+          },
+          {
+            "path": "tests/baselines/reference/inferFromAnnotatedReturn1.symbols"
+          },
+          {
+            "path": "tests/baselines/reference/inferFromAnnotatedReturn1.types"
+          },
+          {
+            "path": "tests/cases/compiler/inferFromAnnotatedReturn1.ts"
+          }
+        ]
+      }
+    },
+    {
+      "id": "PR_kwDOAT9aAc5_E2cX",
+      "title": "Provide string completions for `in` keyword checks",
+      "url": "https://github.com/microsoft/TypeScript/pull/60272",
+      "mergedAt": "2025-02-20T22:01:52Z",
+      "updatedAt": "2025-02-21T11:58:59Z",
+      "baseRefName": "main",
+      "author": {
+        "login": "Andarist"
+      },
+      "assignees": {
+        "nodes": []
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "Andarist"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "DanielRosenwasser"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "Andarist"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "DanielRosenwasser"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "Andarist"
+            }
+          },
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "jakebailey"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "Andarist"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "DanielRosenwasser"
+            }
+          },
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "DanielRosenwasser"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "Andarist"
+            }
+          }
+        ]
+      },
+      "files": {
+        "nodes": [
+          {
+            "path": "src/services/stringCompletions.ts"
+          },
+          {
+            "path": "tests/cases/fourslash/completionInChecks1.ts"
+          }
+        ]
+      }
+    },
+    {
+      "id": "PR_kwDOAT9aAc6L3uHf",
+      "title": "Find method references through base abstract classes implementing an interface",
+      "url": "https://github.com/microsoft/TypeScript/pull/61234",
+      "mergedAt": "2025-02-21T19:08:34Z",
+      "updatedAt": "2025-02-21T19:08:35Z",
+      "baseRefName": "main",
+      "author": {
+        "login": "Andarist"
+      },
+      "assignees": {
+        "nodes": []
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "jakebailey"
+            }
+          }
+        ]
+      },
+      "files": {
+        "nodes": [
+          {
+            "path": "src/services/findAllReferences.ts"
+          },
+          {
+            "path": "tests/baselines/reference/referencesForInheritedProperties10.baseline.jsonc"
+          },
+          {
+            "path": "tests/cases/fourslash/referencesForInheritedProperties10.ts"
+          }
+        ]
+      }
+    },
+    {
+      "id": "PR_kwDOAT9aAc535ovW",
+      "title": "Account for right operands & fix a weird error message for leftmost nullish literals in checkNullishCoalesceOperands",
+      "url": "https://github.com/microsoft/TypeScript/pull/59569",
+      "mergedAt": "2025-02-21T22:17:09Z",
+      "updatedAt": "2025-02-21T22:17:10Z",
+      "baseRefName": "main",
+      "author": {
+        "login": "ChiriVulpes"
+      },
+      "assignees": {
+        "nodes": []
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "CHANGES_REQUESTED",
+            "author": {
+              "login": "RyanCavanaugh"
+            }
+          },
+          {
+            "state": "CHANGES_REQUESTED",
+            "author": {
+              "login": "RyanCavanaugh"
+            }
+          },
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "RyanCavanaugh"
+            }
+          }
+        ]
+      },
+      "files": {
+        "nodes": [
+          {
+            "path": "src/compiler/checker.ts"
+          },
+          {
+            "path": "src/compiler/diagnosticMessages.json"
+          },
+          {
+            "path": "tests/baselines/reference/predicateSemantics.errors.txt"
+          },
+          {
+            "path": "tests/baselines/reference/predicateSemantics.js"
+          },
+          {
+            "path": "tests/baselines/reference/predicateSemantics.symbols"
+          },
+          {
+            "path": "tests/baselines/reference/predicateSemantics.types"
+          },
+          {
+            "path": "tests/cases/compiler/predicateSemantics.ts"
+          }
+        ]
+      }
+    },
+    {
+      "id": "PR_kwDOAT9aAc6LBp--",
+      "title": "fix(61167): Incorrect \"Import may be converted to a default import\" autofix for import export",
+      "url": "https://github.com/microsoft/TypeScript/pull/61171",
+      "mergedAt": "2025-02-21T23:23:22Z",
+      "updatedAt": "2025-02-21T23:23:22Z",
+      "baseRefName": "main",
+      "author": {
+        "login": "a-tarasyuk"
+      },
+      "assignees": {
+        "nodes": []
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "jakebailey"
+            }
+          }
+        ]
+      },
+      "files": {
+        "nodes": [
+          {
+            "path": "src/services/suggestionDiagnostics.ts"
+          },
+          {
+            "path": "tests/cases/fourslash/codeFixUseDefaultImport.ts"
+          }
+        ]
+      }
+    },
+    {
+      "id": "PR_kwDOAT9aAc6MN6uw",
+      "title": "Bump the github-actions group with 4 updates",
+      "url": "https://github.com/microsoft/TypeScript/pull/61257",
+      "mergedAt": "2025-02-24T17:05:10Z",
+      "updatedAt": "2025-02-24T17:05:14Z",
+      "baseRefName": "main",
+      "author": {
+        "login": "dependabot"
+      },
+      "assignees": {
+        "nodes": []
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "jakebailey"
+            }
+          }
+        ]
+      },
+      "files": {
+        "nodes": [
+          {
+            "path": ".github/workflows/ci.yml"
+          },
+          {
+            "path": ".github/workflows/codeql.yml"
+          },
+          {
+            "path": ".github/workflows/release-branch-artifact.yaml"
+          },
+          {
+            "path": ".github/workflows/scorecard.yml"
+          }
+        ]
+      }
+    },
+    {
+      "id": "PR_kwDOAT9aAc54qTYU",
+      "title": "make exported destructured discriminated union narrowing work",
+      "url": "https://github.com/microsoft/TypeScript/pull/59673",
+      "mergedAt": "2025-02-24T18:29:01Z",
+      "updatedAt": "2025-02-24T18:29:01Z",
+      "baseRefName": "main",
+      "author": {
+        "login": "MichalMarsalek"
+      },
+      "assignees": {
+        "nodes": []
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "Andarist"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "MichalMarsalek"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "jakebailey"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "jakebailey"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "MichalMarsalek"
+            }
+          },
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "jakebailey"
+            }
+          }
+        ]
+      },
+      "files": {
+        "nodes": [
+          {
+            "path": "src/compiler/checker.ts"
+          },
+          {
+            "path": "tests/baselines/reference/dependentDestructuredVariablesWithExport.symbols"
+          },
+          {
+            "path": "tests/baselines/reference/dependentDestructuredVariablesWithExport.types"
+          },
+          {
+            "path": "tests/cases/conformance/controlFlow/dependentDestructuredVariablesWithExport.ts"
+          }
+        ]
+      }
+    },
+    {
+      "id": "PR_kwDOAT9aAc59utOH",
+      "title": "Fix to use string literal type in ArrayBuffer's `Symbol.toStringTag`",
+      "url": "https://github.com/microsoft/TypeScript/pull/60150",
+      "mergedAt": "2025-02-24T19:17:35Z",
+      "updatedAt": "2025-02-27T18:25:09Z",
+      "baseRefName": "main",
+      "author": {
+        "login": "petamoriken"
+      },
+      "assignees": {
+        "nodes": [
+          {
+            "login": "rbuckton"
+          }
+        ]
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "petamoriken"
+            }
+          },
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "rbuckton"
+            }
+          }
+        ]
+      },
+      "files": {
+        "nodes": [
+          {
+            "path": "src/harness/vfsUtil.ts"
+          },
+          {
+            "path": "src/lib/es2015.symbol.wellknown.d.ts"
+          },
+          {
+            "path": "tests/baselines/reference/assignSharedArrayBufferToArrayBuffer.errors.txt"
+          },
+          {
+            "path": "tests/baselines/reference/assignSharedArrayBufferToArrayBuffer.js"
+          },
+          {
+            "path": "tests/baselines/reference/assignSharedArrayBufferToArrayBuffer.symbols"
+          },
+          {
+            "path": "tests/baselines/reference/assignSharedArrayBufferToArrayBuffer.types"
+          },
+          {
+            "path": "tests/cases/conformance/es2017/assignSharedArrayBufferToArrayBuffer.ts"
+          }
+        ]
+      }
+    },
+    {
+      "id": "PR_kwDOAT9aAc6Giqs_",
+      "title": "fix(60887): Incorrect Formatting on if (a) try {} finally {} ",
+      "url": "https://github.com/microsoft/TypeScript/pull/60898",
+      "mergedAt": "2025-02-24T19:51:29Z",
+      "updatedAt": "2025-02-24T19:51:29Z",
+      "baseRefName": "main",
+      "author": {
+        "login": "a-tarasyuk"
+      },
+      "assignees": {
+        "nodes": []
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "jakebailey"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "a-tarasyuk"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "jakebailey"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "a-tarasyuk"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "jakebailey"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "a-tarasyuk"
+            }
+          },
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "jakebailey"
+            }
+          }
+        ]
+      },
+      "files": {
+        "nodes": [
+          {
+            "path": "src/services/formatting/smartIndenter.ts"
+          },
+          {
+            "path": "tests/cases/fourslash/formatTryFinally.ts"
+          }
+        ]
+      }
+    },
+    {
+      "id": "PR_kwDOAT9aAc6LTbk5",
+      "title": "Don't widen unique symbols annotated by effective type nodes in JS files",
+      "url": "https://github.com/microsoft/TypeScript/pull/61180",
+      "mergedAt": "2025-02-24T19:53:10Z",
+      "updatedAt": "2025-02-24T23:21:02Z",
+      "baseRefName": "main",
+      "author": {
+        "login": "Andarist"
+      },
+      "assignees": {
+        "nodes": []
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "jakebailey"
+            }
+          }
+        ]
+      },
+      "files": {
+        "nodes": [
+          {
+            "path": "src/compiler/checker.ts"
+          },
+          {
+            "path": "tests/baselines/reference/uniqueSymbolJs2.errors.txt"
+          },
+          {
+            "path": "tests/baselines/reference/uniqueSymbolJs2.js"
+          },
+          {
+            "path": "tests/baselines/reference/uniqueSymbolJs2.symbols"
+          },
+          {
+            "path": "tests/baselines/reference/uniqueSymbolJs2.types"
+          },
+          {
+            "path": "tests/cases/compiler/uniqueSymbolJs2.ts"
+          }
+        ]
+      }
+    },
+    {
+      "id": "PR_kwDOAT9aAc6Mh3T0",
+      "title": "LEGO: Pull request from lego/hb_5378966c-b857-470a-8675-daebef4a6da1_20250225202237529 to main",
+      "url": "https://github.com/microsoft/TypeScript/pull/61269",
+      "mergedAt": "2025-02-25T22:39:49Z",
+      "updatedAt": "2025-02-25T22:39:51Z",
+      "baseRefName": "main",
+      "author": {
+        "login": "csigs"
+      },
+      "assignees": {
+        "nodes": []
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "jakebailey"
+            }
+          }
+        ]
+      },
+      "files": {
+        "nodes": [
+          {
+            "path": "src/loc/lcl/chs/diagnosticMessages/diagnosticMessages.generated.json.lcl"
+          },
+          {
+            "path": "src/loc/lcl/esn/diagnosticMessages/diagnosticMessages.generated.json.lcl"
+          },
+          {
+            "path": "src/loc/lcl/ita/diagnosticMessages/diagnosticMessages.generated.json.lcl"
+          },
+          {
+            "path": "src/loc/lcl/ptb/diagnosticMessages/diagnosticMessages.generated.json.lcl"
+          },
+          {
+            "path": "src/loc/lcl/rus/diagnosticMessages/diagnosticMessages.generated.json.lcl"
+          }
+        ]
+      }
+    },
+    {
+      "id": "PR_kwDOAT9aAc6MTrWf",
+      "title": "Fixed accidentally reused comments between files in the emitter",
+      "url": "https://github.com/microsoft/TypeScript/pull/61261",
+      "mergedAt": "2025-02-26T20:48:59Z",
+      "updatedAt": "2025-02-26T20:51:00Z",
+      "baseRefName": "main",
+      "author": {
+        "login": "Andarist"
+      },
+      "assignees": {
+        "nodes": []
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "Andarist"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "Andarist"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "jakebailey"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "jakebailey"
+            }
+          },
+          {
+            "state": "DISMISSED",
+            "author": {
+              "login": "jakebailey"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "Andarist"
+            }
+          },
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "weswigham"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "weswigham"
+            }
+          },
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "jakebailey"
+            }
+          }
+        ]
+      },
+      "files": {
+        "nodes": [
+          {
+            "path": "src/compiler/checker.ts"
+          },
+          {
+            "path": "src/compiler/expressionToTypeNode.ts"
+          },
+          {
+            "path": "tests/baselines/reference/declarationEmitNoInvalidCommentReuse1.js"
+          },
+          {
+            "path": "tests/baselines/reference/declarationEmitNoInvalidCommentReuse1.symbols"
+          },
+          {
+            "path": "tests/baselines/reference/declarationEmitNoInvalidCommentReuse1.types"
+          },
+          {
+            "path": "tests/baselines/reference/declarationEmitNoInvalidCommentReuse2.js"
+          },
+          {
+            "path": "tests/baselines/reference/declarationEmitNoInvalidCommentReuse2.symbols"
+          },
+          {
+            "path": "tests/baselines/reference/declarationEmitNoInvalidCommentReuse2.types"
+          },
+          {
+            "path": "tests/baselines/reference/declarationEmitNoInvalidCommentReuse3.js"
+          },
+          {
+            "path": "tests/baselines/reference/declarationEmitNoInvalidCommentReuse3.symbols"
+          },
+          {
+            "path": "tests/baselines/reference/declarationEmitNoInvalidCommentReuse3.types"
+          },
+          {
+            "path": "tests/cases/compiler/declarationEmitNoInvalidCommentReuse1.ts"
+          },
+          {
+            "path": "tests/cases/compiler/declarationEmitNoInvalidCommentReuse2.ts"
+          },
+          {
+            "path": "tests/cases/compiler/declarationEmitNoInvalidCommentReuse3.ts"
+          }
+        ]
+      }
+    },
+    {
+      "id": "PR_kwDOAT9aAc6Miuzu",
+      "title": "lib.es2017: Move `SharedArrayBuffer[Symbol.species]` onto constructor interface",
+      "url": "https://github.com/microsoft/TypeScript/pull/61271",
+      "mergedAt": "2025-02-26T21:47:50Z",
+      "updatedAt": "2025-02-26T22:15:40Z",
+      "baseRefName": "main",
+      "author": {
+        "login": "Renegade334"
+      },
+      "assignees": {
+        "nodes": []
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "rbuckton"
+            }
+          }
+        ]
+      },
+      "files": {
+        "nodes": [
+          {
+            "path": "src/lib/es2017.sharedmemory.d.ts"
+          },
+          {
+            "path": "tests/baselines/reference/useSharedArrayBuffer4.js"
+          },
+          {
+            "path": "tests/baselines/reference/useSharedArrayBuffer4.symbols"
+          },
+          {
+            "path": "tests/baselines/reference/useSharedArrayBuffer4.types"
+          },
+          {
+            "path": "tests/baselines/reference/useSharedArrayBuffer5.js"
+          },
+          {
+            "path": "tests/baselines/reference/useSharedArrayBuffer5.symbols"
+          },
+          {
+            "path": "tests/baselines/reference/useSharedArrayBuffer5.types"
+          },
+          {
+            "path": "tests/cases/conformance/es2017/useSharedArrayBuffer4.ts"
+          },
+          {
+            "path": "tests/cases/conformance/es2017/useSharedArrayBuffer5.ts"
+          }
+        ]
+      }
+    },
+    {
+      "id": "PR_kwDOAT9aAc6M2s7K",
+      "title": "LEGO: Pull request from lego/hb_5378966c-b857-470a-8675-daebef4a6da1_20250227204102665 to main",
+      "url": "https://github.com/microsoft/TypeScript/pull/61315",
+      "mergedAt": "2025-02-27T20:58:31Z",
+      "updatedAt": "2025-02-27T20:58:32Z",
+      "baseRefName": "main",
+      "author": {
+        "login": "csigs"
+      },
+      "assignees": {
+        "nodes": []
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "jakebailey"
+            }
+          }
+        ]
+      },
+      "files": {
+        "nodes": [
+          {
+            "path": "src/loc/lcl/cht/diagnosticMessages/diagnosticMessages.generated.json.lcl"
+          },
+          {
+            "path": "src/loc/lcl/csy/diagnosticMessages/diagnosticMessages.generated.json.lcl"
+          },
+          {
+            "path": "src/loc/lcl/deu/diagnosticMessages/diagnosticMessages.generated.json.lcl"
+          },
+          {
+            "path": "src/loc/lcl/fra/diagnosticMessages/diagnosticMessages.generated.json.lcl"
+          },
+          {
+            "path": "src/loc/lcl/jpn/diagnosticMessages/diagnosticMessages.generated.json.lcl"
+          },
+          {
+            "path": "src/loc/lcl/kor/diagnosticMessages/diagnosticMessages.generated.json.lcl"
+          },
+          {
+            "path": "src/loc/lcl/plk/diagnosticMessages/diagnosticMessages.generated.json.lcl"
+          },
+          {
+            "path": "src/loc/lcl/trk/diagnosticMessages/diagnosticMessages.generated.json.lcl"
+          }
+        ]
+      }
+    },
+    {
+      "id": "PR_kwDOAT9aAc6MGJ4f",
+      "title": "Ban old-style type assertions under erasableSyntaxOnly",
+      "url": "https://github.com/microsoft/TypeScript/pull/61244",
+      "mergedAt": "2025-02-28T19:10:43Z",
+      "updatedAt": "2025-03-19T21:40:30Z",
+      "baseRefName": "main",
+      "author": {
+        "login": "jakebailey"
+      },
+      "assignees": {
+        "nodes": []
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "RyanCavanaugh"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "DanielRosenwasser"
+            }
+          }
+        ]
+      },
+      "files": {
+        "nodes": [
+          {
+            "path": "src/compiler/checker.ts"
+          },
+          {
+            "path": "tests/baselines/reference/erasableSyntaxOnly.errors.txt"
+          },
+          {
+            "path": "tests/baselines/reference/erasableSyntaxOnly.js"
+          },
+          {
+            "path": "tests/baselines/reference/erasableSyntaxOnly.symbols"
+          },
+          {
+            "path": "tests/baselines/reference/erasableSyntaxOnly.types"
+          },
+          {
+            "path": "tests/cases/compiler/erasableSyntaxOnly.ts"
+          }
+        ]
+      }
+    },
+    {
+      "id": "PR_kwDOAT9aAc6NFKvA",
+      "title": "Bump the github-actions group with 2 updates",
+      "url": "https://github.com/microsoft/TypeScript/pull/61333",
+      "mergedAt": "2025-03-03T17:46:35Z",
+      "updatedAt": "2025-03-03T17:46:38Z",
+      "baseRefName": "main",
+      "author": {
+        "login": "dependabot"
+      },
+      "assignees": {
+        "nodes": []
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "jakebailey"
+            }
+          }
+        ]
+      },
+      "files": {
+        "nodes": [
+          {
+            "path": ".github/workflows/ci.yml"
+          }
+        ]
+      }
+    },
+    {
+      "id": "PR_kwDOAT9aAc6NM_Gr",
+      "title": "Rename type parameters when they are shadowed.",
+      "url": "https://github.com/microsoft/TypeScript/pull/61342",
+      "mergedAt": "2025-03-04T19:34:33Z",
+      "updatedAt": "2025-03-04T19:36:37Z",
+      "baseRefName": "main",
+      "author": {
+        "login": "dragomirtitian"
+      },
+      "assignees": {
+        "nodes": [
+          {
+            "login": "weswigham"
+          }
+        ]
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "weswigham"
+            }
+          },
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "jakebailey"
+            }
+          }
+        ]
+      },
+      "files": {
+        "nodes": [
+          {
+            "path": "src/compiler/expressionToTypeNode.ts"
+          },
+          {
+            "path": "tests/baselines/reference/declarationEmitShadowing.js"
+          },
+          {
+            "path": "tests/baselines/reference/declarationEmitShadowing.symbols"
+          },
+          {
+            "path": "tests/baselines/reference/declarationEmitShadowing.types"
+          },
+          {
+            "path": "tests/cases/compiler/declarationEmitShadowing.ts"
+          }
+        ]
+      }
+    },
+    {
+      "id": "PR_kwDOAT9aAc6NsLKD",
+      "title": "LEGO: Pull request from lego/hb_5378966c-b857-470a-8675-daebef4a6da1_20250306202248269 to main",
+      "url": "https://github.com/microsoft/TypeScript/pull/61368",
+      "mergedAt": "2025-03-06T20:41:55Z",
+      "updatedAt": "2025-03-06T20:41:56Z",
+      "baseRefName": "main",
+      "author": {
+        "login": "csigs"
+      },
+      "assignees": {
+        "nodes": []
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "jakebailey"
+            }
+          }
+        ]
+      },
+      "files": {
+        "nodes": [
+          {
+            "path": "src/loc/lcl/chs/diagnosticMessages/diagnosticMessages.generated.json.lcl"
+          },
+          {
+            "path": "src/loc/lcl/cht/diagnosticMessages/diagnosticMessages.generated.json.lcl"
+          },
+          {
+            "path": "src/loc/lcl/csy/diagnosticMessages/diagnosticMessages.generated.json.lcl"
+          },
+          {
+            "path": "src/loc/lcl/deu/diagnosticMessages/diagnosticMessages.generated.json.lcl"
+          },
+          {
+            "path": "src/loc/lcl/esn/diagnosticMessages/diagnosticMessages.generated.json.lcl"
+          },
+          {
+            "path": "src/loc/lcl/fra/diagnosticMessages/diagnosticMessages.generated.json.lcl"
+          },
+          {
+            "path": "src/loc/lcl/ita/diagnosticMessages/diagnosticMessages.generated.json.lcl"
+          },
+          {
+            "path": "src/loc/lcl/jpn/diagnosticMessages/diagnosticMessages.generated.json.lcl"
+          },
+          {
+            "path": "src/loc/lcl/kor/diagnosticMessages/diagnosticMessages.generated.json.lcl"
+          },
+          {
+            "path": "src/loc/lcl/plk/diagnosticMessages/diagnosticMessages.generated.json.lcl"
+          },
+          {
+            "path": "src/loc/lcl/ptb/diagnosticMessages/diagnosticMessages.generated.json.lcl"
+          },
+          {
+            "path": "src/loc/lcl/rus/diagnosticMessages/diagnosticMessages.generated.json.lcl"
+          },
+          {
+            "path": "src/loc/lcl/trk/diagnosticMessages/diagnosticMessages.generated.json.lcl"
+          }
+        ]
+      }
+    },
+    {
+      "id": "PR_kwDOAT9aAc6N6swQ",
+      "title": "Bump github/codeql-action from 3.28.10 to 3.28.11 in the github-actions group",
+      "url": "https://github.com/microsoft/TypeScript/pull/61387",
+      "mergedAt": "2025-03-10T16:17:17Z",
+      "updatedAt": "2025-03-10T16:17:19Z",
+      "baseRefName": "main",
+      "author": {
+        "login": "dependabot"
+      },
+      "assignees": {
+        "nodes": []
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "jakebailey"
+            }
+          }
+        ]
+      },
+      "files": {
+        "nodes": [
+          {
+            "path": ".github/workflows/codeql.yml"
+          },
+          {
+            "path": ".github/workflows/scorecard.yml"
+          }
+        ]
+      }
+    },
+    {
+      "id": "PR_kwDOAT9aAc6OBCRF",
+      "title": "Fix serialization of accessor types in declaration files.",
+      "url": "https://github.com/microsoft/TypeScript/pull/61392",
+      "mergedAt": "2025-03-14T19:36:08Z",
+      "updatedAt": "2025-03-14T19:38:50Z",
+      "baseRefName": "main",
+      "author": {
+        "login": "dragomirtitian"
+      },
+      "assignees": {
+        "nodes": []
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "weswigham"
+            }
+          }
+        ]
+      },
+      "files": {
+        "nodes": [
+          {
+            "path": "src/compiler/checker.ts"
+          },
+          {
+            "path": "src/compiler/expressionToTypeNode.ts"
+          },
+          {
+            "path": "src/compiler/types.ts"
+          },
+          {
+            "path": "tests/baselines/reference/declarationEmitGenericTypeParamerSerialization.js"
+          },
+          {
+            "path": "tests/baselines/reference/declarationEmitGenericTypeParamerSerialization.symbols"
+          },
+          {
+            "path": "tests/baselines/reference/declarationEmitGenericTypeParamerSerialization.types"
+          },
+          {
+            "path": "tests/baselines/reference/declarationEmitGenericTypeParamerSerialization2.js"
+          },
+          {
+            "path": "tests/baselines/reference/declarationEmitGenericTypeParamerSerialization2.symbols"
+          },
+          {
+            "path": "tests/baselines/reference/declarationEmitGenericTypeParamerSerialization2.types"
+          },
+          {
+            "path": "tests/baselines/reference/discriminateWithDivergentAccessors1.types"
+          },
+          {
+            "path": "tests/baselines/reference/mappedTypeRecursiveInference.types"
+          },
+          {
+            "path": "tests/baselines/reference/objectLiteralShorthandPropertiesErrorFromNotUsingIdentifier.types"
+          },
+          {
+            "path": "tests/cases/compiler/declarationEmitGenericTypeParamerSerialization.ts"
+          },
+          {
+            "path": "tests/cases/compiler/declarationEmitGenericTypeParamerSerialization2.ts"
+          }
+        ]
+      }
+    },
+    {
+      "id": "PR_kwDOAT9aAc6G0vFS",
+      "title": "fix(60908): Unexpected \"'Type' is declared but its value is never read.\" error with jsdoc @import syntax",
+      "url": "https://github.com/microsoft/TypeScript/pull/60921",
+      "mergedAt": "2025-03-17T20:29:48Z",
+      "updatedAt": "2025-03-17T20:50:49Z",
+      "baseRefName": "main",
+      "author": {
+        "login": "a-tarasyuk"
+      },
+      "assignees": {
+        "nodes": [
+          {
+            "login": "sandersn"
+          }
+        ]
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "jakebailey"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "a-tarasyuk"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "jakebailey"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "a-tarasyuk"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "jakebailey"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "jakebailey"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "jakebailey"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "a-tarasyuk"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "a-tarasyuk"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "sandersn"
+            }
+          }
+        ]
+      },
+      "files": {
+        "nodes": [
+          {
+            "path": "src/compiler/binder.ts"
+          },
+          {
+            "path": "tests/baselines/reference/importTag24.errors.txt"
+          },
+          {
+            "path": "tests/baselines/reference/importTag24.symbols"
+          },
+          {
+            "path": "tests/baselines/reference/importTag24.types"
+          },
+          {
+            "path": "tests/baselines/reference/importTag25.symbols"
+          },
+          {
+            "path": "tests/baselines/reference/importTag25.types"
+          },
+          {
+            "path": "tests/cases/conformance/jsdoc/importTag24.ts"
+          },
+          {
+            "path": "tests/cases/conformance/jsdoc/importTag25.ts"
+          }
+        ]
+      }
+    },
+    {
+      "id": "PR_kwDOAT9aAc6PW12p",
+      "title": "Fix errors on type assertions in erasableSyntaxOnly",
+      "url": "https://github.com/microsoft/TypeScript/pull/61452",
+      "mergedAt": "2025-03-19T23:25:22Z",
+      "updatedAt": "2025-03-19T23:25:25Z",
+      "baseRefName": "main",
+      "author": {
+        "login": "DanielRosenwasser"
+      },
+      "assignees": {
+        "nodes": [
+          {
+            "login": "DanielRosenwasser"
+          }
+        ]
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "jakebailey"
+            }
+          }
+        ]
+      },
+      "files": {
+        "nodes": [
+          {
+            "path": "src/compiler/checker.ts"
+          },
+          {
+            "path": "tests/baselines/reference/erasableSyntaxOnly2.errors.txt"
+          },
+          {
+            "path": "tests/baselines/reference/erasableSyntaxOnly2.js"
+          },
+          {
+            "path": "tests/baselines/reference/erasableSyntaxOnly2.symbols"
+          },
+          {
+            "path": "tests/baselines/reference/erasableSyntaxOnly2.types"
+          },
+          {
+            "path": "tests/cases/compiler/erasableSyntaxOnly2.ts"
+          }
+        ]
+      }
+    },
+    {
+      "id": "PR_kwDOAT9aAc6PyV1r",
+      "title": "Bump the github-actions group with 4 updates",
+      "url": "https://github.com/microsoft/TypeScript/pull/61474",
+      "mergedAt": "2025-03-24T11:23:27Z",
+      "updatedAt": "2025-03-24T11:23:29Z",
+      "baseRefName": "main",
+      "author": {
+        "login": "dependabot"
+      },
+      "assignees": {
+        "nodes": []
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "jakebailey"
+            }
+          }
+        ]
+      },
+      "files": {
+        "nodes": [
+          {
+            "path": ".github/workflows/accept-baselines-fix-lints.yaml"
+          },
+          {
+            "path": ".github/workflows/ci.yml"
+          },
+          {
+            "path": ".github/workflows/codeql.yml"
+          },
+          {
+            "path": ".github/workflows/insiders.yaml"
+          },
+          {
+            "path": ".github/workflows/lkg.yml"
+          },
+          {
+            "path": ".github/workflows/new-release-branch.yaml"
+          },
+          {
+            "path": ".github/workflows/nightly.yaml"
+          },
+          {
+            "path": ".github/workflows/release-branch-artifact.yaml"
+          },
+          {
+            "path": ".github/workflows/scorecard.yml"
+          },
+          {
+            "path": ".github/workflows/set-version.yaml"
+          },
+          {
+            "path": ".github/workflows/sync-branch.yaml"
+          },
+          {
+            "path": ".github/workflows/twoslash-repros.yaml"
+          },
+          {
+            "path": ".github/workflows/update-package-lock.yaml"
           }
         ]
       }
