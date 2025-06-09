@@ -1,18 +1,17 @@
 import type { MergedPR, Status } from "./types.ts";
 
 const teamMembers = new Set([
-  "zkat",
   "sandersn",
   "DanielRosenwasser",
   "weswigham",
   "andrewbranch",
-  "rbuckton",
   "ahejlsberg",
   "jakebailey",
   "RyanCavanaugh",
   "gabritto",
   "iisaduan",
   "navya9singh",
+  "sheetalkamat",
 ]);
 
 const buildAndWatchPaths = new Set([

@@ -1,6 +1,6 @@
 {
-  "version": 2,
-  "timestamp": "2025-06-02T21:10:01.410Z",
+  "version": 3,
+  "timestamp": "2025-06-09T19:13:57.286Z",
   "prs": [
     {
       "id": "PR_kwDOAT9aAc58m0UV",
@@ -9,6 +9,9 @@
       "mergedAt": "2024-09-26T18:50:24Z",
       "updatedAt": "2024-09-26T18:50:24Z",
       "baseRefName": "main",
+      "mergeCommit": {
+        "oid": "8499803ae02cb657c3219aa193648968c9805851"
+      },
       "author": {
         "login": "navya9singh"
       },
@@ -116,6 +119,9 @@
       "mergedAt": "2024-09-26T19:08:29Z",
       "updatedAt": "2024-09-26T19:08:31Z",
       "baseRefName": "main",
+      "mergeCommit": {
+        "oid": "825826fd66306201d20db806cf8438937a9960d0"
+      },
       "author": {
         "login": "jakebailey"
       },
@@ -151,6 +157,9 @@
       "mergedAt": "2024-09-26T21:06:57Z",
       "updatedAt": "2024-12-18T22:25:20Z",
       "baseRefName": "main",
+      "mergeCommit": {
+        "oid": "25ab551a123fb90ea27b877afc15d0689c5cf0a3"
+      },
       "author": {
         "login": "rbuckton"
       },
@@ -222,6 +231,9 @@
       "mergedAt": "2024-09-26T21:53:31Z",
       "updatedAt": "2024-09-27T12:38:02Z",
       "baseRefName": "main",
+      "mergeCommit": {
+        "oid": "5119230083cea72066a8ec13d88f288b5be31eb1"
+      },
       "author": {
         "login": "jakebailey"
       },
@@ -272,6 +284,9 @@
       "mergedAt": "2024-09-26T22:28:29Z",
       "updatedAt": "2024-09-26T22:28:30Z",
       "baseRefName": "main",
+      "mergeCommit": {
+        "oid": "20746579b76b58059107f15dd9fd37920aa0ebfa"
+      },
       "author": {
         "login": "jakebailey"
       },
@@ -337,6 +352,9 @@
       "mergedAt": "2024-09-26T22:28:42Z",
       "updatedAt": "2024-09-26T22:28:43Z",
       "baseRefName": "main",
+      "mergeCommit": {
+        "oid": "da1fb07db09274c6435d3175249265c1b8c8d12c"
+      },
       "author": {
         "login": "jakebailey"
       },
@@ -375,6 +393,9 @@
       "mergedAt": "2024-09-26T23:10:41Z",
       "updatedAt": "2024-09-27T14:08:46Z",
       "baseRefName": "main",
+      "mergeCommit": {
+        "oid": "52c59dbcbee274e523ef39e6c8be1bd5e110c2f1"
+      },
       "author": {
         "login": "sandersn"
       },
@@ -512,6 +533,9 @@
       "mergedAt": "2024-09-27T18:58:17Z",
       "updatedAt": "2024-09-27T21:32:23Z",
       "baseRefName": "main",
+      "mergeCommit": {
+        "oid": "9d98874739893b00d8a93f8890f7c8f73b1f11d1"
+      },
       "author": {
         "login": "petamoriken"
       },
@@ -1034,8 +1058,11 @@
       "title": "Rewrite relative import extensions with flag",
       "url": "https://github.com/microsoft/TypeScript/pull/59767",
       "mergedAt": "2024-09-27T19:27:16Z",
-      "updatedAt": "2024-12-06T14:05:59Z",
+      "updatedAt": "2025-03-23T12:47:52Z",
       "baseRefName": "main",
+      "mergeCommit": {
+        "oid": "bd3d70058c30253209199cc9dfeb85e72330d79b"
+      },
       "author": {
         "login": "andrewbranch"
       },
@@ -1284,6 +1311,9 @@
       "mergedAt": "2024-09-27T22:16:29Z",
       "updatedAt": "2024-09-27T22:52:25Z",
       "baseRefName": "main",
+      "mergeCommit": {
+        "oid": "f6d2e73c5afbe5f760574292402fcefc3defdf8c"
+      },
       "author": {
         "login": "iisaduan"
       },
@@ -1427,6 +1457,9 @@
       "mergedAt": "2024-09-27T22:32:19Z",
       "updatedAt": "2024-09-27T22:32:20Z",
       "baseRefName": "main",
+      "mergeCommit": {
+        "oid": "2c23beae0297fe3e57868d02af8c9084b136f78c"
+      },
       "author": {
         "login": "sandersn"
       },
@@ -1486,6 +1519,9 @@
       "mergedAt": "2024-09-30T16:19:42Z",
       "updatedAt": "2024-09-30T17:48:27Z",
       "baseRefName": "main",
+      "mergeCommit": {
+        "oid": "476e9ee201bd19afbc359ffe93b32a0ccd97152a"
+      },
       "author": {
         "login": "dragomirtitian"
       },
@@ -1856,6 +1892,9 @@
       "mergedAt": "2024-09-30T16:52:36Z",
       "updatedAt": "2024-09-30T16:52:38Z",
       "baseRefName": "main",
+      "mergeCommit": {
+        "oid": "18d20f12ba04159eb5818e0e645dbbaf5fd1737b"
+      },
       "author": {
         "login": "dependabot"
       },
@@ -1929,6 +1968,9 @@
       "mergedAt": "2024-09-30T20:31:14Z",
       "updatedAt": "2024-09-30T20:31:16Z",
       "baseRefName": "main",
+      "mergeCommit": {
+        "oid": "3386e943215613c40f68ba0b108cda1ddb7faee1"
+      },
       "author": {
         "login": "jakebailey"
       },
@@ -1970,6 +2012,9 @@
       "mergedAt": "2024-10-01T00:34:08Z",
       "updatedAt": "2024-10-01T16:19:15Z",
       "baseRefName": "main",
+      "mergeCommit": {
+        "oid": "35902c2e77c1a8b2c07b769a8825e322bf85648e"
+      },
       "author": {
         "login": "jakebailey"
       },
@@ -2011,6 +2056,9 @@
       "mergedAt": "2024-10-01T04:38:53Z",
       "updatedAt": "2024-10-01T04:38:55Z",
       "baseRefName": "main",
+      "mergeCommit": {
+        "oid": "ca18009b8bd5cea6a7fbcba3d7e4dd3c4633bc92"
+      },
       "author": {
         "login": "ahejlsberg"
       },
@@ -2085,6 +2133,9 @@
       "mergedAt": "2024-10-04T18:47:59Z",
       "updatedAt": "2024-10-04T18:48:44Z",
       "baseRefName": "main",
+      "mergeCommit": {
+        "oid": "b845fd2434f255ba35b0bb143a65172c8985e467"
+      },
       "author": {
         "login": "iisaduan"
       },
@@ -2186,6 +2237,9 @@
       "mergedAt": "2024-10-07T18:12:48Z",
       "updatedAt": "2024-10-07T18:12:48Z",
       "baseRefName": "main",
+      "mergeCommit": {
+        "oid": "44331b9fa32999d4aade7433c10cd3ec8596957e"
+      },
       "author": {
         "login": "JoostK"
       },
@@ -2226,6 +2280,9 @@
       "mergedAt": "2024-10-07T19:25:32Z",
       "updatedAt": "2024-10-07T19:25:34Z",
       "baseRefName": "main",
+      "mergeCommit": {
+        "oid": "a719df49d448f1929c44ca6e3506b9149f3afbb8"
+      },
       "author": {
         "login": "iisaduan"
       },
@@ -2261,6 +2318,9 @@
       "mergedAt": "2024-10-07T19:55:38Z",
       "updatedAt": "2024-10-08T17:30:11Z",
       "baseRefName": "main",
+      "mergeCommit": {
+        "oid": "20f67d791cc2101f8bfe3ddcb8c1705b090281cf"
+      },
       "author": {
         "login": "epistemancering"
       },
@@ -2292,6 +2352,9 @@
       "mergedAt": "2024-10-07T19:58:15Z",
       "updatedAt": "2024-10-07T19:58:15Z",
       "baseRefName": "main",
+      "mergeCommit": {
+        "oid": "009b3ffdda1ec62cf06b9670b2292f04cec0a146"
+      },
       "author": {
         "login": "a-tarasyuk"
       },
@@ -2330,6 +2393,9 @@
       "mergedAt": "2024-10-07T20:41:43Z",
       "updatedAt": "2024-10-07T20:41:45Z",
       "baseRefName": "main",
+      "mergeCommit": {
+        "oid": "cd6c0a0b6b8659f49344951219c74a516fdec9a2"
+      },
       "author": {
         "login": "DanielRosenwasser"
       },
@@ -2365,6 +2431,9 @@
       "mergedAt": "2024-10-08T17:46:19Z",
       "updatedAt": "2024-10-08T17:46:20Z",
       "baseRefName": "main",
+      "mergeCommit": {
+        "oid": "2f436cd0338b52cd3dd127cb426bf3a2e99a869d"
+      },
       "author": {
         "login": "dependabot"
       },
@@ -2402,6 +2471,9 @@
       "mergedAt": "2024-10-08T17:50:08Z",
       "updatedAt": "2024-10-08T17:50:10Z",
       "baseRefName": "main",
+      "mergeCommit": {
+        "oid": "2149a0f31a5bf1b1b9e9c2745efeaa74e95170b9"
+      },
       "author": {
         "login": "csigs"
       },
@@ -2466,6 +2538,9 @@
       "mergedAt": "2024-10-08T23:20:33Z",
       "updatedAt": "2024-10-08T23:20:34Z",
       "baseRefName": "main",
+      "mergeCommit": {
+        "oid": "a53c37d59aa0c20f566dec7e5498f05afe45dc6b"
+      },
       "author": {
         "login": "jakebailey"
       },
@@ -2501,6 +2576,9 @@
       "mergedAt": "2024-10-11T22:42:29Z",
       "updatedAt": "2024-10-11T22:42:29Z",
       "baseRefName": "main",
+      "mergeCommit": {
+        "oid": "f53d6dda5df8c898f31ef11283e7132fa2953764"
+      },
       "author": {
         "login": "Andarist"
       },
@@ -2559,6 +2637,9 @@
       "mergedAt": "2024-10-11T23:13:39Z",
       "updatedAt": "2024-10-11T23:13:39Z",
       "baseRefName": "main",
+      "mergeCommit": {
+        "oid": "c003609d59db75974796cec737c98f6c8e603bd6"
+      },
       "author": {
         "login": "Andarist"
       },
@@ -2633,6 +2714,9 @@
       "mergedAt": "2024-10-14T17:24:49Z",
       "updatedAt": "2024-10-14T17:24:54Z",
       "baseRefName": "main",
+      "mergeCommit": {
+        "oid": "aeb74cc721d2d38b57f9c5d49730c46aacb81224"
+      },
       "author": {
         "login": "iisaduan"
       },
@@ -2680,6 +2764,9 @@
       "mergedAt": "2024-10-14T18:13:11Z",
       "updatedAt": "2024-10-14T18:13:12Z",
       "baseRefName": "main",
+      "mergeCommit": {
+        "oid": "460be92510abf07b7fb87e1d2a6649823805e195"
+      },
       "author": {
         "login": "dependabot"
       },
@@ -2753,6 +2840,9 @@
       "mergedAt": "2024-10-14T18:30:34Z",
       "updatedAt": "2024-10-14T18:30:35Z",
       "baseRefName": "main",
+      "mergeCommit": {
+        "oid": "e99e6e2e87a6d7f152eb7cc491ce11da1926662b"
+      },
       "author": {
         "login": "a-tarasyuk"
       },
@@ -2787,6 +2877,9 @@
       "mergedAt": "2024-10-14T21:45:23Z",
       "updatedAt": "2024-10-14T21:45:25Z",
       "baseRefName": "main",
+      "mergeCommit": {
+        "oid": "40caf3431986884b3da7a607de22ced5d364d9fc"
+      },
       "author": {
         "login": "rbuckton"
       },
@@ -2861,6 +2954,9 @@
       "mergedAt": "2024-10-15T16:00:55Z",
       "updatedAt": "2024-10-15T16:39:06Z",
       "baseRefName": "main",
+      "mergeCommit": {
+        "oid": "d61938d8a326563ce8a2b19728ea9ff3edd7a76e"
+      },
       "author": {
         "login": "Andarist"
       },
@@ -2917,6 +3013,9 @@
       "mergedAt": "2024-10-15T17:53:32Z",
       "updatedAt": "2024-10-15T17:53:48Z",
       "baseRefName": "main",
+      "mergeCommit": {
+        "oid": "31de163db78edc3224d28be88aed45c8bf709ca0"
+      },
       "author": {
         "login": "andrewbranch"
       },
@@ -3006,6 +3105,9 @@
       "mergedAt": "2024-10-15T21:01:13Z",
       "updatedAt": "2024-10-15T21:01:19Z",
       "baseRefName": "main",
+      "mergeCommit": {
+        "oid": "3b0dfaa73cddccc868ffc3671bffd6d1660b39ae"
+      },
       "author": {
         "login": "andrewbranch"
       },
@@ -3050,6 +3152,9 @@
       "mergedAt": "2024-10-16T00:52:12Z",
       "updatedAt": "2024-10-16T00:52:12Z",
       "baseRefName": "main",
+      "mergeCommit": {
+        "oid": "03c5a37cfb63cd931b3b4a719428859d3ff5e3ed"
+      },
       "author": {
         "login": "Andarist"
       },
@@ -3184,6 +3289,9 @@
       "mergedAt": "2024-10-16T00:53:36Z",
       "updatedAt": "2024-10-16T00:53:37Z",
       "baseRefName": "main",
+      "mergeCommit": {
+        "oid": "bd1641f7691909450147cc38cc6f5e55b79e0545"
+      },
       "author": {
         "login": "rbuckton"
       },
@@ -3228,6 +3336,9 @@
       "mergedAt": "2024-10-16T18:14:44Z",
       "updatedAt": "2024-10-16T18:18:16Z",
       "baseRefName": "main",
+      "mergeCommit": {
+        "oid": "b8e4ed8aeb0b228f544c5736908c31f136a9f7e3"
+      },
       "author": {
         "login": "andrewbranch"
       },
@@ -3341,6 +3452,9 @@
       "mergedAt": "2024-10-17T18:13:17Z",
       "updatedAt": "2024-10-17T18:13:19Z",
       "baseRefName": "main",
+      "mergeCommit": {
+        "oid": "54732f6e5895aa692309e70a18027ddc316c20df"
+      },
       "author": {
         "login": "csigs"
       },
@@ -3408,6 +3522,9 @@
       "mergedAt": "2024-10-18T14:26:00Z",
       "updatedAt": "2024-10-18T15:16:36Z",
       "baseRefName": "main",
+      "mergeCommit": {
+        "oid": "2e4f2c72db36c7473d8c1fec0911a1ad6c45dedc"
+      },
       "author": {
         "login": "rbuckton"
       },
@@ -3677,6 +3794,9 @@
       "mergedAt": "2024-10-18T16:24:34Z",
       "updatedAt": "2024-10-18T16:24:34Z",
       "baseRefName": "main",
+      "mergeCommit": {
+        "oid": "c07da583afbfbb68930448b781832c74b3f713e6"
+      },
       "author": {
         "login": "Andarist"
       },
@@ -3726,6 +3846,9 @@
       "mergedAt": "2024-10-18T21:44:43Z",
       "updatedAt": "2024-10-18T21:44:43Z",
       "baseRefName": "main",
+      "mergeCommit": {
+        "oid": "df9d16503f6755dd071e4c591b9d21c39d03d95e"
+      },
       "author": {
         "login": "a-tarasyuk"
       },
@@ -3799,6 +3922,9 @@
       "mergedAt": "2024-10-21T20:18:54Z",
       "updatedAt": "2024-10-21T20:18:55Z",
       "baseRefName": "main",
+      "mergeCommit": {
+        "oid": "e6ef279403d86440600c866d53839a3e695220d3"
+      },
       "author": {
         "login": "rbuckton"
       },
@@ -3852,6 +3978,9 @@
       "mergedAt": "2024-10-21T20:57:54Z",
       "updatedAt": "2024-10-21T20:57:55Z",
       "baseRefName": "main",
+      "mergeCommit": {
+        "oid": "d9eeeaecbb31d02ea38bdf1d29d6741d09ff8b7a"
+      },
       "author": {
         "login": "dependabot"
       },
@@ -3886,6 +4015,9 @@
       "mergedAt": "2024-10-21T22:29:05Z",
       "updatedAt": "2024-10-21T22:38:16Z",
       "baseRefName": "main",
+      "mergeCommit": {
+        "oid": "aa411acab7ea3bfe40647218c2762290d4647fb3"
+      },
       "author": {
         "login": "Andarist"
       },
@@ -3927,6 +4059,9 @@
       "mergedAt": "2024-10-22T20:00:58Z",
       "updatedAt": "2024-10-22T20:01:01Z",
       "baseRefName": "main",
+      "mergeCommit": {
+        "oid": "e25abe34aedba53eefd379cfeb67568ca95d90c1"
+      },
       "author": {
         "login": "rbuckton"
       },
@@ -3983,6 +4118,9 @@
       "mergedAt": "2024-10-22T20:10:55Z",
       "updatedAt": "2024-10-22T20:10:55Z",
       "baseRefName": "main",
+      "mergeCommit": {
+        "oid": "241a6c95896924720cdf6bb75579e520fa663987"
+      },
       "author": {
         "login": "a-tarasyuk"
       },
@@ -4027,6 +4165,9 @@
       "mergedAt": "2024-10-22T22:42:28Z",
       "updatedAt": "2024-10-23T03:42:29Z",
       "baseRefName": "main",
+      "mergeCommit": {
+        "oid": "a62ac67b5011bd9eeb8d4b9add0de7e3bd487e9a"
+      },
       "author": {
         "login": "a-tarasyuk"
       },
@@ -4064,6 +4205,9 @@
       "mergedAt": "2024-10-22T23:20:51Z",
       "updatedAt": "2024-10-22T23:20:53Z",
       "baseRefName": "main",
+      "mergeCommit": {
+        "oid": "1679f4481deb02e7858dc8824c79deda76d48fc3"
+      },
       "author": {
         "login": "rbuckton"
       },
@@ -4117,6 +4261,9 @@
       "mergedAt": "2024-10-23T16:22:09Z",
       "updatedAt": "2024-10-23T16:50:45Z",
       "baseRefName": "main",
+      "mergeCommit": {
+        "oid": "437d7f7d9cc80b5e1d4c0759eb9af1a7d2e9a86d"
+      },
       "author": {
         "login": "Andarist"
       },
@@ -4166,6 +4313,9 @@
       "mergedAt": "2024-10-23T18:31:37Z",
       "updatedAt": "2024-10-23T18:59:14Z",
       "baseRefName": "main",
+      "mergeCommit": {
+        "oid": "6a90111d05d725168a124ea209372e62e80eb487"
+      },
       "author": {
         "login": "Andarist"
       },
@@ -4221,6 +4371,9 @@
       "mergedAt": "2024-10-23T18:34:24Z",
       "updatedAt": "2024-10-23T18:34:24Z",
       "baseRefName": "main",
+      "mergeCommit": {
+        "oid": "db8eacd7e21a8bc945481cd235ff4cd0929e661a"
+      },
       "author": {
         "login": "a-tarasyuk"
       },
@@ -4264,6 +4417,9 @@
       "mergedAt": "2024-10-23T20:22:23Z",
       "updatedAt": "2024-10-23T20:22:26Z",
       "baseRefName": "main",
+      "mergeCommit": {
+        "oid": "2ac4cb78d6930302eb0a55d07f154a2b0597ae32"
+      },
       "author": {
         "login": "andrewbranch"
       },
@@ -4302,6 +4458,9 @@
       "mergedAt": "2024-10-28T18:20:02Z",
       "updatedAt": "2024-10-28T18:20:05Z",
       "baseRefName": "main",
+      "mergeCommit": {
+        "oid": "6beca69fbc1c6bf45abdd401434b6e4c306c8c96"
+      },
       "author": {
         "login": "dependabot"
       },
@@ -4375,6 +4534,9 @@
       "mergedAt": "2024-10-28T18:50:15Z",
       "updatedAt": "2024-10-28T18:53:36Z",
       "baseRefName": "main",
+      "mergeCommit": {
+        "oid": "cb44488fcec4348a448434afbf2ebcbf2b423c61"
+      },
       "author": {
         "login": "Andarist"
       },
@@ -4409,6 +4571,9 @@
       "mergedAt": "2024-10-29T21:05:32Z",
       "updatedAt": "2024-10-29T21:05:41Z",
       "baseRefName": "main",
+      "mergeCommit": {
+        "oid": "21618934bf91855e5800d94d34463f29526811cb"
+      },
       "author": {
         "login": "iisaduan"
       },
@@ -4510,6 +4675,9 @@
       "mergedAt": "2024-10-30T22:36:20Z",
       "updatedAt": "2024-10-30T22:36:21Z",
       "baseRefName": "main",
+      "mergeCommit": {
+        "oid": "da15ef2841076f40d2b278cdaedc47e45fde32ec"
+      },
       "author": {
         "login": "sandersn"
       },
@@ -4557,6 +4725,9 @@
       "mergedAt": "2024-10-31T20:14:17Z",
       "updatedAt": "2024-10-31T20:14:17Z",
       "baseRefName": "main",
+      "mergeCommit": {
+        "oid": "f478257f0603945a240e4394b103743f218edde0"
+      },
       "author": {
         "login": "Andarist"
       },
@@ -4591,6 +4762,9 @@
       "mergedAt": "2024-10-31T20:14:27Z",
       "updatedAt": "2024-10-31T20:14:27Z",
       "baseRefName": "main",
+      "mergeCommit": {
+        "oid": "a271797c1a95494e5f7aa8075c01941ad25cad08"
+      },
       "author": {
         "login": "Andarist"
       },
@@ -4626,6 +4800,9 @@
       "mergedAt": "2024-10-31T20:33:40Z",
       "updatedAt": "2024-10-31T20:33:41Z",
       "baseRefName": "main",
+      "mergeCommit": {
+        "oid": "48f2ada110a697668db7d2d1c11a382b0192d3f9"
+      },
       "author": {
         "login": "Andarist"
       },
@@ -4913,6 +5090,9 @@
       "mergedAt": "2024-10-31T20:47:38Z",
       "updatedAt": "2024-10-31T20:47:38Z",
       "baseRefName": "main",
+      "mergeCommit": {
+        "oid": "e4dc78ab8c82d557f1fece7ffcc717296b005a5d"
+      },
       "author": {
         "login": "Andarist"
       },
@@ -4924,7 +5104,7 @@
           {
             "state": "COMMENTED",
             "author": {
-              "login": "Colack"
+              "login": "asmtilde"
             }
           },
           {
@@ -4953,6 +5133,9 @@
       "mergedAt": "2024-10-31T22:18:27Z",
       "updatedAt": "2024-10-31T22:18:27Z",
       "baseRefName": "main",
+      "mergeCommit": {
+        "oid": "32513a7745b606dc8b33c8a4c722aaa026752283"
+      },
       "author": {
         "login": "Andarist"
       },
@@ -4990,6 +5173,9 @@
       "mergedAt": "2024-11-01T00:03:12Z",
       "updatedAt": "2024-11-01T00:03:26Z",
       "baseRefName": "main",
+      "mergeCommit": {
+        "oid": "3e6171833e6d8481626b56a7de09ea03092fadf2"
+      },
       "author": {
         "login": "iisaduan"
       },
@@ -5111,6 +5297,9 @@
       "mergedAt": "2024-11-01T19:02:04Z",
       "updatedAt": "2024-11-14T23:14:32Z",
       "baseRefName": "main",
+      "mergeCommit": {
+        "oid": "248c8f5f993882a28d54471a7fb86ac01b35da4f"
+      },
       "author": {
         "login": "trusktr"
       },
@@ -5146,6 +5335,9 @@
       "mergedAt": "2024-11-01T20:47:09Z",
       "updatedAt": "2024-11-01T20:47:11Z",
       "baseRefName": "main",
+      "mergeCommit": {
+        "oid": "11b2930fa2c9f73b0ffb725a9715b8d3c4121bbc"
+      },
       "author": {
         "login": "rbuckton"
       },
@@ -5193,6 +5385,9 @@
       "mergedAt": "2024-11-03T05:55:36Z",
       "updatedAt": "2024-11-03T05:55:36Z",
       "baseRefName": "main",
+      "mergeCommit": {
+        "oid": "0ec4d30a6e2ebbc87292c9829378d4e98de8ef43"
+      },
       "author": {
         "login": "navya9singh"
       },
@@ -5240,6 +5435,9 @@
       "mergedAt": "2024-11-04T20:43:31Z",
       "updatedAt": "2024-12-20T09:26:03Z",
       "baseRefName": "main",
+      "mergeCommit": {
+        "oid": "c09e2ab4ff1abb69d2b4a9b361dbbde43b0d5667"
+      },
       "author": {
         "login": "Andarist"
       },
@@ -5292,6 +5490,9 @@
       "mergedAt": "2024-11-05T19:41:25Z",
       "updatedAt": "2024-11-05T19:41:28Z",
       "baseRefName": "main",
+      "mergeCommit": {
+        "oid": "131f673c20e1cc440afda14f18cf0b5cf695fd4e"
+      },
       "author": {
         "login": "DanielRosenwasser"
       },
@@ -5339,6 +5540,9 @@
       "mergedAt": "2024-11-05T20:50:18Z",
       "updatedAt": "2024-11-05T20:50:22Z",
       "baseRefName": "main",
+      "mergeCommit": {
+        "oid": "82a04b29b4f60b887c5c548f406d4dbc9462f79b"
+      },
       "author": {
         "login": "andrewbranch"
       },
@@ -5380,6 +5584,9 @@
       "mergedAt": "2024-11-05T22:35:02Z",
       "updatedAt": "2024-11-06T20:17:46Z",
       "baseRefName": "main",
+      "mergeCommit": {
+        "oid": "9d7e087022b170f9661d65890ae5542ecdc9bd70"
+      },
       "author": {
         "login": "jakebailey"
       },
@@ -5455,8 +5662,11 @@
       "title": "Proposed expandable hover API",
       "url": "https://github.com/microsoft/TypeScript/pull/59940",
       "mergedAt": "2024-11-06T00:41:13Z",
-      "updatedAt": "2024-11-06T00:41:15Z",
+      "updatedAt": "2025-01-27T22:55:16Z",
       "baseRefName": "main",
+      "mergeCommit": {
+        "oid": "80eeb4ec8da681f1f704f3fd7c5c3b7ab7dc5531"
+      },
       "author": {
         "login": "gabritto"
       },
@@ -5579,6 +5789,9 @@
       "mergedAt": "2024-11-06T01:14:03Z",
       "updatedAt": "2024-12-17T15:05:25Z",
       "baseRefName": "main",
+      "mergeCommit": {
+        "oid": "60dd512a830600cbd8821ee8ece2bb544868f3ea"
+      },
       "author": {
         "login": "dirkluijk"
       },
@@ -5902,6 +6115,9 @@
       "mergedAt": "2024-11-06T01:14:25Z",
       "updatedAt": "2024-11-06T01:14:26Z",
       "baseRefName": "main",
+      "mergeCommit": {
+        "oid": "8d95ac59681bd8a341cefa82b30441eb7f3d9a8d"
+      },
       "author": {
         "login": "gabritto"
       },
@@ -5976,6 +6192,9 @@
       "mergedAt": "2024-11-06T01:16:37Z",
       "updatedAt": "2024-11-06T01:16:38Z",
       "baseRefName": "main",
+      "mergeCommit": {
+        "oid": "5e2e32120b2fd5ef7a04e3414ceb120c119ec58c"
+      },
       "author": {
         "login": "Andarist"
       },
@@ -6075,8 +6294,11 @@
       "title": "Narrow generic conditional and indexed access return types when checking return statements",
       "url": "https://github.com/microsoft/TypeScript/pull/56941",
       "mergedAt": "2024-11-06T02:18:24Z",
-      "updatedAt": "2024-11-29T23:35:23Z",
+      "updatedAt": "2025-05-09T17:47:46Z",
       "baseRefName": "main",
+      "mergeCommit": {
+        "oid": "30979c2651e5b0aa8ab583bbd8161cac3d0ea317"
+      },
       "author": {
         "login": "gabritto"
       },
@@ -6286,6 +6508,9 @@
       "mergedAt": "2024-11-06T21:06:12Z",
       "updatedAt": "2024-11-06T21:06:15Z",
       "baseRefName": "main",
+      "mergeCommit": {
+        "oid": "55f1248a2052eebdea6bc0e2eef754df89a44bf7"
+      },
       "author": {
         "login": "RyanCavanaugh"
       },
@@ -6336,6 +6561,9 @@
       "mergedAt": "2024-11-08T17:48:13Z",
       "updatedAt": "2024-11-08T18:40:57Z",
       "baseRefName": "main",
+      "mergeCommit": {
+        "oid": "ef802b1e4ddaf8d6e61d6005614dd796520448f8"
+      },
       "author": {
         "login": "a-tarasyuk"
       },
@@ -6418,6 +6646,9 @@
       "mergedAt": "2024-11-11T18:15:29Z",
       "updatedAt": "2024-11-11T18:15:29Z",
       "baseRefName": "main",
+      "mergeCommit": {
+        "oid": "b58ac4abf2d58d6309274c22762e2196789476d9"
+      },
       "author": {
         "login": "dragomirtitian"
       },
@@ -6716,6 +6947,9 @@
       "mergedAt": "2024-11-13T16:33:01Z",
       "updatedAt": "2024-11-13T20:17:54Z",
       "baseRefName": "main",
+      "mergeCommit": {
+        "oid": "79ea5a5b358c41aac32866737deb7e17c73005a0"
+      },
       "author": {
         "login": "sandersn"
       },
@@ -6811,6 +7045,9 @@
       "mergedAt": "2024-11-13T17:04:51Z",
       "updatedAt": "2024-11-13T18:49:40Z",
       "baseRefName": "main",
+      "mergeCommit": {
+        "oid": "c043944b1434daa67b66573c66850d51c0a16944"
+      },
       "author": {
         "login": "benjaminjkraft"
       },
@@ -6851,6 +7088,9 @@
       "mergedAt": "2024-11-15T22:21:39Z",
       "updatedAt": "2024-11-15T22:23:45Z",
       "baseRefName": "main",
+      "mergeCommit": {
+        "oid": "b3c67d32020a3015fe068fbcb1dcfb18aedcaad3"
+      },
       "author": {
         "login": "andrewbranch"
       },
@@ -6925,6 +7165,9 @@
       "mergedAt": "2024-11-20T03:42:17Z",
       "updatedAt": "2024-11-20T03:42:17Z",
       "baseRefName": "main",
+      "mergeCommit": {
+        "oid": "d6b7c41fbcd9e2d72ea9d653b41e059d08c9c6cb"
+      },
       "author": {
         "login": "a-tarasyuk"
       },
@@ -6965,6 +7208,9 @@
       "mergedAt": "2024-11-20T03:45:22Z",
       "updatedAt": "2024-11-20T03:45:22Z",
       "baseRefName": "main",
+      "mergeCommit": {
+        "oid": "d85767abfd83880cea17cea70f9913e9c4496dcc"
+      },
       "author": {
         "login": "a-tarasyuk"
       },
@@ -7038,6 +7284,9 @@
       "mergedAt": "2024-11-25T19:40:24Z",
       "updatedAt": "2024-11-25T19:40:26Z",
       "baseRefName": "main",
+      "mergeCommit": {
+        "oid": "ee0e08bd96bdde7450337afe141e53018cfc89e4"
+      },
       "author": {
         "login": "dependabot"
       },
@@ -7075,6 +7324,9 @@
       "mergedAt": "2024-11-26T21:24:45Z",
       "updatedAt": "2024-11-27T01:17:48Z",
       "baseRefName": "main",
+      "mergeCommit": {
+        "oid": "96410eb65516fd681f75ea595a68fe0ea908dfe2"
+      },
       "author": {
         "login": "iisaduan"
       },
@@ -7131,6 +7383,9 @@
       "mergedAt": "2024-11-26T23:17:29Z",
       "updatedAt": "2024-12-16T19:43:56Z",
       "baseRefName": "main",
+      "mergeCommit": {
+        "oid": "9fe6c3661cd89952d9556ecb14ef366b44076064"
+      },
       "author": {
         "login": "Andarist"
       },
@@ -7177,6 +7432,9 @@
       "mergedAt": "2024-11-27T23:12:21Z",
       "updatedAt": "2024-11-27T23:12:21Z",
       "baseRefName": "main",
+      "mergeCommit": {
+        "oid": "b263cc4b2ef12ae013526a3d8808b6716146586a"
+      },
       "author": {
         "login": "Psychpsyo"
       },
@@ -7220,6 +7478,9 @@
       "mergedAt": "2024-12-02T19:15:47Z",
       "updatedAt": "2024-12-02T19:15:47Z",
       "baseRefName": "main",
+      "mergeCommit": {
+        "oid": "97177722b8facb30c3f27e124931257ae80b863d"
+      },
       "author": {
         "login": "Andarist"
       },
@@ -7272,6 +7533,9 @@
       "mergedAt": "2024-12-02T20:12:59Z",
       "updatedAt": "2024-12-02T20:12:59Z",
       "baseRefName": "main",
+      "mergeCommit": {
+        "oid": "14c65b311959501b6720ff48b9cb02eecbcee4a7"
+      },
       "author": {
         "login": "Andarist"
       },
@@ -7315,6 +7579,9 @@
       "mergedAt": "2024-12-03T22:19:58Z",
       "updatedAt": "2024-12-04T20:16:51Z",
       "baseRefName": "main",
+      "mergeCommit": {
+        "oid": "6f75783184328087627da983fe30a05fca4f6314"
+      },
       "author": {
         "login": "billyjanitsch"
       },
@@ -7527,6 +7794,9 @@
       "mergedAt": "2024-12-04T16:47:16Z",
       "updatedAt": "2024-12-04T16:47:21Z",
       "baseRefName": "main",
+      "mergeCommit": {
+        "oid": "9bf5aa7fe234d58b1fa4b435f9a0b9dcd16fe216"
+      },
       "author": {
         "login": "andrewbranch"
       },
@@ -7583,6 +7853,9 @@
       "mergedAt": "2024-12-04T17:13:13Z",
       "updatedAt": "2024-12-04T17:13:15Z",
       "baseRefName": "main",
+      "mergeCommit": {
+        "oid": "6b1ea96b9404ccfc8e66e22fa2a7b645781255c3"
+      },
       "author": {
         "login": "gabritto"
       },
@@ -7633,6 +7906,9 @@
       "mergedAt": "2024-12-04T20:04:14Z",
       "updatedAt": "2024-12-04T20:06:09Z",
       "baseRefName": "main",
+      "mergeCommit": {
+        "oid": "676d32994813badf283a0b1601665c901dd697f2"
+      },
       "author": {
         "login": "Andarist"
       },
@@ -7709,6 +7985,9 @@
       "mergedAt": "2024-12-04T21:21:16Z",
       "updatedAt": "2024-12-16T19:36:12Z",
       "baseRefName": "main",
+      "mergeCommit": {
+        "oid": "42f893ff75e0bcf73eb936d3e986bd7c3358cb8c"
+      },
       "author": {
         "login": "weswigham"
       },
@@ -7756,6 +8035,9 @@
       "mergedAt": "2024-12-04T21:22:26Z",
       "updatedAt": "2024-12-04T21:22:30Z",
       "baseRefName": "main",
+      "mergeCommit": {
+        "oid": "410513462673bad5696dad89b7103f31681ca1c6"
+      },
       "author": {
         "login": "RyanCavanaugh"
       },
@@ -7794,6 +8076,9 @@
       "mergedAt": "2024-12-04T23:13:20Z",
       "updatedAt": "2024-12-05T20:57:57Z",
       "baseRefName": "main",
+      "mergeCommit": {
+        "oid": "517da72a57c878e5d4fbd260e7f1f8b019efbb27"
+      },
       "author": {
         "login": "weswigham"
       },
@@ -7847,6 +8132,9 @@
       "mergedAt": "2024-12-05T00:44:24Z",
       "updatedAt": "2024-12-05T00:44:24Z",
       "baseRefName": "main",
+      "mergeCommit": {
+        "oid": "12d96878bc51df4b1707b6f92f5094f51513a16d"
+      },
       "author": {
         "login": "weswigham"
       },
@@ -7894,6 +8182,9 @@
       "mergedAt": "2024-12-05T17:21:09Z",
       "updatedAt": "2024-12-05T18:47:46Z",
       "baseRefName": "main",
+      "mergeCommit": {
+        "oid": "9ef98be5175bf8ee25c33ad1117ff13cf3877135"
+      },
       "author": {
         "login": "Andarist"
       },
@@ -7943,6 +8234,9 @@
       "mergedAt": "2024-12-05T23:16:53Z",
       "updatedAt": "2024-12-05T23:17:25Z",
       "baseRefName": "main",
+      "mergeCommit": {
+        "oid": "edd278a10415476afb90f3f0523e132805626e52"
+      },
       "author": {
         "login": "HannahOshlag"
       },
@@ -7974,6 +8268,9 @@
       "mergedAt": "2024-12-06T19:05:25Z",
       "updatedAt": "2024-12-06T19:05:26Z",
       "baseRefName": "main",
+      "mergeCommit": {
+        "oid": "239a2a936f30de0172d1700695c8f746e9009255"
+      },
       "author": {
         "login": "Andarist"
       },
@@ -8089,6 +8386,9 @@
       "mergedAt": "2024-12-06T21:47:41Z",
       "updatedAt": "2025-01-03T21:00:27Z",
       "baseRefName": "main",
+      "mergeCommit": {
+        "oid": "421f5c5458d09dad601604e6eff8765283aef14e"
+      },
       "author": {
         "login": "andrewbranch"
       },
@@ -8136,6 +8436,9 @@
       "mergedAt": "2024-12-09T18:38:37Z",
       "updatedAt": "2024-12-10T05:03:45Z",
       "baseRefName": "main",
+      "mergeCommit": {
+        "oid": "3d2b8f33d4ff86ec351ba93a557d37720962c921"
+      },
       "author": {
         "login": "iisaduan"
       },
@@ -8219,6 +8522,9 @@
       "mergedAt": "2024-12-11T09:20:52Z",
       "updatedAt": "2024-12-11T09:20:55Z",
       "baseRefName": "main",
+      "mergeCommit": {
+        "oid": "6a00bd2422ffa46c13ac8ff81d7b4b1157e60ba7"
+      },
       "author": {
         "login": "dependabot"
       },
@@ -8256,6 +8562,9 @@
       "mergedAt": "2024-12-12T19:42:25Z",
       "updatedAt": "2024-12-12T19:42:29Z",
       "baseRefName": "main",
+      "mergeCommit": {
+        "oid": "44e84bb7b0ced9bc703b05e317893f594bfcb920"
+      },
       "author": {
         "login": "andrewbranch"
       },
@@ -8312,6 +8621,9 @@
       "mergedAt": "2024-12-12T21:21:18Z",
       "updatedAt": "2024-12-12T21:21:20Z",
       "baseRefName": "main",
+      "mergeCommit": {
+        "oid": "4a18b5cf8d41975c86cde25a0b2229f81e3b08d2"
+      },
       "author": {
         "login": "csigs"
       },
@@ -8379,6 +8691,9 @@
       "mergedAt": "2024-12-13T18:16:23Z",
       "updatedAt": "2024-12-13T18:16:29Z",
       "baseRefName": "main",
+      "mergeCommit": {
+        "oid": "f69580f82146bebfb2bee8c7b8666af0e04c7e34"
+      },
       "author": {
         "login": "andrewbranch"
       },
@@ -9824,6 +10139,9 @@
       "mergedAt": "2024-12-16T22:57:14Z",
       "updatedAt": "2024-12-16T22:57:17Z",
       "baseRefName": "main",
+      "mergeCommit": {
+        "oid": "ed1f2ccfa86f1439ed87d2a93a700cc2eb1c93ee"
+      },
       "author": {
         "login": "jakebailey"
       },
@@ -9859,6 +10177,9 @@
       "mergedAt": "2024-12-16T22:57:33Z",
       "updatedAt": "2024-12-16T22:57:33Z",
       "baseRefName": "main",
+      "mergeCommit": {
+        "oid": "ac2cfccd64d5f4a860b7c24335679da9c04bf525"
+      },
       "author": {
         "login": "jakebailey"
       },
@@ -9894,6 +10215,9 @@
       "mergedAt": "2024-12-17T20:56:21Z",
       "updatedAt": "2024-12-17T20:58:33Z",
       "baseRefName": "main",
+      "mergeCommit": {
+        "oid": "7be4b2c6977c9d81006ac1fe080321247d025371"
+      },
       "author": {
         "login": "DanielRosenwasser"
       },
@@ -9941,6 +10265,9 @@
       "mergedAt": "2024-12-17T21:27:17Z",
       "updatedAt": "2024-12-17T21:27:19Z",
       "baseRefName": "main",
+      "mergeCommit": {
+        "oid": "e1db57d83c97b2046ebd47dfcf9bc6b892f4207e"
+      },
       "author": {
         "login": "csigs"
       },
@@ -9981,6 +10308,9 @@
       "mergedAt": "2024-12-18T01:45:48Z",
       "updatedAt": "2024-12-18T01:45:50Z",
       "baseRefName": "main",
+      "mergeCommit": {
+        "oid": "c8af21b4fb6cf5b08cedab6beb69b7c89767cc09"
+      },
       "author": {
         "login": "DanielRosenwasser"
       },
@@ -10022,6 +10352,9 @@
       "mergedAt": "2024-12-18T02:28:58Z",
       "updatedAt": "2024-12-18T02:29:01Z",
       "baseRefName": "main",
+      "mergeCommit": {
+        "oid": "52717acf8722ad153b3ee49cd59b7c95b0f4ee04"
+      },
       "author": {
         "login": "jakebailey"
       },
@@ -10063,6 +10396,9 @@
       "mergedAt": "2024-12-18T18:44:43Z",
       "updatedAt": "2024-12-19T11:23:01Z",
       "baseRefName": "main",
+      "mergeCommit": {
+        "oid": "0dda037f9fc53af3623b9e7371a731947a572d40"
+      },
       "author": {
         "login": "Andarist"
       },
@@ -10115,6 +10451,9 @@
       "mergedAt": "2024-12-19T19:47:26Z",
       "updatedAt": "2024-12-19T19:49:15Z",
       "baseRefName": "main",
+      "mergeCommit": {
+        "oid": "12e205b1e980d6c46921c78283802ae2bbe034ce"
+      },
       "author": {
         "login": "Andarist"
       },
@@ -10240,6 +10579,9 @@
       "mergedAt": "2024-12-19T20:59:24Z",
       "updatedAt": "2024-12-19T20:59:25Z",
       "baseRefName": "main",
+      "mergeCommit": {
+        "oid": "56a08250f3516b3f5bc120d6c7ab4450a9a69352"
+      },
       "author": {
         "login": "csigs"
       },
@@ -10283,6 +10625,9 @@
       "mergedAt": "2025-01-03T02:02:45Z",
       "updatedAt": "2025-01-03T02:02:47Z",
       "baseRefName": "main",
+      "mergeCommit": {
+        "oid": "21c1a61b49082915f93e3327dad0d73205cf4273"
+      },
       "author": {
         "login": "csigs"
       },
@@ -10335,6 +10680,9 @@
       "mergedAt": "2025-01-06T19:32:54Z",
       "updatedAt": "2025-01-06T19:32:57Z",
       "baseRefName": "main",
+      "mergeCommit": {
+        "oid": "d49b89618058b028a65ba5d9a04886e9d0928840"
+      },
       "author": {
         "login": "dependabot"
       },
@@ -10375,6 +10723,9 @@
       "mergedAt": "2025-01-06T20:35:44Z",
       "updatedAt": "2025-01-06T20:37:32Z",
       "baseRefName": "main",
+      "mergeCommit": {
+        "oid": "c0b3ff2da1a5c1480710a81a994659ea706af484"
+      },
       "author": {
         "login": "jakebailey"
       },
@@ -10413,6 +10764,9 @@
       "mergedAt": "2025-01-07T20:26:00Z",
       "updatedAt": "2025-01-07T20:55:43Z",
       "baseRefName": "main",
+      "mergeCommit": {
+        "oid": "a5196c7d3bdb9e7e1e4e0268e4a5817d6282aaa7"
+      },
       "author": {
         "login": "Andarist"
       },
@@ -10465,6 +10819,9 @@
       "mergedAt": "2025-01-07T23:58:37Z",
       "updatedAt": "2025-01-07T23:58:37Z",
       "baseRefName": "main",
+      "mergeCommit": {
+        "oid": "717d05cc2d528deb51cf7785bdd71891935d19a8"
+      },
       "author": {
         "login": "armanio123"
       },
@@ -10500,6 +10857,9 @@
       "mergedAt": "2025-01-08T23:15:35Z",
       "updatedAt": "2025-01-08T23:15:38Z",
       "baseRefName": "main",
+      "mergeCommit": {
+        "oid": "e1cef5fa3a616bd800fa5e23c2312fc9f951e59f"
+      },
       "author": {
         "login": "jakebailey"
       },
@@ -10533,8 +10893,11 @@
       "title": "Write path normalization without array allocations",
       "url": "https://github.com/microsoft/TypeScript/pull/60812",
       "mergedAt": "2025-01-09T19:36:08Z",
-      "updatedAt": "2025-01-10T08:03:36Z",
+      "updatedAt": "2025-02-15T11:06:46Z",
       "baseRefName": "main",
+      "mergeCommit": {
+        "oid": "e9738050cf896a9c08d1d3d911f304513f80b76a"
+      },
       "author": {
         "login": "andrewbranch"
       },
@@ -10627,6 +10990,9 @@
       "mergedAt": "2025-01-09T21:28:50Z",
       "updatedAt": "2025-01-09T22:23:42Z",
       "baseRefName": "main",
+      "mergeCommit": {
+        "oid": "df54a3d6b49071d59f67f1710cc6aa91aeda6d02"
+      },
       "author": {
         "login": "rbuckton"
       },
@@ -10668,6 +11034,9 @@
       "mergedAt": "2025-01-10T01:35:20Z",
       "updatedAt": "2025-01-10T18:15:40Z",
       "baseRefName": "main",
+      "mergeCommit": {
+        "oid": "cbac1ddfc73ca3b9d8741c1b51b74663a0f24695"
+      },
       "author": {
         "login": "andrewbranch"
       },
@@ -10751,6 +11120,9 @@
       "mergedAt": "2025-01-13T18:42:48Z",
       "updatedAt": "2025-01-13T18:42:50Z",
       "baseRefName": "main",
+      "mergeCommit": {
+        "oid": "700ee076e515db2ef49d8cf7e4dc4bf70679575c"
+      },
       "author": {
         "login": "dependabot"
       },
@@ -10791,8 +11163,11 @@
       "mergedAt": "2025-01-16T23:58:52Z",
       "updatedAt": "2025-01-17T11:25:39Z",
       "baseRefName": "main",
+      "mergeCommit": {
+        "oid": "7901a397214e8c7b39de8954eecc707dce8cb099"
+      },
       "author": {
-        "login": "BitFlippa27"
+        "login": "derdelean"
       },
       "assignees": {
         "nodes": []
@@ -10834,6 +11209,9 @@
       "mergedAt": "2025-01-17T19:57:01Z",
       "updatedAt": "2025-01-17T19:57:01Z",
       "baseRefName": "main",
+      "mergeCommit": {
+        "oid": "32e8f8b81c84acb929c77cc06929e7e5f59f309a"
+      },
       "author": {
         "login": "a-tarasyuk"
       },
@@ -10871,6 +11249,9 @@
       "mergedAt": "2025-01-17T20:05:26Z",
       "updatedAt": "2025-01-17T20:05:26Z",
       "baseRefName": "main",
+      "mergeCommit": {
+        "oid": "f99803d05f3ec8b4b5317359f05a15a17f69dec4"
+      },
       "author": {
         "login": "a-tarasyuk"
       },
@@ -10912,6 +11293,9 @@
       "mergedAt": "2025-01-17T20:12:13Z",
       "updatedAt": "2025-01-17T20:12:13Z",
       "baseRefName": "main",
+      "mergeCommit": {
+        "oid": "5170645f4e4b395891fad823bfe03ac628411afb"
+      },
       "author": {
         "login": "a-tarasyuk"
       },
@@ -10977,6 +11361,9 @@
       "mergedAt": "2025-01-17T21:30:35Z",
       "updatedAt": "2025-01-17T21:30:35Z",
       "baseRefName": "main",
+      "mergeCommit": {
+        "oid": "589f734e5edd1eef8cc69e99f67e418598e24d44"
+      },
       "author": {
         "login": "a-tarasyuk"
       },
@@ -11026,6 +11413,9 @@
       "mergedAt": "2025-01-17T22:54:28Z",
       "updatedAt": "2025-01-17T22:54:29Z",
       "baseRefName": "main",
+      "mergeCommit": {
+        "oid": "a086a3c42b1fb8177f1a8683b7017a288167e648"
+      },
       "author": {
         "login": "a-tarasyuk"
       },
@@ -11081,6 +11471,9 @@
       "mergedAt": "2025-01-18T06:08:12Z",
       "updatedAt": "2025-01-18T07:07:54Z",
       "baseRefName": "main",
+      "mergeCommit": {
+        "oid": "0745e6a0e00f5e6f000493c7e794ff53935a6664"
+      },
       "author": {
         "login": "Andarist"
       },
@@ -11157,6 +11550,9 @@
       "mergedAt": "2025-01-18T06:11:42Z",
       "updatedAt": "2025-01-18T06:11:42Z",
       "baseRefName": "main",
+      "mergeCommit": {
+        "oid": "8da951cbb629b648753454872df4e1754982aef1"
+      },
       "author": {
         "login": "Andarist"
       },
@@ -11203,6 +11599,9 @@
       "mergedAt": "2025-01-21T19:10:51Z",
       "updatedAt": "2025-01-21T19:10:56Z",
       "baseRefName": "main",
+      "mergeCommit": {
+        "oid": "b78f4668122b9d67d6fc4765b989cdd51694f548"
+      },
       "author": {
         "login": "andrewbranch"
       },
@@ -11265,6 +11664,9 @@
       "mergedAt": "2025-01-22T03:04:15Z",
       "updatedAt": "2025-01-22T08:20:42Z",
       "baseRefName": "main",
+      "mergeCommit": {
+        "oid": "1c4083f4edc71cb1744a62013732e3c95d05a035"
+      },
       "author": {
         "login": "petamoriken"
       },
@@ -11624,6 +12026,9 @@
       "mergedAt": "2025-01-22T16:33:01Z",
       "updatedAt": "2025-01-22T17:28:26Z",
       "baseRefName": "main",
+      "mergeCommit": {
+        "oid": "ce73b174f16580e2d2f4ef43d7e210a288b2d99a"
+      },
       "author": {
         "login": "Andarist"
       },
@@ -11682,6 +12087,9 @@
       "mergedAt": "2025-01-22T18:36:00Z",
       "updatedAt": "2025-01-22T19:49:13Z",
       "baseRefName": "main",
+      "mergeCommit": {
+        "oid": "b886b48950da9783eed344f1438eea2c24299270"
+      },
       "author": {
         "login": "sandersn"
       },
@@ -11765,6 +12173,9 @@
       "mergedAt": "2025-01-22T19:40:58Z",
       "updatedAt": "2025-01-22T21:41:58Z",
       "baseRefName": "main",
+      "mergeCommit": {
+        "oid": "7f802bbca25634c6bffe316de75771274f1d9b1d"
+      },
       "author": {
         "login": "Andarist"
       },
@@ -11818,6 +12229,9 @@
       "mergedAt": "2025-01-22T21:44:58Z",
       "updatedAt": "2025-01-22T22:13:37Z",
       "baseRefName": "main",
+      "mergeCommit": {
+        "oid": "efe07a09210bb1d7739874edc8e890bfdff2ed8c"
+      },
       "author": {
         "login": "Andarist"
       },
@@ -11862,8 +12276,11 @@
       "title": "Support `require(esm)` in `--module nodenext`",
       "url": "https://github.com/microsoft/TypeScript/pull/60761",
       "mergedAt": "2025-01-23T00:56:17Z",
-      "updatedAt": "2025-01-23T17:20:39Z",
+      "updatedAt": "2025-03-24T16:51:01Z",
       "baseRefName": "main",
+      "mergeCommit": {
+        "oid": "5e52b28ee6d54f6637990be6d0dda1e974f78345"
+      },
       "author": {
         "login": "andrewbranch"
       },
@@ -12529,6 +12946,9 @@
       "mergedAt": "2025-01-23T23:05:21Z",
       "updatedAt": "2025-01-23T23:05:26Z",
       "baseRefName": "main",
+      "mergeCommit": {
+        "oid": "51d9a98c5510aa45870ff85b65e2c4afca4cd5dd"
+      },
       "author": {
         "login": "jakebailey"
       },
@@ -12573,6 +12993,9 @@
       "mergedAt": "2025-01-23T23:28:53Z",
       "updatedAt": "2025-01-23T23:28:58Z",
       "baseRefName": "main",
+      "mergeCommit": {
+        "oid": "329387d76f88713b1818b2489d14214407f7883c"
+      },
       "author": {
         "login": "andrewbranch"
       },
@@ -12612,8 +13035,11 @@
       "title": "`--erasableSyntaxOnly`",
       "url": "https://github.com/microsoft/TypeScript/pull/61011",
       "mergedAt": "2025-01-23T23:56:35Z",
-      "updatedAt": "2025-01-29T21:46:36Z",
+      "updatedAt": "2025-03-06T23:40:29Z",
       "baseRefName": "main",
+      "mergeCommit": {
+        "oid": "2c865e461e9a55f7a6283acc7aed614832a9b75e"
+      },
       "author": {
         "login": "RyanCavanaugh"
       },
@@ -12778,6 +13204,9 @@
       "mergedAt": "2025-01-24T00:03:08Z",
       "updatedAt": "2025-01-24T01:14:37Z",
       "baseRefName": "main",
+      "mergeCommit": {
+        "oid": "0e371c4bf587e1254e5810d88ae055073b18ab0b"
+      },
       "author": {
         "login": "uhyo"
       },
@@ -12875,6 +13304,9 @@
       "mergedAt": "2025-01-24T00:43:59Z",
       "updatedAt": "2025-01-24T00:44:00Z",
       "baseRefName": "main",
+      "mergeCommit": {
+        "oid": "f28c5180dfc928a06abdd309480d31e7c12c8d28"
+      },
       "author": {
         "login": "tristanmenzel"
       },
@@ -12912,6 +13344,9 @@
       "mergedAt": "2025-01-24T01:30:35Z",
       "updatedAt": "2025-01-24T01:30:40Z",
       "baseRefName": "main",
+      "mergeCommit": {
+        "oid": "c5058f0066d77ffa341efb9ae68ee27d37f157fb"
+      },
       "author": {
         "login": "iisaduan"
       },
@@ -13028,6 +13463,9 @@
       "mergedAt": "2025-01-24T01:34:52Z",
       "updatedAt": "2025-01-24T01:34:52Z",
       "baseRefName": "main",
+      "mergeCommit": {
+        "oid": "220706eb0320ff46fad8bf80a5e99db624ee7dfb"
+      },
       "author": {
         "login": "jakebailey"
       },
@@ -13231,6 +13669,9 @@
       "mergedAt": "2025-01-24T16:20:52Z",
       "updatedAt": "2025-01-24T16:20:56Z",
       "baseRefName": "main",
+      "mergeCommit": {
+        "oid": "d1e2e50ff3e0a7219d561c946996342f9667bd3e"
+      },
       "author": {
         "login": "jakebailey"
       },
@@ -13264,8 +13705,11 @@
       "title": "Computed names in declarations files are resolved even when non-literal, preserve computed names when expressions are entity names",
       "url": "https://github.com/microsoft/TypeScript/pull/60052",
       "mergedAt": "2025-01-24T19:44:54Z",
-      "updatedAt": "2025-01-27T15:42:37Z",
+      "updatedAt": "2025-03-06T14:57:50Z",
       "baseRefName": "main",
+      "mergeCommit": {
+        "oid": "caf1aee269d1660b4d2a8b555c2d602c97cb28d7"
+      },
       "author": {
         "login": "weswigham"
       },
@@ -13637,6 +14081,9 @@
       "mergedAt": "2025-01-27T15:54:45Z",
       "updatedAt": "2025-01-27T15:54:47Z",
       "baseRefName": "main",
+      "mergeCommit": {
+        "oid": "32ebd28578902d5437e541cf185ea2a32742686d"
+      },
       "author": {
         "login": "dependabot"
       },
@@ -13674,6 +14121,9 @@
       "mergedAt": "2025-01-28T21:07:00Z",
       "updatedAt": "2025-01-28T21:07:02Z",
       "baseRefName": "main",
+      "mergeCommit": {
+        "oid": "fed7a7f48ef6ce69a604b15a5a76c7525239aa6a"
+      },
       "author": {
         "login": "csigs"
       },
@@ -13741,6 +14191,9 @@
       "mergedAt": "2025-01-28T22:42:35Z",
       "updatedAt": "2025-01-28T22:42:37Z",
       "baseRefName": "main",
+      "mergeCommit": {
+        "oid": "0652664e6408f7704395fc53fe245e2e77367fe8"
+      },
       "author": {
         "login": "DanielRosenwasser"
       },
@@ -13792,8 +14245,11 @@
       "title": "Fix accidental ESM-mode directory module lookup in package non-root",
       "url": "https://github.com/microsoft/TypeScript/pull/61082",
       "mergedAt": "2025-01-30T18:17:14Z",
-      "updatedAt": "2025-01-30T18:58:12Z",
+      "updatedAt": "2025-02-28T23:44:35Z",
       "baseRefName": "main",
+      "mergeCommit": {
+        "oid": "019fec8bf21202e9f7694135a0371c8c444839f6"
+      },
       "author": {
         "login": "andrewbranch"
       },
@@ -13835,6 +14291,9 @@
       "mergedAt": "2025-01-30T19:39:52Z",
       "updatedAt": "2025-01-30T19:39:56Z",
       "baseRefName": "main",
+      "mergeCommit": {
+        "oid": "66e1b24831bb8b44a83fb98987cb9a6caec9a98c"
+      },
       "author": {
         "login": "sandersn"
       },
@@ -13873,6 +14332,9 @@
       "mergedAt": "2025-01-30T21:49:26Z",
       "updatedAt": "2025-01-30T21:49:31Z",
       "baseRefName": "main",
+      "mergeCommit": {
+        "oid": "739d729ecce60771c23723aad932ab35a34df82d"
+      },
       "author": {
         "login": "andrewbranch"
       },
@@ -13911,6 +14373,9 @@
       "mergedAt": "2025-02-03T16:36:45Z",
       "updatedAt": "2025-02-03T16:36:48Z",
       "baseRefName": "main",
+      "mergeCommit": {
+        "oid": "f511ed42d09b84d00a38309c647e69e82e02284f"
+      },
       "author": {
         "login": "dependabot"
       },
@@ -13978,6 +14443,9 @@
       "mergedAt": "2025-02-03T21:32:35Z",
       "updatedAt": "2025-02-03T21:32:35Z",
       "baseRefName": "main",
+      "mergeCommit": {
+        "oid": "c50b5e718aa9acc98e7c786dfa43a68506d798fd"
+      },
       "author": {
         "login": "sandersn"
       },
@@ -14016,6 +14484,9 @@
       "mergedAt": "2025-02-04T20:46:49Z",
       "updatedAt": "2025-02-04T20:46:51Z",
       "baseRefName": "main",
+      "mergeCommit": {
+        "oid": "71716a2868c87248af5020e33a84a2178d41a2d6"
+      },
       "author": {
         "login": "csigs"
       },
@@ -14083,6 +14554,9 @@
       "mergedAt": "2025-02-07T18:55:35Z",
       "updatedAt": "2025-02-07T18:55:36Z",
       "baseRefName": "main",
+      "mergeCommit": {
+        "oid": "c3ae7c418f6163cb7d051c7e153d77c4c4c73769"
+      },
       "author": {
         "login": "gabritto"
       },
@@ -14225,6 +14699,9 @@
       "mergedAt": "2025-02-07T20:44:02Z",
       "updatedAt": "2025-02-10T17:25:16Z",
       "baseRefName": "main",
+      "mergeCommit": {
+        "oid": "34ea32f8ce2771fb3b063f66ec0bc7b0c017d9e4"
+      },
       "author": {
         "login": "gabritto"
       },
@@ -14347,6 +14824,9 @@
       "mergedAt": "2025-02-10T17:26:52Z",
       "updatedAt": "2025-02-10T17:26:57Z",
       "baseRefName": "main",
+      "mergeCommit": {
+        "oid": "e1629e540ef361167e0c96c8703728a419b6e8e9"
+      },
       "author": {
         "login": "jakebailey"
       },
@@ -14378,6 +14858,9 @@
       "mergedAt": "2025-02-10T17:27:08Z",
       "updatedAt": "2025-02-10T17:27:11Z",
       "baseRefName": "main",
+      "mergeCommit": {
+        "oid": "775412a81af187e67371cd31719d19ab075b4ef3"
+      },
       "author": {
         "login": "dependabot"
       },
@@ -14412,6 +14895,9 @@
       "mergedAt": "2025-02-10T23:02:37Z",
       "updatedAt": "2025-02-10T23:02:37Z",
       "baseRefName": "main",
+      "mergeCommit": {
+        "oid": "df342b7206cb56b56bb3b3aecbb2ee2d2ff7b217"
+      },
       "author": {
         "login": "Andarist"
       },
@@ -14464,6 +14950,9 @@
       "mergedAt": "2025-02-12T17:15:11Z",
       "updatedAt": "2025-02-12T17:15:13Z",
       "baseRefName": "main",
+      "mergeCommit": {
+        "oid": "6af21a4a3df87e1f9d6218de63a3c36bcee870b0"
+      },
       "author": {
         "login": "dependabot"
       },
@@ -14504,6 +14993,9 @@
       "mergedAt": "2025-02-14T20:55:17Z",
       "updatedAt": "2025-02-18T16:41:06Z",
       "baseRefName": "main",
+      "mergeCommit": {
+        "oid": "0f4737e0d55363ac40198b33a80fff0d01c1d8cf"
+      },
       "author": {
         "login": "jakebailey"
       },
@@ -14572,6 +15064,9 @@
       "mergedAt": "2025-02-18T16:06:12Z",
       "updatedAt": "2025-03-04T21:32:55Z",
       "baseRefName": "main",
+      "mergeCommit": {
+        "oid": "c9cb6c3c34aac30e050796bf7b9e452cd6879c27"
+      },
       "author": {
         "login": "jakebailey"
       },
@@ -14634,8 +15129,11 @@
       "title": "Bump version to 5.9",
       "url": "https://github.com/microsoft/TypeScript/pull/61218",
       "mergedAt": "2025-02-18T19:16:22Z",
-      "updatedAt": "2025-02-18T19:16:26Z",
+      "updatedAt": "2025-05-27T07:19:19Z",
       "baseRefName": "main",
+      "mergeCommit": {
+        "oid": "246507f7f90e08a330fc9f63c1b11c2e706d9193"
+      },
       "author": {
         "login": "DanielRosenwasser"
       },
@@ -14680,6 +15178,9 @@
       "mergedAt": "2025-02-20T00:54:44Z",
       "updatedAt": "2025-02-20T00:54:50Z",
       "baseRefName": "main",
+      "mergeCommit": {
+        "oid": "eb25b581149478c299cbc0cf919f644c9e375969"
+      },
       "author": {
         "login": "jakebailey"
       },
@@ -14733,6 +15234,9 @@
       "mergedAt": "2025-02-20T00:58:32Z",
       "updatedAt": "2025-02-20T00:58:33Z",
       "baseRefName": "main",
+      "mergeCommit": {
+        "oid": "71b16ea186cc48a9af398fe91589cc07d9b1d96f"
+      },
       "author": {
         "login": "Andarist"
       },
@@ -14807,6 +15311,9 @@
       "mergedAt": "2025-02-20T01:28:50Z",
       "updatedAt": "2025-02-20T01:28:50Z",
       "baseRefName": "main",
+      "mergeCommit": {
+        "oid": "3f416e0f527e8967ac2bd490dffe76034db57a26"
+      },
       "author": {
         "login": "blickly"
       },
@@ -14862,6 +15369,9 @@
       "mergedAt": "2025-02-20T18:48:09Z",
       "updatedAt": "2025-02-20T18:48:09Z",
       "baseRefName": "main",
+      "mergeCommit": {
+        "oid": "d8f6aa7c1f5796ab8d3b0a060d26f5497453e247"
+      },
       "author": {
         "login": "MichalMarsalek"
       },
@@ -14893,6 +15403,9 @@
       "mergedAt": "2025-02-20T18:48:34Z",
       "updatedAt": "2025-02-20T18:48:34Z",
       "baseRefName": "main",
+      "mergeCommit": {
+        "oid": "5695986fbdf5f69b25793be4476cff60ab87b6a7"
+      },
       "author": {
         "login": "Andarist"
       },
@@ -14933,6 +15446,9 @@
       "mergedAt": "2025-02-20T19:41:32Z",
       "updatedAt": "2025-02-20T19:41:32Z",
       "baseRefName": "main",
+      "mergeCommit": {
+        "oid": "12c232333b3c3a2e4827d7360bff339b415d7a8e"
+      },
       "author": {
         "login": "MichalMarsalek"
       },
@@ -14989,6 +15505,9 @@
       "mergedAt": "2025-02-20T20:06:50Z",
       "updatedAt": "2025-02-22T08:35:01Z",
       "baseRefName": "main",
+      "mergeCommit": {
+        "oid": "0d016920e6ce97722f82de7dcabfd92e69fea7cd"
+      },
       "author": {
         "login": "Andarist"
       },
@@ -15032,6 +15551,9 @@
       "mergedAt": "2025-02-20T22:01:52Z",
       "updatedAt": "2025-02-21T11:58:59Z",
       "baseRefName": "main",
+      "mergeCommit": {
+        "oid": "b95187d1ce2368a93a51b31c0cd11f5ba2557627"
+      },
       "author": {
         "login": "Andarist"
       },
@@ -15120,6 +15642,9 @@
       "mergedAt": "2025-02-21T19:08:34Z",
       "updatedAt": "2025-02-21T19:08:35Z",
       "baseRefName": "main",
+      "mergeCommit": {
+        "oid": "edc497bb2bf9ceccfdbfea59b42f9ae565ffa1cb"
+      },
       "author": {
         "login": "Andarist"
       },
@@ -15157,6 +15682,9 @@
       "mergedAt": "2025-02-21T22:17:09Z",
       "updatedAt": "2025-02-21T22:17:10Z",
       "baseRefName": "main",
+      "mergeCommit": {
+        "oid": "2bed7feee877fd7a6fdba1acdb642d016c3471e8"
+      },
       "author": {
         "login": "ChiriVulpes"
       },
@@ -15218,6 +15746,9 @@
       "mergedAt": "2025-02-21T23:23:22Z",
       "updatedAt": "2025-02-21T23:23:22Z",
       "baseRefName": "main",
+      "mergeCommit": {
+        "oid": "1cd8e20f947513cc8c0c7c59e55b2f4524eff316"
+      },
       "author": {
         "login": "a-tarasyuk"
       },
@@ -15252,6 +15783,9 @@
       "mergedAt": "2025-02-24T17:05:10Z",
       "updatedAt": "2025-02-24T17:05:14Z",
       "baseRefName": "main",
+      "mergeCommit": {
+        "oid": "b8b7a38ee9c34490fa3f764a7d37ce386cc720a5"
+      },
       "author": {
         "login": "dependabot"
       },
@@ -15292,6 +15826,9 @@
       "mergedAt": "2025-02-24T18:29:01Z",
       "updatedAt": "2025-02-24T18:29:01Z",
       "baseRefName": "main",
+      "mergeCommit": {
+        "oid": "244303f92f6cda9c5c30a5425210b7d00d31d958"
+      },
       "author": {
         "login": "MichalMarsalek"
       },
@@ -15362,6 +15899,9 @@
       "mergedAt": "2025-02-24T19:17:35Z",
       "updatedAt": "2025-02-27T18:25:09Z",
       "baseRefName": "main",
+      "mergeCommit": {
+        "oid": "8ae98d02d812f077cf77b4b21a2b256c6ee7ef2f"
+      },
       "author": {
         "login": "petamoriken"
       },
@@ -15421,6 +15961,9 @@
       "mergedAt": "2025-02-24T19:51:29Z",
       "updatedAt": "2025-02-24T19:51:29Z",
       "baseRefName": "main",
+      "mergeCommit": {
+        "oid": "2c3be449ff2e883d67135cbe889db982f66a224c"
+      },
       "author": {
         "login": "a-tarasyuk"
       },
@@ -15491,6 +16034,9 @@
       "mergedAt": "2025-02-24T19:53:10Z",
       "updatedAt": "2025-02-24T23:21:02Z",
       "baseRefName": "main",
+      "mergeCommit": {
+        "oid": "7507b055dea43e65b9b2ad458ef3ae1a6c706261"
+      },
       "author": {
         "login": "Andarist"
       },
@@ -15537,6 +16083,9 @@
       "mergedAt": "2025-02-25T22:39:49Z",
       "updatedAt": "2025-02-25T22:39:51Z",
       "baseRefName": "main",
+      "mergeCommit": {
+        "oid": "afc463980f55d634c56dfedc6852f6f46f596621"
+      },
       "author": {
         "login": "csigs"
       },
@@ -15580,6 +16129,9 @@
       "mergedAt": "2025-02-26T20:48:59Z",
       "updatedAt": "2025-02-26T20:51:00Z",
       "baseRefName": "main",
+      "mergeCommit": {
+        "oid": "b97eafbf3b64fd3110f75a4164a8fb07cebfff5e"
+      },
       "author": {
         "login": "Andarist"
       },
@@ -15698,6 +16250,9 @@
       "mergedAt": "2025-02-26T21:47:50Z",
       "updatedAt": "2025-02-26T22:15:40Z",
       "baseRefName": "main",
+      "mergeCommit": {
+        "oid": "6121f45347685e9341d2e61730fbdd5a0b5cbf16"
+      },
       "author": {
         "login": "Renegade334"
       },
@@ -15753,6 +16308,9 @@
       "mergedAt": "2025-02-27T20:58:31Z",
       "updatedAt": "2025-02-27T20:58:32Z",
       "baseRefName": "main",
+      "mergeCommit": {
+        "oid": "011f7e4ee5a102483f7e3397814bea185f4111a1"
+      },
       "author": {
         "login": "csigs"
       },
@@ -15805,6 +16363,9 @@
       "mergedAt": "2025-02-28T19:10:43Z",
       "updatedAt": "2025-03-19T21:40:30Z",
       "baseRefName": "main",
+      "mergeCommit": {
+        "oid": "15392346d05045742e653eab5c87538ff2a3c863"
+      },
       "author": {
         "login": "jakebailey"
       },
@@ -15857,6 +16418,9 @@
       "mergedAt": "2025-03-03T17:46:35Z",
       "updatedAt": "2025-03-03T17:46:38Z",
       "baseRefName": "main",
+      "mergeCommit": {
+        "oid": "47442d958c4d906b75050a27be4570bb6018713e"
+      },
       "author": {
         "login": "dependabot"
       },
@@ -15888,6 +16452,9 @@
       "mergedAt": "2025-03-04T19:34:33Z",
       "updatedAt": "2025-03-04T19:36:37Z",
       "baseRefName": "main",
+      "mergeCommit": {
+        "oid": "c85e626d8e17427a6865521737b45ccbbe9c78ef"
+      },
       "author": {
         "login": "dragomirtitian"
       },
@@ -15941,6 +16508,9 @@
       "mergedAt": "2025-03-06T20:41:55Z",
       "updatedAt": "2025-03-06T20:41:56Z",
       "baseRefName": "main",
+      "mergeCommit": {
+        "oid": "1efdcd9ff7d6566cf9bf10975b6fc8ffb0b53c9b"
+      },
       "author": {
         "login": "csigs"
       },
@@ -16008,6 +16578,9 @@
       "mergedAt": "2025-03-10T16:17:17Z",
       "updatedAt": "2025-03-10T16:17:19Z",
       "baseRefName": "main",
+      "mergeCommit": {
+        "oid": "0aac72020ee8414218273f654eb7ce1dc2dd0d6b"
+      },
       "author": {
         "login": "dependabot"
       },
@@ -16042,6 +16615,9 @@
       "mergedAt": "2025-03-14T19:36:08Z",
       "updatedAt": "2025-03-14T19:38:50Z",
       "baseRefName": "main",
+      "mergeCommit": {
+        "oid": "a00b324ab2e9a303e8b2d94f3e0b2f3aa4975a5c"
+      },
       "author": {
         "login": "dragomirtitian"
       },
@@ -16112,6 +16688,9 @@
       "mergedAt": "2025-03-17T20:29:48Z",
       "updatedAt": "2025-03-17T20:50:49Z",
       "baseRefName": "main",
+      "mergeCommit": {
+        "oid": "ee3dd7264b23e58bbad86d08a475cac78f330abf"
+      },
       "author": {
         "login": "a-tarasyuk"
       },
@@ -16222,6 +16801,9 @@
       "mergedAt": "2025-03-19T23:25:22Z",
       "updatedAt": "2025-03-19T23:25:25Z",
       "baseRefName": "main",
+      "mergeCommit": {
+        "oid": "4dc677b292354f4b9162452b2e00f4d7dd118221"
+      },
       "author": {
         "login": "DanielRosenwasser"
       },
@@ -16272,6 +16854,9 @@
       "mergedAt": "2025-03-24T11:23:27Z",
       "updatedAt": "2025-03-24T11:23:29Z",
       "baseRefName": "main",
+      "mergeCommit": {
+        "oid": "19b777260b26aac5707b1efd34202054164d4a9d"
+      },
       "author": {
         "login": "dependabot"
       },
@@ -16339,6 +16924,9 @@
       "mergedAt": "2025-03-25T23:24:53Z",
       "updatedAt": "2025-03-25T23:24:53Z",
       "baseRefName": "main",
+      "mergeCommit": {
+        "oid": "29e6d6689dfb422e4f1395546c1917d07e1f664d"
+      },
       "author": {
         "login": "frodi-karlsson"
       },
@@ -16397,6 +16985,9 @@
       "mergedAt": "2025-03-31T23:10:52Z",
       "updatedAt": "2025-03-31T23:10:56Z",
       "baseRefName": "main",
+      "mergeCommit": {
+        "oid": "c7a559eeae535724724ff7dac4e698129649be6c"
+      },
       "author": {
         "login": "jakebailey"
       },
@@ -16486,6 +17077,9 @@
       "mergedAt": "2025-03-31T23:19:05Z",
       "updatedAt": "2025-03-31T23:19:09Z",
       "baseRefName": "main",
+      "mergeCommit": {
+        "oid": "7b26d2eba5626e15b9e85e8c3adff1e1c0583c6f"
+      },
       "author": {
         "login": "jakebailey"
       },
@@ -16521,6 +17115,9 @@
       "mergedAt": "2025-04-01T20:40:59Z",
       "updatedAt": "2025-04-01T21:18:14Z",
       "baseRefName": "main",
+      "mergeCommit": {
+        "oid": "89c572ca0cbed845e374c29ce3a9ef28715160be"
+      },
       "author": {
         "login": "Andarist"
       },
@@ -16562,6 +17159,9 @@
       "mergedAt": "2025-04-01T20:54:16Z",
       "updatedAt": "2025-04-01T20:54:18Z",
       "baseRefName": "main",
+      "mergeCommit": {
+        "oid": "7205eda454ce8ac7313699bd5905ed3f689142bf"
+      },
       "author": {
         "login": "dependabot"
       },
@@ -16596,6 +17196,9 @@
       "mergedAt": "2025-04-02T20:47:43Z",
       "updatedAt": "2025-04-03T05:05:41Z",
       "baseRefName": "main",
+      "mergeCommit": {
+        "oid": "ba663f6ac25ec7774b38a3fad04fe8ea016f9420"
+      },
       "author": {
         "login": "zardoy"
       },
@@ -16636,6 +17239,9 @@
       "mergedAt": "2025-04-04T19:22:19Z",
       "updatedAt": "2025-04-04T19:22:21Z",
       "baseRefName": "main",
+      "mergeCommit": {
+        "oid": "83dc0bb2ed91fe0815ab28dc3ff95fae7425e413"
+      },
       "author": {
         "login": "jakebailey"
       },
@@ -16683,6 +17289,9 @@
       "mergedAt": "2025-04-14T22:35:21Z",
       "updatedAt": "2025-04-14T22:35:26Z",
       "baseRefName": "main",
+      "mergeCommit": {
+        "oid": "eef7c14ef163696d5ea85275ea122e28fb4eeab7"
+      },
       "author": {
         "login": "Andarist"
       },
@@ -16733,6 +17342,9 @@
       "mergedAt": "2025-04-15T19:14:38Z",
       "updatedAt": "2025-04-18T23:15:39Z",
       "baseRefName": "main",
+      "mergeCommit": {
+        "oid": "069de743dbd17b47cc2fc58e1d16da5410911284"
+      },
       "author": {
         "login": "gabritto"
       },
@@ -17029,6 +17641,9 @@
       "mergedAt": "2025-04-16T16:43:33Z",
       "updatedAt": "2025-04-24T20:47:15Z",
       "baseRefName": "main",
+      "mergeCommit": {
+        "oid": "6afd0fb73fa18a48021ed54f44a0c51794519bf6"
+      },
       "author": {
         "login": "andrewbranch"
       },
@@ -17078,6 +17693,9 @@
       "mergedAt": "2025-04-17T18:02:56Z",
       "updatedAt": "2025-04-19T15:51:15Z",
       "baseRefName": "main",
+      "mergeCommit": {
+        "oid": "0a1aa6d6ebdfa16b82f4a6aaf282089b1d484e05"
+      },
       "author": {
         "login": "eps1lon"
       },
@@ -17118,6 +17736,9 @@
       "mergedAt": "2025-04-21T17:15:39Z",
       "updatedAt": "2025-04-21T17:15:41Z",
       "baseRefName": "main",
+      "mergeCommit": {
+        "oid": "62b172b515452b3fe19f4f2da81d4869caedc904"
+      },
       "author": {
         "login": "dependabot"
       },
@@ -17185,6 +17806,9 @@
       "mergedAt": "2025-04-24T20:55:56Z",
       "updatedAt": "2025-05-02T20:28:47Z",
       "baseRefName": "main",
+      "mergeCommit": {
+        "oid": "75202af2ccb8c797180f42f3317373ddc5793ad9"
+      },
       "author": {
         "login": "HansBrende"
       },
@@ -17252,6 +17876,9 @@
       "mergedAt": "2025-04-24T21:08:52Z",
       "updatedAt": "2025-04-24T21:08:52Z",
       "baseRefName": "main",
+      "mergeCommit": {
+        "oid": "38b78b70d291dc788569d2a58a5a52a7d479476d"
+      },
       "author": {
         "login": "mrazauskas"
       },
@@ -17289,6 +17916,9 @@
       "mergedAt": "2025-04-24T21:35:05Z",
       "updatedAt": "2025-04-24T21:35:05Z",
       "baseRefName": "main",
+      "mergeCommit": {
+        "oid": "11e79327598db412a161616849041487673fadab"
+      },
       "author": {
         "login": "a-tarasyuk"
       },
@@ -17383,6 +18013,9 @@
       "mergedAt": "2025-05-02T13:38:34Z",
       "updatedAt": "2025-05-02T13:49:12Z",
       "baseRefName": "main",
+      "mergeCommit": {
+        "oid": "e37ca49c70e683187000352b03da1ee8e24e7655"
+      },
       "author": {
         "login": "Zzzen"
       },
@@ -17487,6 +18120,9 @@
       "mergedAt": "2025-05-02T21:01:09Z",
       "updatedAt": "2025-05-03T00:09:55Z",
       "baseRefName": "main",
+      "mergeCommit": {
+        "oid": "5e367783305736672ffa3d17097a62ead1db3039"
+      },
       "author": {
         "login": "Zzzen"
       },
@@ -17564,6 +18200,9 @@
       "mergedAt": "2025-05-02T22:20:58Z",
       "updatedAt": "2025-05-07T22:02:00Z",
       "baseRefName": "main",
+      "mergeCommit": {
+        "oid": "d88d3a46810bfae0b072beb023a2b09b8026b82c"
+      },
       "author": {
         "login": "Joseph-Martre"
       },
@@ -17601,6 +18240,9 @@
       "mergedAt": "2025-05-07T22:02:49Z",
       "updatedAt": "2025-05-07T22:02:51Z",
       "baseRefName": "main",
+      "mergeCommit": {
+        "oid": "8c62e08448e0ec76203bd519dd39608dbcb31705"
+      },
       "author": {
         "login": "rbuckton"
       },
@@ -17666,6 +18308,9 @@
       "mergedAt": "2025-05-09T20:31:39Z",
       "updatedAt": "2025-05-12T18:10:24Z",
       "baseRefName": "main",
+      "mergeCommit": {
+        "oid": "0ee67b517f008cbdfbccb54187c3a7510e1b089b"
+      },
       "author": {
         "login": "gabritto"
       },
@@ -17770,6 +18415,9 @@
       "mergedAt": "2025-05-09T22:20:45Z",
       "updatedAt": "2025-05-09T22:54:13Z",
       "baseRefName": "main",
+      "mergeCommit": {
+        "oid": "7156300cee63147d8ec5c58c80b3fef2ab2aec77"
+      },
       "author": {
         "login": "ulrichstark"
       },
@@ -17840,6 +18488,9 @@
       "mergedAt": "2025-05-12T17:54:34Z",
       "updatedAt": "2025-05-13T16:28:14Z",
       "baseRefName": "main",
+      "mergeCommit": {
+        "oid": "0fb5e3a8cff7f18a30cdcee2ead37c727674ccc5"
+      },
       "author": {
         "login": "Andarist"
       },
@@ -17959,6 +18610,9 @@
       "mergedAt": "2025-05-15T16:51:34Z",
       "updatedAt": "2025-05-19T04:34:27Z",
       "baseRefName": "main",
+      "mergeCommit": {
+        "oid": "b86ab7dbe0eb2f1c9a624486d72590d638495c97"
+      },
       "author": {
         "login": "Andarist"
       },
@@ -18062,6 +18716,9 @@
       "mergedAt": "2025-05-16T00:49:36Z",
       "updatedAt": "2025-05-16T00:49:36Z",
       "baseRefName": "main",
+      "mergeCommit": {
+        "oid": "81c951894e93bdc37c6916f18adcd80de76679bc"
+      },
       "author": {
         "login": "andrewbranch"
       },
@@ -18103,6 +18760,9 @@
       "mergedAt": "2025-05-21T20:58:23Z",
       "updatedAt": "2025-05-21T20:58:25Z",
       "baseRefName": "main",
+      "mergeCommit": {
+        "oid": "b504a1eed45e35b5f54694a1e0a09f35d0a5663c"
+      },
       "author": {
         "login": "sheetalkamat"
       },
@@ -18142,6 +18802,2270 @@
           },
           {
             "path": "tests/baselines/reference/tsserver/typingsInstaller/non-expired-cache-entry-lockFile3.js"
+          }
+        ]
+      }
+    },
+    {
+      "id": "PR_kwDOAT9aAc6Yfvte",
+      "title": "Update pr_owners.txt",
+      "url": "https://github.com/microsoft/TypeScript/pull/61798",
+      "mergedAt": "2025-06-03T21:22:16Z",
+      "updatedAt": "2025-06-03T21:22:19Z",
+      "baseRefName": "main",
+      "mergeCommit": {
+        "oid": "44d46714c81e0cadf9067cc32b649c63d2a4f436"
+      },
+      "author": {
+        "login": "jakebailey"
+      },
+      "assignees": {
+        "nodes": [
+          {
+            "login": "jakebailey"
+          }
+        ]
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "copilot-pull-request-reviewer"
+            }
+          },
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "RyanCavanaugh"
+            }
+          }
+        ]
+      },
+      "files": {
+        "nodes": [
+          {
+            "path": ".github/pr_owners.txt"
+          }
+        ]
+      }
+    },
+    {
+      "id": "PR_kwDOAT9aAc6XHnxG",
+      "title": "Initialize the map for dts to reference and source to reference when parsing project reference as its always needed",
+      "url": "https://github.com/microsoft/TypeScript/pull/61746",
+      "mergedAt": "2025-06-04T16:55:15Z",
+      "updatedAt": "2025-06-04T16:55:16Z",
+      "baseRefName": "main",
+      "mergeCommit": {
+        "oid": "3dd0a35032ca78d8b220177362398b03457fb2d8"
+      },
+      "author": {
+        "login": "sheetalkamat"
+      },
+      "assignees": {
+        "nodes": [
+          {
+            "login": "sheetalkamat"
+          }
+        ]
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "copilot-pull-request-reviewer"
+            }
+          },
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "andrewbranch"
+            }
+          },
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "jakebailey"
+            }
+          }
+        ]
+      },
+      "files": {
+        "nodes": [
+          {
+            "path": "src/compiler/builderState.ts"
+          },
+          {
+            "path": "src/compiler/checker.ts"
+          },
+          {
+            "path": "src/compiler/moduleSpecifiers.ts"
+          },
+          {
+            "path": "src/compiler/program.ts"
+          },
+          {
+            "path": "src/compiler/resolutionCache.ts"
+          },
+          {
+            "path": "src/compiler/types.ts"
+          },
+          {
+            "path": "src/compiler/utilities.ts"
+          },
+          {
+            "path": "src/server/project.ts"
+          },
+          {
+            "path": "src/services/utilities.ts"
+          }
+        ]
+      }
+    },
+    {
+      "id": "PR_kwDOAT9aAc6ZFENf",
+      "title": "LEGO: Pull request from lego/hb_5378966c-b857-470a-8675-daebef4a6da1_20250604192236101 to main",
+      "url": "https://github.com/microsoft/TypeScript/pull/61815",
+      "mergedAt": "2025-06-04T19:51:27Z",
+      "updatedAt": "2025-06-04T19:51:29Z",
+      "baseRefName": "main",
+      "mergeCommit": {
+        "oid": "2b88aebaaae3dc431a56667f7b0dbc42ae329ec6"
+      },
+      "author": {
+        "login": "csigs"
+      },
+      "assignees": {
+        "nodes": []
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "copilot-pull-request-reviewer"
+            }
+          },
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "jakebailey"
+            }
+          }
+        ]
+      },
+      "files": {
+        "nodes": [
+          {
+            "path": "src/loc/lcl/chs/diagnosticMessages/diagnosticMessages.generated.json.lcl"
+          },
+          {
+            "path": "src/loc/lcl/cht/diagnosticMessages/diagnosticMessages.generated.json.lcl"
+          },
+          {
+            "path": "src/loc/lcl/csy/diagnosticMessages/diagnosticMessages.generated.json.lcl"
+          },
+          {
+            "path": "src/loc/lcl/deu/diagnosticMessages/diagnosticMessages.generated.json.lcl"
+          },
+          {
+            "path": "src/loc/lcl/esn/diagnosticMessages/diagnosticMessages.generated.json.lcl"
+          },
+          {
+            "path": "src/loc/lcl/fra/diagnosticMessages/diagnosticMessages.generated.json.lcl"
+          },
+          {
+            "path": "src/loc/lcl/ita/diagnosticMessages/diagnosticMessages.generated.json.lcl"
+          },
+          {
+            "path": "src/loc/lcl/jpn/diagnosticMessages/diagnosticMessages.generated.json.lcl"
+          },
+          {
+            "path": "src/loc/lcl/kor/diagnosticMessages/diagnosticMessages.generated.json.lcl"
+          },
+          {
+            "path": "src/loc/lcl/plk/diagnosticMessages/diagnosticMessages.generated.json.lcl"
+          },
+          {
+            "path": "src/loc/lcl/ptb/diagnosticMessages/diagnosticMessages.generated.json.lcl"
+          },
+          {
+            "path": "src/loc/lcl/rus/diagnosticMessages/diagnosticMessages.generated.json.lcl"
+          },
+          {
+            "path": "src/loc/lcl/trk/diagnosticMessages/diagnosticMessages.generated.json.lcl"
+          }
+        ]
+      }
+    },
+    {
+      "id": "PR_kwDOAT9aAc6Xjh1x",
+      "title": "fix(61747): for (using of = is incorrectly parsed",
+      "url": "https://github.com/microsoft/TypeScript/pull/61764",
+      "mergedAt": "2025-06-05T23:37:41Z",
+      "updatedAt": "2025-06-05T23:37:41Z",
+      "baseRefName": "main",
+      "mergeCommit": {
+        "oid": "a591ca3fdcf056fbb70d4b4a964c8dd47bd412b4"
+      },
+      "author": {
+        "login": "a-tarasyuk"
+      },
+      "assignees": {
+        "nodes": []
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "JLHwung"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "a-tarasyuk"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "JLHwung"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "a-tarasyuk"
+            }
+          },
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "jakebailey"
+            }
+          }
+        ]
+      },
+      "files": {
+        "nodes": [
+          {
+            "path": "src/compiler/parser.ts"
+          },
+          {
+            "path": "tests/baselines/reference/usingDeclarationsInForOf.4.errors.txt"
+          },
+          {
+            "path": "tests/baselines/reference/usingDeclarationsInForOf.4.js"
+          },
+          {
+            "path": "tests/cases/conformance/statements/VariableStatements/usingDeclarations/usingDeclarationsInForOf.4.ts"
+          }
+        ]
+      }
+    },
+    {
+      "id": "PR_kwDOAT9aAc6X5-lB",
+      "title": "fix(checker): report error when using bigint as enum key",
+      "url": "https://github.com/microsoft/TypeScript/pull/61777",
+      "mergedAt": "2025-06-05T23:37:47Z",
+      "updatedAt": "2025-06-06T01:00:24Z",
+      "baseRefName": "main",
+      "mergeCommit": {
+        "oid": "ac03ba4f021fce5a78bcdde39952879d0a4f35eb"
+      },
+      "author": {
+        "login": "magic-akari"
+      },
+      "assignees": {
+        "nodes": []
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "copilot-pull-request-reviewer"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "magic-akari"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "magic-akari"
+            }
+          },
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "jakebailey"
+            }
+          }
+        ]
+      },
+      "files": {
+        "nodes": [
+          {
+            "path": "src/compiler/checker.ts"
+          },
+          {
+            "path": "tests/baselines/reference/enumWithBigint.errors.txt"
+          },
+          {
+            "path": "tests/baselines/reference/enumWithBigint.js"
+          },
+          {
+            "path": "tests/baselines/reference/enumWithBigint.symbols"
+          },
+          {
+            "path": "tests/baselines/reference/enumWithBigint.types"
+          },
+          {
+            "path": "tests/cases/compiler/enumWithBigint.ts"
+          }
+        ]
+      }
+    },
+    {
+      "id": "PR_kwDOAT9aAc6ZDp6V",
+      "title": "tsc --init update",
+      "url": "https://github.com/microsoft/TypeScript/pull/61813",
+      "mergedAt": "2025-06-06T19:03:28Z",
+      "updatedAt": "2025-06-07T14:23:44Z",
+      "baseRefName": "main",
+      "mergeCommit": {
+        "oid": "cd341998a98b71275d4b4d6f41c08d9d0eb75d93"
+      },
+      "author": {
+        "login": "RyanCavanaugh"
+      },
+      "assignees": {
+        "nodes": [
+          {
+            "login": "RyanCavanaugh"
+          }
+        ]
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "copilot-pull-request-reviewer"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "copilot-pull-request-reviewer"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "jakebailey"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "jakebailey"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "RyanCavanaugh"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "jakebailey"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "RyanCavanaugh"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "jakebailey"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "RyanCavanaugh"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "jakebailey"
+            }
+          }
+        ]
+      },
+      "files": {
+        "nodes": [
+          {
+            "path": "src/compiler/commandLineParser.ts"
+          },
+          {
+            "path": "src/compiler/diagnosticMessages.json"
+          },
+          {
+            "path": "src/compiler/executeCommandLine.ts"
+          },
+          {
+            "path": "src/testRunner/unittests/config/initializeTSConfig.ts"
+          },
+          {
+            "path": "tests/baselines/reference/config/initTSConfig/Default initialized TSConfig/tsconfig.json"
+          },
+          {
+            "path": "tests/baselines/reference/config/initTSConfig/Initialized TSConfig with --help/tsconfig.json"
+          },
+          {
+            "path": "tests/baselines/reference/config/initTSConfig/Initialized TSConfig with --watch/tsconfig.json"
+          },
+          {
+            "path": "tests/baselines/reference/config/initTSConfig/Initialized TSConfig with advanced options/tsconfig.json"
+          },
+          {
+            "path": "tests/baselines/reference/config/initTSConfig/Initialized TSConfig with boolean value compiler options/tsconfig.json"
+          },
+          {
+            "path": "tests/baselines/reference/config/initTSConfig/Initialized TSConfig with enum value compiler options/tsconfig.json"
+          },
+          {
+            "path": "tests/baselines/reference/config/initTSConfig/Initialized TSConfig with files options/tsconfig.json"
+          },
+          {
+            "path": "tests/baselines/reference/config/initTSConfig/Initialized TSConfig with incorrect compiler option value/tsconfig.json"
+          },
+          {
+            "path": "tests/baselines/reference/config/initTSConfig/Initialized TSConfig with incorrect compiler option/tsconfig.json"
+          },
+          {
+            "path": "tests/baselines/reference/config/initTSConfig/Initialized TSConfig with list compiler options with enum value/tsconfig.json"
+          },
+          {
+            "path": "tests/baselines/reference/config/initTSConfig/Initialized TSConfig with list compiler options/tsconfig.json"
+          }
+        ]
+      }
+    },
+    {
+      "id": "PR_kwDOAT9aAc6FKC98",
+      "title": "Add support for `import defer` proposal",
+      "url": "https://github.com/microsoft/TypeScript/pull/60757",
+      "mergedAt": "2025-06-06T19:11:21Z",
+      "updatedAt": "2025-06-09T10:04:50Z",
+      "baseRefName": "main",
+      "mergeCommit": {
+        "oid": "a69c6d0bb7a382538c8bbbecfb96431badb5c873"
+      },
+      "author": {
+        "login": "nicolo-ribaudo"
+      },
+      "assignees": {
+        "nodes": [
+          {
+            "login": "weswigham"
+          },
+          {
+            "login": "andrewbranch"
+          },
+          {
+            "login": "jakebailey"
+          },
+          {
+            "login": "iisaduan"
+          }
+        ]
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "jakebailey"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "jakebailey"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "rbuckton"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "DanielRosenwasser"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "nicolo-ribaudo"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "Jack-Works"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "nicolo-ribaudo"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "rbuckton"
+            }
+          },
+          {
+            "state": "CHANGES_REQUESTED",
+            "author": {
+              "login": "rbuckton"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "nicolo-ribaudo"
+            }
+          }
+        ]
+      },
+      "files": {
+        "nodes": [
+          {
+            "path": "src/compiler/checker.ts"
+          },
+          {
+            "path": "src/compiler/diagnosticMessages.json"
+          },
+          {
+            "path": "src/compiler/emitter.ts"
+          },
+          {
+            "path": "src/compiler/factory/nodeFactory.ts"
+          },
+          {
+            "path": "src/compiler/factory/utilities.ts"
+          },
+          {
+            "path": "src/compiler/parser.ts"
+          },
+          {
+            "path": "src/compiler/scanner.ts"
+          },
+          {
+            "path": "src/compiler/transformers/declarations.ts"
+          },
+          {
+            "path": "src/compiler/transformers/jsx.ts"
+          },
+          {
+            "path": "src/compiler/transformers/module/esnextAnd2015.ts"
+          },
+          {
+            "path": "src/compiler/transformers/ts.ts"
+          },
+          {
+            "path": "src/compiler/types.ts"
+          },
+          {
+            "path": "src/compiler/utilities.ts"
+          },
+          {
+            "path": "src/compiler/utilitiesPublic.ts"
+          },
+          {
+            "path": "src/compiler/visitorPublic.ts"
+          },
+          {
+            "path": "src/services/codefixes/convertToTypeOnlyImport.ts"
+          },
+          {
+            "path": "src/services/codefixes/importFixes.ts"
+          },
+          {
+            "path": "src/services/codefixes/requireInTs.ts"
+          },
+          {
+            "path": "src/services/codefixes/splitTypeOnlyImport.ts"
+          },
+          {
+            "path": "src/services/organizeImports.ts"
+          },
+          {
+            "path": "src/services/refactors/convertImport.ts"
+          },
+          {
+            "path": "src/services/refactors/moveToFile.ts"
+          },
+          {
+            "path": "src/services/utilities.ts"
+          },
+          {
+            "path": "src/testRunner/unittests/transform.ts"
+          },
+          {
+            "path": "tests/baselines/reference/JSDocParsing/DocComments.parsesCorrectly.importTag1.json"
+          },
+          {
+            "path": "tests/baselines/reference/JSDocParsing/DocComments.parsesCorrectly.importTag2.json"
+          },
+          {
+            "path": "tests/baselines/reference/JSDocParsing/DocComments.parsesCorrectly.importTag3.json"
+          },
+          {
+            "path": "tests/baselines/reference/JSDocParsing/DocComments.parsesCorrectly.importTag4.json"
+          },
+          {
+            "path": "tests/baselines/reference/api/typescript.d.ts"
+          },
+          {
+            "path": "tests/baselines/reference/dynamicImportDefer(module=commonjs).errors.txt"
+          },
+          {
+            "path": "tests/baselines/reference/dynamicImportDefer(module=commonjs).js"
+          },
+          {
+            "path": "tests/baselines/reference/dynamicImportDefer(module=commonjs).symbols"
+          },
+          {
+            "path": "tests/baselines/reference/dynamicImportDefer(module=commonjs).types"
+          },
+          {
+            "path": "tests/baselines/reference/dynamicImportDefer(module=es2015).errors.txt"
+          },
+          {
+            "path": "tests/baselines/reference/dynamicImportDefer(module=es2015).js"
+          },
+          {
+            "path": "tests/baselines/reference/dynamicImportDefer(module=es2015).symbols"
+          },
+          {
+            "path": "tests/baselines/reference/dynamicImportDefer(module=es2015).types"
+          },
+          {
+            "path": "tests/baselines/reference/dynamicImportDefer(module=es2020).errors.txt"
+          },
+          {
+            "path": "tests/baselines/reference/dynamicImportDefer(module=es2020).js"
+          },
+          {
+            "path": "tests/baselines/reference/dynamicImportDefer(module=es2020).symbols"
+          },
+          {
+            "path": "tests/baselines/reference/dynamicImportDefer(module=es2020).types"
+          },
+          {
+            "path": "tests/baselines/reference/dynamicImportDefer(module=esnext).js"
+          },
+          {
+            "path": "tests/baselines/reference/dynamicImportDefer(module=esnext).symbols"
+          },
+          {
+            "path": "tests/baselines/reference/dynamicImportDefer(module=esnext).types"
+          },
+          {
+            "path": "tests/baselines/reference/dynamicImportDefer(module=nodenext).errors.txt"
+          },
+          {
+            "path": "tests/baselines/reference/dynamicImportDefer(module=nodenext).js"
+          },
+          {
+            "path": "tests/baselines/reference/dynamicImportDefer(module=nodenext).symbols"
+          },
+          {
+            "path": "tests/baselines/reference/dynamicImportDefer(module=nodenext).types"
+          },
+          {
+            "path": "tests/baselines/reference/dynamicImportDefer(module=preserve).js"
+          },
+          {
+            "path": "tests/baselines/reference/dynamicImportDefer(module=preserve).symbols"
+          },
+          {
+            "path": "tests/baselines/reference/dynamicImportDefer(module=preserve).types"
+          },
+          {
+            "path": "tests/baselines/reference/dynamicImportDeferInvalidStandalone.errors.txt"
+          },
+          {
+            "path": "tests/baselines/reference/dynamicImportDeferInvalidStandalone.js"
+          },
+          {
+            "path": "tests/baselines/reference/dynamicImportDeferInvalidStandalone.symbols"
+          },
+          {
+            "path": "tests/baselines/reference/dynamicImportDeferInvalidStandalone.types"
+          },
+          {
+            "path": "tests/baselines/reference/exportDeferInvalid.errors.txt"
+          },
+          {
+            "path": "tests/baselines/reference/exportDeferInvalid.js"
+          },
+          {
+            "path": "tests/baselines/reference/exportDeferInvalid.symbols"
+          },
+          {
+            "path": "tests/baselines/reference/exportDeferInvalid.types"
+          },
+          {
+            "path": "tests/baselines/reference/importDefaultBindingDefer.js"
+          },
+          {
+            "path": "tests/baselines/reference/importDefaultBindingDefer.symbols"
+          },
+          {
+            "path": "tests/baselines/reference/importDefaultBindingDefer.types"
+          },
+          {
+            "path": "tests/baselines/reference/importDeferComments.js"
+          },
+          {
+            "path": "tests/baselines/reference/importDeferComments.symbols"
+          },
+          {
+            "path": "tests/baselines/reference/importDeferComments.types"
+          },
+          {
+            "path": "tests/baselines/reference/importDeferDeclaration.js"
+          },
+          {
+            "path": "tests/baselines/reference/importDeferDeclaration.symbols"
+          },
+          {
+            "path": "tests/baselines/reference/importDeferDeclaration.types"
+          },
+          {
+            "path": "tests/baselines/reference/importDeferInvalidDefault.errors.txt"
+          },
+          {
+            "path": "tests/baselines/reference/importDeferInvalidDefault.js"
+          },
+          {
+            "path": "tests/baselines/reference/importDeferInvalidDefault.symbols"
+          },
+          {
+            "path": "tests/baselines/reference/importDeferInvalidDefault.types"
+          },
+          {
+            "path": "tests/baselines/reference/importDeferInvalidNamed.errors.txt"
+          },
+          {
+            "path": "tests/baselines/reference/importDeferInvalidNamed.js"
+          },
+          {
+            "path": "tests/baselines/reference/importDeferInvalidNamed.symbols"
+          },
+          {
+            "path": "tests/baselines/reference/importDeferInvalidNamed.types"
+          },
+          {
+            "path": "tests/baselines/reference/importDeferJsdoc.errors.txt"
+          },
+          {
+            "path": "tests/baselines/reference/importDeferJsdoc.js"
+          },
+          {
+            "path": "tests/baselines/reference/importDeferJsdoc.symbols"
+          },
+          {
+            "path": "tests/baselines/reference/importDeferJsdoc.types"
+          },
+          {
+            "path": "tests/baselines/reference/importDeferNamespace(module=commonjs).errors.txt"
+          },
+          {
+            "path": "tests/baselines/reference/importDeferNamespace(module=commonjs).js"
+          },
+          {
+            "path": "tests/baselines/reference/importDeferNamespace(module=commonjs).symbols"
+          },
+          {
+            "path": "tests/baselines/reference/importDeferNamespace(module=commonjs).types"
+          },
+          {
+            "path": "tests/baselines/reference/importDeferNamespace(module=es2015).errors.txt"
+          },
+          {
+            "path": "tests/baselines/reference/importDeferNamespace(module=es2015).js"
+          },
+          {
+            "path": "tests/baselines/reference/importDeferNamespace(module=es2015).symbols"
+          },
+          {
+            "path": "tests/baselines/reference/importDeferNamespace(module=es2015).types"
+          },
+          {
+            "path": "tests/baselines/reference/importDeferNamespace(module=es2020).errors.txt"
+          },
+          {
+            "path": "tests/baselines/reference/importDeferNamespace(module=es2020).js"
+          },
+          {
+            "path": "tests/baselines/reference/importDeferNamespace(module=es2020).symbols"
+          },
+          {
+            "path": "tests/baselines/reference/importDeferNamespace(module=es2020).types"
+          },
+          {
+            "path": "tests/baselines/reference/importDeferNamespace(module=esnext).js"
+          },
+          {
+            "path": "tests/baselines/reference/importDeferNamespace(module=esnext).symbols"
+          },
+          {
+            "path": "tests/baselines/reference/importDeferNamespace(module=esnext).types"
+          },
+          {
+            "path": "tests/baselines/reference/importDeferNamespace(module=nodenext).errors.txt"
+          },
+          {
+            "path": "tests/baselines/reference/importDeferNamespace(module=nodenext).js"
+          },
+          {
+            "path": "tests/baselines/reference/importDeferNamespace(module=nodenext).symbols"
+          },
+          {
+            "path": "tests/baselines/reference/importDeferNamespace(module=nodenext).types"
+          },
+          {
+            "path": "tests/baselines/reference/importDeferNamespace(module=preserve).js"
+          },
+          {
+            "path": "tests/baselines/reference/importDeferNamespace(module=preserve).symbols"
+          },
+          {
+            "path": "tests/baselines/reference/importDeferNamespace(module=preserve).types"
+          },
+          {
+            "path": "tests/baselines/reference/importDeferTypeConflict1.errors.txt"
+          },
+          {
+            "path": "tests/baselines/reference/importDeferTypeConflict1.js"
+          },
+          {
+            "path": "tests/baselines/reference/importDeferTypeConflict1.symbols"
+          },
+          {
+            "path": "tests/baselines/reference/importDeferTypeConflict1.types"
+          },
+          {
+            "path": "tests/baselines/reference/importDeferTypeConflict2.errors.txt"
+          },
+          {
+            "path": "tests/baselines/reference/importDeferTypeConflict2.js"
+          },
+          {
+            "path": "tests/baselines/reference/importDeferTypeConflict2.symbols"
+          },
+          {
+            "path": "tests/baselines/reference/importDeferTypeConflict2.types"
+          },
+          {
+            "path": "tests/baselines/reference/importMetaPropertyInvalidInCall.errors.txt"
+          },
+          {
+            "path": "tests/baselines/reference/importMetaPropertyInvalidInCall.js"
+          },
+          {
+            "path": "tests/baselines/reference/importMetaPropertyInvalidInCall.symbols"
+          },
+          {
+            "path": "tests/baselines/reference/importMetaPropertyInvalidInCall.types"
+          },
+          {
+            "path": "tests/baselines/reference/skipJSDocParsing/link-ParseForTypeErrors-file.js.diff"
+          },
+          {
+            "path": "tests/baselines/reference/skipJSDocParsing/link-ParseForTypeErrors-file.ts.diff"
+          },
+          {
+            "path": "tests/baselines/reference/skipJSDocParsing/link-ParseForTypeInfo-file.js.diff"
+          },
+          {
+            "path": "tests/baselines/reference/skipJSDocParsing/link-ParseForTypeInfo-file.ts.diff"
+          },
+          {
+            "path": "tests/baselines/reference/skipJSDocParsing/link-ParseNone-file.js.diff"
+          },
+          {
+            "path": "tests/baselines/reference/skipJSDocParsing/link-ParseNone-file.ts.diff"
+          },
+          {
+            "path": "tests/baselines/reference/typeofImportDefer.errors.txt"
+          },
+          {
+            "path": "tests/baselines/reference/typeofImportDefer.js"
+          },
+          {
+            "path": "tests/baselines/reference/typeofImportDefer.symbols"
+          },
+          {
+            "path": "tests/baselines/reference/typeofImportDefer.types"
+          },
+          {
+            "path": "tests/cases/conformance/importDefer/dynamicImportDefer.ts"
+          },
+          {
+            "path": "tests/cases/conformance/importDefer/dynamicImportDeferInvalidStandalone.ts"
+          },
+          {
+            "path": "tests/cases/conformance/importDefer/exportDeferInvalid.ts"
+          },
+          {
+            "path": "tests/cases/conformance/importDefer/importDefaultBindingDefer.ts"
+          },
+          {
+            "path": "tests/cases/conformance/importDefer/importDeferComments.ts"
+          },
+          {
+            "path": "tests/cases/conformance/importDefer/importDeferDeclaration.ts"
+          },
+          {
+            "path": "tests/cases/conformance/importDefer/importDeferInvalidDefault.ts"
+          },
+          {
+            "path": "tests/cases/conformance/importDefer/importDeferInvalidNamed.ts"
+          },
+          {
+            "path": "tests/cases/conformance/importDefer/importDeferNamespace.ts"
+          },
+          {
+            "path": "tests/cases/conformance/importDefer/importDeferTypeConflict1.ts"
+          },
+          {
+            "path": "tests/cases/conformance/importDefer/importDeferTypeConflict2.ts"
+          },
+          {
+            "path": "tests/cases/conformance/importDefer/importMetaPropertyInvalidInCall.ts"
+          },
+          {
+            "path": "tests/cases/conformance/importDefer/typeofImportDefer.ts"
+          },
+          {
+            "path": "tests/cases/conformance/jsdoc/importDeferJsdoc.ts"
+          }
+        ]
+      }
+    },
+    {
+      "id": "PR_kwDOAT9aAc6Fgc92",
+      "title": "feat: add Error.isError() to ESNext lib",
+      "url": "https://github.com/microsoft/TypeScript/pull/60788",
+      "mergedAt": "2025-06-06T19:16:36Z",
+      "updatedAt": "2025-06-06T19:16:36Z",
+      "baseRefName": "main",
+      "mergeCommit": {
+        "oid": "ffd98c17739b07d943571005dc0eadc3b14e6c9c"
+      },
+      "author": {
+        "login": "dirkluijk"
+      },
+      "assignees": {
+        "nodes": []
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "jakebailey"
+            }
+          },
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "jakebailey"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "Renegade334"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "jakebailey"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "jakebailey"
+            }
+          },
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "jakebailey"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "jakebailey"
+            }
+          },
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "weswigham"
+            }
+          }
+        ]
+      },
+      "files": {
+        "nodes": [
+          {
+            "path": "src/compiler/commandLineParser.ts"
+          },
+          {
+            "path": "src/lib/esnext.d.ts"
+          },
+          {
+            "path": "src/lib/esnext.error.d.ts"
+          },
+          {
+            "path": "src/lib/libs.json"
+          },
+          {
+            "path": "tests/baselines/reference/bundlerDirectoryModule(module=nodenext,moduleresolution=bundler).trace.json"
+          },
+          {
+            "path": "tests/baselines/reference/bundlerDirectoryModule(module=nodenext,moduleresolution=nodenext).trace.json"
+          },
+          {
+            "path": "tests/baselines/reference/config/commandLineParsing/parseCommandLine/Parse --lib option with extra comma.js"
+          },
+          {
+            "path": "tests/baselines/reference/config/commandLineParsing/parseCommandLine/Parse --lib option with trailing white-space.js"
+          },
+          {
+            "path": "tests/baselines/reference/config/commandLineParsing/parseCommandLine/Parse invalid option of library flags.js"
+          },
+          {
+            "path": "tests/baselines/reference/config/convertCompilerOptionsFromJson/Convert empty string option of libs array to compiler-options with json api.js"
+          },
+          {
+            "path": "tests/baselines/reference/config/convertCompilerOptionsFromJson/Convert empty string option of libs array to compiler-options with jsonSourceFile api.js"
+          },
+          {
+            "path": "tests/baselines/reference/config/convertCompilerOptionsFromJson/Convert empty string option of libs to compiler-options with json api.js"
+          },
+          {
+            "path": "tests/baselines/reference/config/convertCompilerOptionsFromJson/Convert empty string option of libs to compiler-options with jsonSourceFile api.js"
+          },
+          {
+            "path": "tests/baselines/reference/config/convertCompilerOptionsFromJson/Convert incorrect option of libs to compiler-options with json api.js"
+          },
+          {
+            "path": "tests/baselines/reference/config/convertCompilerOptionsFromJson/Convert incorrect option of libs to compiler-options with jsonSourceFile api.js"
+          },
+          {
+            "path": "tests/baselines/reference/config/convertCompilerOptionsFromJson/Convert trailing-whitespace string option of libs to compiler-options with json api.js"
+          },
+          {
+            "path": "tests/baselines/reference/config/convertCompilerOptionsFromJson/Convert trailing-whitespace string option of libs to compiler-options with jsonSourceFile api.js"
+          },
+          {
+            "path": "tests/baselines/reference/libReplacement(libreplacement=true).trace.json"
+          },
+          {
+            "path": "tests/baselines/reference/modulePreserve2.trace.json"
+          },
+          {
+            "path": "tests/baselines/reference/modulePreserve3.trace.json"
+          },
+          {
+            "path": "tests/baselines/reference/nodeModulesExportsBlocksTypesVersions(module=nodenext).trace.json"
+          },
+          {
+            "path": "tests/baselines/reference/nodeModulesPackageImports(module=nodenext).trace.json"
+          },
+          {
+            "path": "tests/baselines/reference/nodeModulesPackagePatternExportsTrailers(module=nodenext).trace.json"
+          },
+          {
+            "path": "tests/baselines/reference/reactJsxReactResolvedNodeNext.trace.json"
+          },
+          {
+            "path": "tests/baselines/reference/reactJsxReactResolvedNodeNextEsm.trace.json"
+          },
+          {
+            "path": "tests/baselines/reference/tsc/commandLine/does-not-add-color-when-NO_COLOR-is-set.js"
+          },
+          {
+            "path": "tests/baselines/reference/tsc/commandLine/help-all.js"
+          },
+          {
+            "path": "tests/baselines/reference/tsc/commandLine/help.js"
+          },
+          {
+            "path": "tests/baselines/reference/tsc/commandLine/show-help-with-ExitStatus.DiagnosticsPresent_OutputsSkipped-when-host-can't-provide-terminal-width.js"
+          },
+          {
+            "path": "tests/baselines/reference/tsc/commandLine/show-help-with-ExitStatus.DiagnosticsPresent_OutputsSkipped.js"
+          },
+          {
+            "path": "tests/baselines/reference/tscWatch/symlinks/monorepo-style-sibling-packages-symlinked-Linux.js"
+          },
+          {
+            "path": "tests/baselines/reference/tscWatch/symlinks/monorepo-style-sibling-packages-symlinked-package1-built-Linux.js"
+          },
+          {
+            "path": "tests/baselines/reference/tscWatch/symlinks/packages-outside-project-folder-Linux.js"
+          },
+          {
+            "path": "tests/baselines/reference/tscWatch/symlinks/packages-outside-project-folder-MacOs.js"
+          },
+          {
+            "path": "tests/baselines/reference/tscWatch/symlinks/packages-outside-project-folder-built-Linux.js"
+          },
+          {
+            "path": "tests/baselines/reference/tscWatch/symlinks/packages-outside-project-folder-built-MacOs.js"
+          },
+          {
+            "path": "tests/baselines/reference/tscWatch/watchEnvironment/fsWatch/fsWatchWithTimestamp-true-useFsEventsOnParentDirectory.js"
+          },
+          {
+            "path": "tests/baselines/reference/tscWatch/watchEnvironment/fsWatch/fsWatchWithTimestamp-true.js"
+          },
+          {
+            "path": "tests/baselines/reference/tscWatch/watchEnvironment/fsWatch/when-using-file-watching-thats-on-inode-when-rename-event-ends-with-tilde.js"
+          },
+          {
+            "path": "tests/baselines/reference/tscWatch/watchEnvironment/fsWatch/when-using-file-watching-thats-on-inode-when-rename-occurs-when-file-is-still-on-the-disk.js"
+          },
+          {
+            "path": "tests/baselines/reference/tscWatch/watchEnvironment/fsWatch/when-using-file-watching-thats-on-inode.js"
+          },
+          {
+            "path": "tests/baselines/reference/tscWatch/watchEnvironment/watchDirectories/uses-non-recursive-dynamic-polling-when-renaming-file-in-subfolder.js"
+          },
+          {
+            "path": "tests/baselines/reference/tscWatch/watchEnvironment/watchDirectories/uses-non-recursive-watchDirectory-when-renaming-file-in-subfolder.js"
+          },
+          {
+            "path": "tests/baselines/reference/tscWatch/watchEnvironment/watchDirectories/uses-watchFile-when-renaming-file-in-subfolder.js"
+          },
+          {
+            "path": "tests/baselines/reference/tscWatch/watchEnvironment/watchDirectories/when-there-are-symlinks-to-folders-in-recursive-folders-with-synchronousWatchDirectory.js"
+          },
+          {
+            "path": "tests/baselines/reference/tscWatch/watchEnvironment/watchDirectories/when-there-are-symlinks-to-folders-in-recursive-folders.js"
+          },
+          {
+            "path": "tests/baselines/reference/tscWatch/watchEnvironment/watchDirectories/with-non-synchronous-watch-directory-renaming-a-file.js"
+          },
+          {
+            "path": "tests/baselines/reference/tscWatch/watchEnvironment/watchDirectories/with-non-synchronous-watch-directory-with-outDir-and-declaration-enabled.js"
+          },
+          {
+            "path": "tests/baselines/reference/tscWatch/watchEnvironment/watchDirectories/with-non-synchronous-watch-directory.js"
+          },
+          {
+            "path": "tests/baselines/reference/tscWatch/watchEnvironment/watchOptions/with-excludeDirectories-option-with-recursive-directory-watching-extendedDiagnostics.js"
+          },
+          {
+            "path": "tests/baselines/reference/tscWatch/watchEnvironment/watchOptions/with-excludeDirectories-option-with-recursive-directory-watching.js"
+          },
+          {
+            "path": "tests/baselines/reference/tscWatch/watchEnvironment/watchOptions/with-fallbackPolling-option.js"
+          },
+          {
+            "path": "tests/baselines/reference/tscWatch/watchEnvironment/watchOptions/with-watchDirectory-option.js"
+          },
+          {
+            "path": "tests/baselines/reference/tsserver/projectErrors/file-rename-on-wsl2.js"
+          },
+          {
+            "path": "tests/baselines/reference/tsserver/resolutionCache/when-resolution-fails-in-global-typings-location-with-currentDirectory-at-root.js"
+          },
+          {
+            "path": "tests/baselines/reference/tsserver/resolutionCache/when-resolution-fails-in-global-typings-location.js"
+          },
+          {
+            "path": "tests/baselines/reference/tsserver/resolutionCache/when-resolution-is-succeeds-in-global-typings-location-with-import-from-the-cache-file-failing-with-currentDirectory-at-root.js"
+          },
+          {
+            "path": "tests/baselines/reference/tsserver/resolutionCache/when-resolution-is-succeeds-in-global-typings-location-with-import-from-the-cache-file-failing.js"
+          },
+          {
+            "path": "tests/baselines/reference/tsserver/resolutionCache/when-resolution-is-succeeds-in-global-typings-location-with-import-from-the-cache-file-with-currentDirectory-at-root.js"
+          },
+          {
+            "path": "tests/baselines/reference/tsserver/resolutionCache/when-resolution-is-succeeds-in-global-typings-location-with-import-from-the-cache-file.js"
+          },
+          {
+            "path": "tests/baselines/reference/tsserver/resolutionCache/when-resolution-is-succeeds-in-global-typings-location-with-relative-import-from-the-cache-file-with-currentDirectory-at-root.js"
+          },
+          {
+            "path": "tests/baselines/reference/tsserver/resolutionCache/when-resolution-is-succeeds-in-global-typings-location-with-relative-import-from-the-cache-file.js"
+          },
+          {
+            "path": "tests/baselines/reference/tsserver/symLinks/monorepo-style-sibling-packages-symlinked-Linux-canUseWatchEvents.js"
+          },
+          {
+            "path": "tests/baselines/reference/tsserver/symLinks/monorepo-style-sibling-packages-symlinked-Linux.js"
+          },
+          {
+            "path": "tests/baselines/reference/tsserver/symLinks/monorepo-style-sibling-packages-symlinked-package1-built-Linux-canUseWatchEvents.js"
+          },
+          {
+            "path": "tests/baselines/reference/tsserver/symLinks/monorepo-style-sibling-packages-symlinked-package1-built-Linux.js"
+          },
+          {
+            "path": "tests/baselines/reference/tsserver/symLinks/packages-outside-project-folder-Linux-canUseWatchEvents.js"
+          },
+          {
+            "path": "tests/baselines/reference/tsserver/symLinks/packages-outside-project-folder-Linux.js"
+          },
+          {
+            "path": "tests/baselines/reference/tsserver/symLinks/packages-outside-project-folder-MacOs-canUseWatchEvents.js"
+          },
+          {
+            "path": "tests/baselines/reference/tsserver/symLinks/packages-outside-project-folder-MacOs.js"
+          },
+          {
+            "path": "tests/baselines/reference/tsserver/symLinks/packages-outside-project-folder-built-Linux-canUseWatchEvents.js"
+          },
+          {
+            "path": "tests/baselines/reference/tsserver/symLinks/packages-outside-project-folder-built-Linux.js"
+          },
+          {
+            "path": "tests/baselines/reference/tsserver/symLinks/packages-outside-project-folder-built-MacOs-canUseWatchEvents.js"
+          },
+          {
+            "path": "tests/baselines/reference/tsserver/symLinks/packages-outside-project-folder-built-MacOs.js"
+          },
+          {
+            "path": "tests/baselines/reference/tsserver/telemetry/does-not-expose-paths.js"
+          },
+          {
+            "path": "tests/baselines/reference/tsserver/watchEnvironment/recursive-directory-does-not-watch-files-starting-with-dot-in-node_modules.js"
+          },
+          {
+            "path": "tests/baselines/reference/tsserver/watchEnvironment/uses-dynamic-polling-when-file-is-added-to-subfolder.js"
+          },
+          {
+            "path": "tests/baselines/reference/tsserver/watchEnvironment/uses-non-recursive-watchDirectory-when-file-is-added-to-subfolder.js"
+          },
+          {
+            "path": "tests/baselines/reference/tsserver/watchEnvironment/uses-watchFile-when-file-is-added-to-subfolder.js"
+          },
+          {
+            "path": "tests/baselines/reference/tsserver/watchEnvironment/watching-npm-install-in-codespaces-where-workspaces-folder-is-hosted-at-root.js"
+          },
+          {
+            "path": "tests/baselines/reference/typesVersions.ambientModules.trace.json"
+          },
+          {
+            "path": "tests/baselines/reference/typesVersions.emptyTypes.trace.json"
+          },
+          {
+            "path": "tests/baselines/reference/typesVersions.justIndex.trace.json"
+          },
+          {
+            "path": "tests/baselines/reference/typesVersions.multiFile.trace.json"
+          },
+          {
+            "path": "tests/baselines/reference/typesVersionsDeclarationEmit.ambient.trace.json"
+          },
+          {
+            "path": "tests/baselines/reference/typesVersionsDeclarationEmit.multiFile.trace.json"
+          },
+          {
+            "path": "tests/baselines/reference/typesVersionsDeclarationEmit.multiFileBackReferenceToSelf.trace.json"
+          },
+          {
+            "path": "tests/baselines/reference/typesVersionsDeclarationEmit.multiFileBackReferenceToUnmapped.trace.json"
+          }
+        ]
+      }
+    },
+    {
+      "id": "PR_kwDOAT9aAc6Qr-ue",
+      "title": "Cache mapper instantiations",
+      "url": "https://github.com/microsoft/TypeScript/pull/61505",
+      "mergedAt": "2025-06-06T19:21:17Z",
+      "updatedAt": "2025-06-06T19:21:18Z",
+      "baseRefName": "main",
+      "mergeCommit": {
+        "oid": "51dcd9001d9dceb98d248f574f39f57497a44968"
+      },
+      "author": {
+        "login": "Andarist"
+      },
+      "assignees": {
+        "nodes": []
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "Andarist"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "Andarist"
+            }
+          },
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "jakebailey"
+            }
+          }
+        ]
+      },
+      "files": {
+        "nodes": [
+          {
+            "path": "src/compiler/checker.ts"
+          },
+          {
+            "path": "tests/baselines/reference/callsOnComplexSignatures.types"
+          },
+          {
+            "path": "tests/baselines/reference/checkJsxChildrenCanBeTupleType.types"
+          },
+          {
+            "path": "tests/baselines/reference/checkJsxChildrenProperty16.types"
+          },
+          {
+            "path": "tests/baselines/reference/checkJsxUnionSFXContextualTypeInferredCorrectly.types"
+          },
+          {
+            "path": "tests/baselines/reference/circularBaseConstraint.types"
+          },
+          {
+            "path": "tests/baselines/reference/circularlySimplifyingConditionalTypesNoCrash.types"
+          },
+          {
+            "path": "tests/baselines/reference/conditionalTypeDiscriminatingLargeUnionRegularTypeFetchingSpeedReasonable.types"
+          },
+          {
+            "path": "tests/baselines/reference/conditionalTypeDoesntSpinForever.types"
+          },
+          {
+            "path": "tests/baselines/reference/conditionalTypeVarianceBigArrayConstraintsPerformance.types"
+          },
+          {
+            "path": "tests/baselines/reference/conditionalTypes1.types"
+          },
+          {
+            "path": "tests/baselines/reference/contextualParameterAndSelfReferentialConstraint1.symbols"
+          },
+          {
+            "path": "tests/baselines/reference/contextualParameterAndSelfReferentialConstraint1.types"
+          },
+          {
+            "path": "tests/baselines/reference/contextuallyTypedJsxChildren.types"
+          },
+          {
+            "path": "tests/baselines/reference/controlFlowOptionalChain3.types"
+          },
+          {
+            "path": "tests/baselines/reference/declarationEmitHigherOrderRetainedGenerics.types"
+          },
+          {
+            "path": "tests/baselines/reference/declarationsWithRecursiveInternalTypesProduceUniqueTypeParams.types"
+          },
+          {
+            "path": "tests/baselines/reference/deeplyNestedMappedTypes.types"
+          },
+          {
+            "path": "tests/baselines/reference/dependentDestructuredVariables.types"
+          },
+          {
+            "path": "tests/baselines/reference/divideAndConquerIntersections.types"
+          },
+          {
+            "path": "tests/baselines/reference/errorInfoForRelatedIndexTypesNoConstraintElaboration.types"
+          },
+          {
+            "path": "tests/baselines/reference/excessiveStackDepthFlatArray.types"
+          },
+          {
+            "path": "tests/baselines/reference/flatArrayNoExcessiveStackDepth.types"
+          },
+          {
+            "path": "tests/baselines/reference/ignoredJsxAttributes.types"
+          },
+          {
+            "path": "tests/baselines/reference/intraExpressionInferencesJsx.types"
+          },
+          {
+            "path": "tests/baselines/reference/isomorphicMappedTypeInference.types"
+          },
+          {
+            "path": "tests/baselines/reference/jsDeclarationsReactComponents.types"
+          },
+          {
+            "path": "tests/baselines/reference/jsxCallElaborationCheckNoCrash1.types"
+          },
+          {
+            "path": "tests/baselines/reference/jsxChildrenIndividualErrorElaborations.types"
+          },
+          {
+            "path": "tests/baselines/reference/jsxChildrenWrongType.types"
+          },
+          {
+            "path": "tests/baselines/reference/jsxComplexSignatureHasApplicabilityError.types"
+          },
+          {
+            "path": "tests/baselines/reference/jsxDeclarationsWithEsModuleInteropNoCrash.types"
+          },
+          {
+            "path": "tests/baselines/reference/jsxElementType.types"
+          },
+          {
+            "path": "tests/baselines/reference/jsxElementTypeLiteral.types"
+          },
+          {
+            "path": "tests/baselines/reference/jsxElementTypeLiteralWithGeneric.types"
+          },
+          {
+            "path": "tests/baselines/reference/jsxEmptyExpressionNotCountedAsChild(jsx=react).types"
+          },
+          {
+            "path": "tests/baselines/reference/jsxEmptyExpressionNotCountedAsChild(jsx=react-jsx).types"
+          },
+          {
+            "path": "tests/baselines/reference/jsxEmptyExpressionNotCountedAsChild(jsx=react-jsxdev).types"
+          },
+          {
+            "path": "tests/baselines/reference/jsxExcessPropsAndAssignability.types"
+          },
+          {
+            "path": "tests/baselines/reference/jsxGenericComponentWithSpreadingResultOfGenericFunction.types"
+          },
+          {
+            "path": "tests/baselines/reference/jsxInferenceProducesLiteralAsExpected.types"
+          },
+          {
+            "path": "tests/baselines/reference/jsxJsxsCjsTransformChildren(jsx=react-jsx).types"
+          },
+          {
+            "path": "tests/baselines/reference/jsxJsxsCjsTransformChildren(jsx=react-jsxdev).types"
+          },
+          {
+            "path": "tests/baselines/reference/jsxJsxsCjsTransformCustomImport(jsx=react-jsx).types"
+          },
+          {
+            "path": "tests/baselines/reference/jsxJsxsCjsTransformCustomImport(jsx=react-jsxdev).types"
+          },
+          {
+            "path": "tests/baselines/reference/jsxJsxsCjsTransformCustomImportPragma(jsx=react-jsx).types"
+          },
+          {
+            "path": "tests/baselines/reference/jsxJsxsCjsTransformCustomImportPragma(jsx=react-jsxdev).types"
+          },
+          {
+            "path": "tests/baselines/reference/jsxJsxsCjsTransformKeyProp(jsx=react-jsx).types"
+          },
+          {
+            "path": "tests/baselines/reference/jsxJsxsCjsTransformKeyProp(jsx=react-jsxdev).types"
+          },
+          {
+            "path": "tests/baselines/reference/jsxJsxsCjsTransformKeyPropCustomImport(jsx=react-jsx).types"
+          },
+          {
+            "path": "tests/baselines/reference/jsxJsxsCjsTransformKeyPropCustomImport(jsx=react-jsxdev).types"
+          },
+          {
+            "path": "tests/baselines/reference/jsxJsxsCjsTransformKeyPropCustomImportPragma(jsx=react-jsx).types"
+          },
+          {
+            "path": "tests/baselines/reference/jsxJsxsCjsTransformKeyPropCustomImportPragma(jsx=react-jsxdev).types"
+          },
+          {
+            "path": "tests/baselines/reference/jsxJsxsCjsTransformNestedSelfClosingChild(jsx=react-jsx).types"
+          },
+          {
+            "path": "tests/baselines/reference/jsxJsxsCjsTransformNestedSelfClosingChild(jsx=react-jsxdev).types"
+          },
+          {
+            "path": "tests/baselines/reference/jsxJsxsCjsTransformSubstitutesNames(jsx=react-jsx).types"
+          },
+          {
+            "path": "tests/baselines/reference/jsxJsxsCjsTransformSubstitutesNames(jsx=react-jsxdev).types"
+          },
+          {
+            "path": "tests/baselines/reference/jsxJsxsCjsTransformSubstitutesNamesFragment(jsx=react-jsx).types"
+          },
+          {
+            "path": "tests/baselines/reference/jsxJsxsCjsTransformSubstitutesNamesFragment(jsx=react-jsxdev).types"
+          },
+          {
+            "path": "tests/baselines/reference/jsxPartialSpread.types"
+          },
+          {
+            "path": "tests/baselines/reference/longObjectInstantiationChain1.errors.txt"
+          },
+          {
+            "path": "tests/baselines/reference/longObjectInstantiationChain1.symbols"
+          },
+          {
+            "path": "tests/baselines/reference/longObjectInstantiationChain1.types"
+          },
+          {
+            "path": "tests/baselines/reference/longObjectInstantiationChain2.errors.txt"
+          },
+          {
+            "path": "tests/baselines/reference/longObjectInstantiationChain2.symbols"
+          },
+          {
+            "path": "tests/baselines/reference/longObjectInstantiationChain2.types"
+          },
+          {
+            "path": "tests/baselines/reference/longObjectInstantiationChain3.errors.txt"
+          },
+          {
+            "path": "tests/baselines/reference/longObjectInstantiationChain3.symbols"
+          },
+          {
+            "path": "tests/baselines/reference/longObjectInstantiationChain3.types"
+          },
+          {
+            "path": "tests/baselines/reference/mappedTypeRecursiveInference.types"
+          },
+          {
+            "path": "tests/baselines/reference/multiline.types"
+          },
+          {
+            "path": "tests/baselines/reference/promisePermutations.types"
+          },
+          {
+            "path": "tests/baselines/reference/propTypeValidatorInference.types"
+          },
+          {
+            "path": "tests/baselines/reference/reactHOCSpreadprops.types"
+          },
+          {
+            "path": "tests/baselines/reference/reactReadonlyHOCAssignabilityReal.types"
+          },
+          {
+            "path": "tests/baselines/reference/reactReduxLikeDeferredInferenceAllowsAssignment.types"
+          },
+          {
+            "path": "tests/baselines/reference/returnTypePredicateIsInstantiateInContextOfTarget.types"
+          },
+          {
+            "path": "tests/baselines/reference/styledComponentsInstantiaionLimitNotReached.types"
+          },
+          {
+            "path": "tests/baselines/reference/tsxInvokeComponentType.types"
+          },
+          {
+            "path": "tests/baselines/reference/tsxNotUsingApparentTypeOfSFC.types"
+          },
+          {
+            "path": "tests/baselines/reference/tsxResolveExternalModuleExportsTypes.types"
+          },
+          {
+            "path": "tests/baselines/reference/tsxStatelessComponentDefaultProps.types"
+          },
+          {
+            "path": "tests/baselines/reference/typeAliasInstantiationNoLeak1.symbols"
+          },
+          {
+            "path": "tests/baselines/reference/typeAliasInstantiationNoLeak1.types"
+          },
+          {
+            "path": "tests/baselines/reference/typeInferenceWithExcessPropertiesJsx.types"
+          },
+          {
+            "path": "tests/cases/compiler/contextualParameterAndSelfReferentialConstraint1.ts"
+          },
+          {
+            "path": "tests/cases/compiler/longObjectInstantiationChain1.ts"
+          },
+          {
+            "path": "tests/cases/compiler/longObjectInstantiationChain2.ts"
+          },
+          {
+            "path": "tests/cases/compiler/longObjectInstantiationChain3.ts"
+          },
+          {
+            "path": "tests/cases/compiler/typeAliasInstantiationNoLeak1.ts"
+          }
+        ]
+      }
+    },
+    {
+      "id": "PR_kwDOAT9aAc6Uxo5A",
+      "title": "Add lib.esnext.sharedmemory",
+      "url": "https://github.com/microsoft/TypeScript/pull/61646",
+      "mergedAt": "2025-06-06T20:33:13Z",
+      "updatedAt": "2025-06-06T21:02:42Z",
+      "baseRefName": "main",
+      "mergeCommit": {
+        "oid": "652ed7fea0159dc996dc3d7d2ed47483bbc8ef82"
+      },
+      "author": {
+        "login": "Renegade334"
+      },
+      "assignees": {
+        "nodes": []
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "jakebailey"
+            }
+          }
+        ]
+      },
+      "files": {
+        "nodes": [
+          {
+            "path": "src/compiler/commandLineParser.ts"
+          },
+          {
+            "path": "src/compiler/utilities.ts"
+          },
+          {
+            "path": "src/lib/esnext.d.ts"
+          },
+          {
+            "path": "src/lib/esnext.sharedmemory.d.ts"
+          },
+          {
+            "path": "src/lib/libs.json"
+          },
+          {
+            "path": "tests/baselines/reference/bundlerDirectoryModule(module=nodenext,moduleresolution=bundler).trace.json"
+          },
+          {
+            "path": "tests/baselines/reference/bundlerDirectoryModule(module=nodenext,moduleresolution=nodenext).trace.json"
+          },
+          {
+            "path": "tests/baselines/reference/config/commandLineParsing/parseCommandLine/Parse --lib option with extra comma.js"
+          },
+          {
+            "path": "tests/baselines/reference/config/commandLineParsing/parseCommandLine/Parse --lib option with trailing white-space.js"
+          },
+          {
+            "path": "tests/baselines/reference/config/commandLineParsing/parseCommandLine/Parse invalid option of library flags.js"
+          },
+          {
+            "path": "tests/baselines/reference/config/convertCompilerOptionsFromJson/Convert empty string option of libs array to compiler-options with json api.js"
+          },
+          {
+            "path": "tests/baselines/reference/config/convertCompilerOptionsFromJson/Convert empty string option of libs array to compiler-options with jsonSourceFile api.js"
+          },
+          {
+            "path": "tests/baselines/reference/config/convertCompilerOptionsFromJson/Convert empty string option of libs to compiler-options with json api.js"
+          },
+          {
+            "path": "tests/baselines/reference/config/convertCompilerOptionsFromJson/Convert empty string option of libs to compiler-options with jsonSourceFile api.js"
+          },
+          {
+            "path": "tests/baselines/reference/config/convertCompilerOptionsFromJson/Convert incorrect option of libs to compiler-options with json api.js"
+          },
+          {
+            "path": "tests/baselines/reference/config/convertCompilerOptionsFromJson/Convert incorrect option of libs to compiler-options with jsonSourceFile api.js"
+          },
+          {
+            "path": "tests/baselines/reference/config/convertCompilerOptionsFromJson/Convert trailing-whitespace string option of libs to compiler-options with json api.js"
+          },
+          {
+            "path": "tests/baselines/reference/config/convertCompilerOptionsFromJson/Convert trailing-whitespace string option of libs to compiler-options with jsonSourceFile api.js"
+          },
+          {
+            "path": "tests/baselines/reference/esnextSharedMemory.js"
+          },
+          {
+            "path": "tests/baselines/reference/esnextSharedMemory.symbols"
+          },
+          {
+            "path": "tests/baselines/reference/esnextSharedMemory.types"
+          },
+          {
+            "path": "tests/baselines/reference/libReplacement(libreplacement=true).trace.json"
+          },
+          {
+            "path": "tests/baselines/reference/modulePreserve2.trace.json"
+          },
+          {
+            "path": "tests/baselines/reference/modulePreserve3.trace.json"
+          },
+          {
+            "path": "tests/baselines/reference/nodeModulesExportsBlocksTypesVersions(module=nodenext).trace.json"
+          },
+          {
+            "path": "tests/baselines/reference/nodeModulesPackageImports(module=nodenext).trace.json"
+          },
+          {
+            "path": "tests/baselines/reference/nodeModulesPackagePatternExportsTrailers(module=nodenext).trace.json"
+          },
+          {
+            "path": "tests/baselines/reference/reactJsxReactResolvedNodeNext.trace.json"
+          },
+          {
+            "path": "tests/baselines/reference/reactJsxReactResolvedNodeNextEsm.trace.json"
+          },
+          {
+            "path": "tests/baselines/reference/tsc/commandLine/does-not-add-color-when-NO_COLOR-is-set.js"
+          },
+          {
+            "path": "tests/baselines/reference/tsc/commandLine/help-all.js"
+          },
+          {
+            "path": "tests/baselines/reference/tsc/commandLine/help.js"
+          },
+          {
+            "path": "tests/baselines/reference/tsc/commandLine/show-help-with-ExitStatus.DiagnosticsPresent_OutputsSkipped-when-host-can't-provide-terminal-width.js"
+          },
+          {
+            "path": "tests/baselines/reference/tsc/commandLine/show-help-with-ExitStatus.DiagnosticsPresent_OutputsSkipped.js"
+          },
+          {
+            "path": "tests/baselines/reference/tscWatch/symlinks/monorepo-style-sibling-packages-symlinked-Linux.js"
+          },
+          {
+            "path": "tests/baselines/reference/tscWatch/symlinks/monorepo-style-sibling-packages-symlinked-package1-built-Linux.js"
+          },
+          {
+            "path": "tests/baselines/reference/tscWatch/symlinks/packages-outside-project-folder-Linux.js"
+          },
+          {
+            "path": "tests/baselines/reference/tscWatch/symlinks/packages-outside-project-folder-MacOs.js"
+          },
+          {
+            "path": "tests/baselines/reference/tscWatch/symlinks/packages-outside-project-folder-built-Linux.js"
+          },
+          {
+            "path": "tests/baselines/reference/tscWatch/symlinks/packages-outside-project-folder-built-MacOs.js"
+          },
+          {
+            "path": "tests/baselines/reference/tscWatch/watchEnvironment/fsWatch/fsWatchWithTimestamp-true-useFsEventsOnParentDirectory.js"
+          },
+          {
+            "path": "tests/baselines/reference/tscWatch/watchEnvironment/fsWatch/fsWatchWithTimestamp-true.js"
+          },
+          {
+            "path": "tests/baselines/reference/tscWatch/watchEnvironment/fsWatch/when-using-file-watching-thats-on-inode-when-rename-event-ends-with-tilde.js"
+          },
+          {
+            "path": "tests/baselines/reference/tscWatch/watchEnvironment/fsWatch/when-using-file-watching-thats-on-inode-when-rename-occurs-when-file-is-still-on-the-disk.js"
+          },
+          {
+            "path": "tests/baselines/reference/tscWatch/watchEnvironment/fsWatch/when-using-file-watching-thats-on-inode.js"
+          },
+          {
+            "path": "tests/baselines/reference/tscWatch/watchEnvironment/watchDirectories/uses-non-recursive-dynamic-polling-when-renaming-file-in-subfolder.js"
+          },
+          {
+            "path": "tests/baselines/reference/tscWatch/watchEnvironment/watchDirectories/uses-non-recursive-watchDirectory-when-renaming-file-in-subfolder.js"
+          },
+          {
+            "path": "tests/baselines/reference/tscWatch/watchEnvironment/watchDirectories/uses-watchFile-when-renaming-file-in-subfolder.js"
+          },
+          {
+            "path": "tests/baselines/reference/tscWatch/watchEnvironment/watchDirectories/when-there-are-symlinks-to-folders-in-recursive-folders-with-synchronousWatchDirectory.js"
+          },
+          {
+            "path": "tests/baselines/reference/tscWatch/watchEnvironment/watchDirectories/when-there-are-symlinks-to-folders-in-recursive-folders.js"
+          },
+          {
+            "path": "tests/baselines/reference/tscWatch/watchEnvironment/watchDirectories/with-non-synchronous-watch-directory-renaming-a-file.js"
+          },
+          {
+            "path": "tests/baselines/reference/tscWatch/watchEnvironment/watchDirectories/with-non-synchronous-watch-directory-with-outDir-and-declaration-enabled.js"
+          },
+          {
+            "path": "tests/baselines/reference/tscWatch/watchEnvironment/watchDirectories/with-non-synchronous-watch-directory.js"
+          },
+          {
+            "path": "tests/baselines/reference/tscWatch/watchEnvironment/watchOptions/with-excludeDirectories-option-with-recursive-directory-watching-extendedDiagnostics.js"
+          },
+          {
+            "path": "tests/baselines/reference/tscWatch/watchEnvironment/watchOptions/with-excludeDirectories-option-with-recursive-directory-watching.js"
+          },
+          {
+            "path": "tests/baselines/reference/tscWatch/watchEnvironment/watchOptions/with-fallbackPolling-option.js"
+          },
+          {
+            "path": "tests/baselines/reference/tscWatch/watchEnvironment/watchOptions/with-watchDirectory-option.js"
+          },
+          {
+            "path": "tests/baselines/reference/tsserver/projectErrors/file-rename-on-wsl2.js"
+          },
+          {
+            "path": "tests/baselines/reference/tsserver/resolutionCache/when-resolution-fails-in-global-typings-location-with-currentDirectory-at-root.js"
+          },
+          {
+            "path": "tests/baselines/reference/tsserver/resolutionCache/when-resolution-fails-in-global-typings-location.js"
+          },
+          {
+            "path": "tests/baselines/reference/tsserver/resolutionCache/when-resolution-is-succeeds-in-global-typings-location-with-import-from-the-cache-file-failing-with-currentDirectory-at-root.js"
+          },
+          {
+            "path": "tests/baselines/reference/tsserver/resolutionCache/when-resolution-is-succeeds-in-global-typings-location-with-import-from-the-cache-file-failing.js"
+          },
+          {
+            "path": "tests/baselines/reference/tsserver/resolutionCache/when-resolution-is-succeeds-in-global-typings-location-with-import-from-the-cache-file-with-currentDirectory-at-root.js"
+          },
+          {
+            "path": "tests/baselines/reference/tsserver/resolutionCache/when-resolution-is-succeeds-in-global-typings-location-with-import-from-the-cache-file.js"
+          },
+          {
+            "path": "tests/baselines/reference/tsserver/resolutionCache/when-resolution-is-succeeds-in-global-typings-location-with-relative-import-from-the-cache-file-with-currentDirectory-at-root.js"
+          },
+          {
+            "path": "tests/baselines/reference/tsserver/resolutionCache/when-resolution-is-succeeds-in-global-typings-location-with-relative-import-from-the-cache-file.js"
+          },
+          {
+            "path": "tests/baselines/reference/tsserver/symLinks/monorepo-style-sibling-packages-symlinked-Linux-canUseWatchEvents.js"
+          },
+          {
+            "path": "tests/baselines/reference/tsserver/symLinks/monorepo-style-sibling-packages-symlinked-Linux.js"
+          },
+          {
+            "path": "tests/baselines/reference/tsserver/symLinks/monorepo-style-sibling-packages-symlinked-package1-built-Linux-canUseWatchEvents.js"
+          },
+          {
+            "path": "tests/baselines/reference/tsserver/symLinks/monorepo-style-sibling-packages-symlinked-package1-built-Linux.js"
+          },
+          {
+            "path": "tests/baselines/reference/tsserver/symLinks/packages-outside-project-folder-Linux-canUseWatchEvents.js"
+          },
+          {
+            "path": "tests/baselines/reference/tsserver/symLinks/packages-outside-project-folder-Linux.js"
+          },
+          {
+            "path": "tests/baselines/reference/tsserver/symLinks/packages-outside-project-folder-MacOs-canUseWatchEvents.js"
+          },
+          {
+            "path": "tests/baselines/reference/tsserver/symLinks/packages-outside-project-folder-MacOs.js"
+          },
+          {
+            "path": "tests/baselines/reference/tsserver/symLinks/packages-outside-project-folder-built-Linux-canUseWatchEvents.js"
+          },
+          {
+            "path": "tests/baselines/reference/tsserver/symLinks/packages-outside-project-folder-built-Linux.js"
+          },
+          {
+            "path": "tests/baselines/reference/tsserver/symLinks/packages-outside-project-folder-built-MacOs-canUseWatchEvents.js"
+          },
+          {
+            "path": "tests/baselines/reference/tsserver/symLinks/packages-outside-project-folder-built-MacOs.js"
+          },
+          {
+            "path": "tests/baselines/reference/tsserver/telemetry/does-not-expose-paths.js"
+          },
+          {
+            "path": "tests/baselines/reference/tsserver/watchEnvironment/recursive-directory-does-not-watch-files-starting-with-dot-in-node_modules.js"
+          },
+          {
+            "path": "tests/baselines/reference/tsserver/watchEnvironment/uses-dynamic-polling-when-file-is-added-to-subfolder.js"
+          },
+          {
+            "path": "tests/baselines/reference/tsserver/watchEnvironment/uses-non-recursive-watchDirectory-when-file-is-added-to-subfolder.js"
+          },
+          {
+            "path": "tests/baselines/reference/tsserver/watchEnvironment/uses-watchFile-when-file-is-added-to-subfolder.js"
+          },
+          {
+            "path": "tests/baselines/reference/tsserver/watchEnvironment/watching-npm-install-in-codespaces-where-workspaces-folder-is-hosted-at-root.js"
+          },
+          {
+            "path": "tests/baselines/reference/typesVersions.ambientModules.trace.json"
+          },
+          {
+            "path": "tests/baselines/reference/typesVersions.emptyTypes.trace.json"
+          },
+          {
+            "path": "tests/baselines/reference/typesVersions.justIndex.trace.json"
+          },
+          {
+            "path": "tests/baselines/reference/typesVersions.multiFile.trace.json"
+          },
+          {
+            "path": "tests/baselines/reference/typesVersionsDeclarationEmit.ambient.trace.json"
+          },
+          {
+            "path": "tests/baselines/reference/typesVersionsDeclarationEmit.multiFile.trace.json"
+          },
+          {
+            "path": "tests/baselines/reference/typesVersionsDeclarationEmit.multiFileBackReferenceToSelf.trace.json"
+          },
+          {
+            "path": "tests/baselines/reference/typesVersionsDeclarationEmit.multiFileBackReferenceToUnmapped.trace.json"
+          },
+          {
+            "path": "tests/cases/conformance/esnext/esnextSharedMemory.ts"
+          }
+        ]
+      }
+    },
+    {
+      "id": "PR_kwDOAT9aAc6YGV9l",
+      "title": "explicitly disallow `using` in ambient contexts",
+      "url": "https://github.com/microsoft/TypeScript/pull/61781",
+      "mergedAt": "2025-06-06T20:44:02Z",
+      "updatedAt": "2025-06-06T21:02:35Z",
+      "baseRefName": "main",
+      "mergeCommit": {
+        "oid": "1e2494566eb6d352844e00b34b15d67c025d307d"
+      },
+      "author": {
+        "login": "Renegade334"
+      },
+      "assignees": {
+        "nodes": []
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "jakebailey"
+            }
+          }
+        ]
+      },
+      "files": {
+        "nodes": [
+          {
+            "path": "src/compiler/checker.ts"
+          },
+          {
+            "path": "src/compiler/diagnosticMessages.json"
+          },
+          {
+            "path": "tests/baselines/reference/awaitUsingDeclarations.16.errors.txt"
+          },
+          {
+            "path": "tests/baselines/reference/awaitUsingDeclarations.16.js"
+          },
+          {
+            "path": "tests/baselines/reference/usingDeclarations.16.errors.txt"
+          },
+          {
+            "path": "tests/baselines/reference/usingDeclarations.16.js"
+          },
+          {
+            "path": "tests/cases/conformance/statements/VariableStatements/usingDeclarations/awaitUsingDeclarations.16.ts"
+          },
+          {
+            "path": "tests/cases/conformance/statements/VariableStatements/usingDeclarations/usingDeclarations.16.ts"
+          }
+        ]
+      }
+    },
+    {
+      "id": "PR_kwDOAT9aAc6Zb2ML",
+      "title": "Issue \"'{0}' declarations can only be declared inside a block.\" for block-scoped variables in presence of parse errors",
+      "url": "https://github.com/microsoft/TypeScript/pull/61824",
+      "mergedAt": "2025-06-06T21:00:25Z",
+      "updatedAt": "2025-06-06T21:00:26Z",
+      "baseRefName": "main",
+      "mergeCommit": {
+        "oid": "fa2a0fc5a2f34d5c76dc4b105a93dbe3c4750d5f"
+      },
+      "author": {
+        "login": "Andarist"
+      },
+      "assignees": {
+        "nodes": []
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "copilot-pull-request-reviewer"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "jakebailey"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "Andarist"
+            }
+          },
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "jakebailey"
+            }
+          }
+        ]
+      },
+      "files": {
+        "nodes": [
+          {
+            "path": "src/compiler/checker.ts"
+          },
+          {
+            "path": "tests/baselines/reference/disallowedBlockScopedInPresenceOfParseErrors1.errors.txt"
+          },
+          {
+            "path": "tests/baselines/reference/disallowedBlockScopedInPresenceOfParseErrors1.symbols"
+          },
+          {
+            "path": "tests/baselines/reference/disallowedBlockScopedInPresenceOfParseErrors1.types"
+          },
+          {
+            "path": "tests/cases/compiler/disallowedBlockScopedInPresenceOfParseErrors1.ts"
+          }
+        ]
+      }
+    },
+    {
+      "id": "PR_kwDOAT9aAc6ZEIbu",
+      "title": "Fix helpers emit for .cjs files in ESM module mode",
+      "url": "https://github.com/microsoft/TypeScript/pull/61814",
+      "mergedAt": "2025-06-06T22:08:04Z",
+      "updatedAt": "2025-06-06T22:08:04Z",
+      "baseRefName": "main",
+      "mergeCommit": {
+        "oid": "7715955f89d4e5c7a26b18f4e15a19e7ae330e6d"
+      },
+      "author": {
+        "login": "andrewbranch"
+      },
+      "assignees": {
+        "nodes": [
+          {
+            "login": "andrewbranch"
+          }
+        ]
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "copilot-pull-request-reviewer"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "andrewbranch"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "andrewbranch"
+            }
+          },
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "andrewbranch"
+            }
+          },
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "weswigham"
+            }
+          },
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "weswigham"
+            }
+          }
+        ]
+      },
+      "files": {
+        "nodes": [
+          {
+            "path": "src/compiler/factory/utilities.ts"
+          },
+          {
+            "path": "tests/baselines/reference/ctsFileInEsnextHelpers.errors.txt"
+          },
+          {
+            "path": "tests/baselines/reference/ctsFileInEsnextHelpers.js"
+          },
+          {
+            "path": "tests/cases/compiler/ctsFileInEsnextHelpers.ts"
+          }
+        ]
+      }
+    },
+    {
+      "id": "PR_kwDOAT9aAc6U6S0d",
+      "title": "Avoid resolving source prop type when the target is `unknown`/`any`",
+      "url": "https://github.com/microsoft/TypeScript/pull/61660",
+      "mergedAt": "2025-06-06T22:17:50Z",
+      "updatedAt": "2025-06-06T22:17:50Z",
+      "baseRefName": "main",
+      "mergeCommit": {
+        "oid": "355b9e0984671f7eea9040f0ac8b68c16361729a"
+      },
+      "author": {
+        "login": "Andarist"
+      },
+      "assignees": {
+        "nodes": []
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "copilot-pull-request-reviewer"
+            }
+          },
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "jakebailey"
+            }
+          },
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "jakebailey"
+            }
+          },
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "jakebailey"
+            }
+          }
+        ]
+      },
+      "files": {
+        "nodes": [
+          {
+            "path": "src/compiler/checker.ts"
+          },
+          {
+            "path": "tests/baselines/reference/noCircularitySelfReferentialGetter1.symbols"
+          },
+          {
+            "path": "tests/baselines/reference/noCircularitySelfReferentialGetter1.types"
+          },
+          {
+            "path": "tests/baselines/reference/noCircularitySelfReferentialGetter2.symbols"
+          },
+          {
+            "path": "tests/baselines/reference/noCircularitySelfReferentialGetter2.types"
+          },
+          {
+            "path": "tests/baselines/reference/noCircularitySelfReferentialGetter3.symbols"
+          },
+          {
+            "path": "tests/baselines/reference/noCircularitySelfReferentialGetter3.types"
+          },
+          {
+            "path": "tests/baselines/reference/noCircularitySelfReferentialGetter4.symbols"
+          },
+          {
+            "path": "tests/baselines/reference/noCircularitySelfReferentialGetter4.types"
+          },
+          {
+            "path": "tests/baselines/reference/propTypeValidatorInference.types"
+          },
+          {
+            "path": "tests/baselines/reference/tsxReactPropsInferenceSucceedsOnIntersections.types"
+          },
+          {
+            "path": "tests/cases/compiler/noCircularitySelfReferentialGetter1.ts"
+          },
+          {
+            "path": "tests/cases/compiler/noCircularitySelfReferentialGetter2.ts"
+          },
+          {
+            "path": "tests/cases/compiler/noCircularitySelfReferentialGetter3.ts"
+          },
+          {
+            "path": "tests/cases/compiler/noCircularitySelfReferentialGetter4.ts"
+          }
+        ]
+      }
+    },
+    {
+      "id": "PR_kwDOAT9aAc6ZYE_E",
+      "title": "optimization, reduce memory usage",
+      "url": "https://github.com/microsoft/TypeScript/pull/61822",
+      "mergedAt": "2025-06-09T18:48:31Z",
+      "updatedAt": "2025-06-09T18:48:31Z",
+      "baseRefName": "main",
+      "mergeCommit": {
+        "oid": "97cfa26f2ac4991183347c6f07959f4571dd5eb0"
+      },
+      "author": {
+        "login": "VincentBailly"
+      },
+      "assignees": {
+        "nodes": []
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "state": "COMMENTED",
+            "author": {
+              "login": "copilot-pull-request-reviewer"
+            }
+          },
+          {
+            "state": "APPROVED",
+            "author": {
+              "login": "jakebailey"
+            }
+          }
+        ]
+      },
+      "files": {
+        "nodes": [
+          {
+            "path": "src/compiler/program.ts"
           }
         ]
       }

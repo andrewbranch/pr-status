@@ -1,19 +1,26 @@
+export type BoardItem = {
+  id: string;
+  content: {
+    url: string;
+  } | null;
+  assignee: {
+    text: string;
+  } | null;
+  status: {
+    id: string;
+    name: string;
+  };
+  release: {
+    id: string;
+    name: string;
+  } | null;
+};
+
 export interface ProjectQueryResponse {
   organization: {
     projectV2: {
       items: {
-        nodes: {
-          content: {
-            url: string;
-          } | null;
-          assignee: {
-            text: string;
-          } | null;
-          status: {
-            id: string;
-            name: string;
-          };
-        }[];
+        nodes: BoardItem[];
         pageInfo: {
           endCursor: string;
           hasNextPage: boolean;
@@ -30,6 +37,8 @@ export type Status =
   | "N/A (Build/Watch)"
   | "N/A (No Need)";
 
+export type Release = "5.8 (or earlier)" | "5.9";
+
 export interface MergedPR {
   id: string;
   title: string;
@@ -37,6 +46,9 @@ export interface MergedPR {
   mergedAt: string;
   updatedAt: string;
   baseRefName: string;
+  mergeCommit: {
+    oid: string;
+  };
   files: {
     nodes: {
       path: string;

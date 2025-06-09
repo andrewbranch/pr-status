@@ -6,9 +6,12 @@ import type {
   FilePaginationQueryResponse,
   MergedPR,
   Status,
+  Release,
+  BoardItem,
 } from "./types.ts";
 
 if (!process.env.GITHUB_TOKEN) {
+  // Scopes: ["repo", "project", "read:org"]
   throw new Error("GITHUB_TOKEN environment variable is required");
 }
 
@@ -19,7 +22,7 @@ const request = graphql.defaults({
 });
 
 const cacheFile = "./pr_cache.json";
-const version = 2;
+const version = 3;
 const startDate = "2024-09-26T00:00:00Z";
 
 const projectNumber = 1588;
@@ -33,7 +36,16 @@ const statusOptionIds = new Map<Status, string>([
   ["N/A (Build/Watch)", "b0652e81"],
   ["N/A (No Need)", "532f8030"],
 ]);
+const releaseFieldId = "PVTSSF_lADOAF3p4s4Av_GAzgve4ow";
+const releaseOptionIds = new Map<Release, string>([
+  ["5.8 (or earlier)", "955a53a2"],
+  ["5.9", "cf015096"],
+]);
 
+// Release tags to check, ordered from oldest to newest
+const releaseTags = [
+  { name: "v5.8.3", release: "5.8 (or earlier)" as const },
+] as const;
 export async function getBoard() {
   const query = `
     query($org: String!, $projectNumber: Int!, $cursor: String) {
@@ -41,6 +53,7 @@ export async function getBoard() {
         projectV2(number: $projectNumber) {
           items(first: 100, after: $cursor) {
             nodes {
+              id
               content {
                 ... on PullRequest {
                   url
@@ -52,6 +65,12 @@ export async function getBoard() {
                 }
               }
               status: fieldValueByName(name: "Status") {
+                ... on ProjectV2ItemFieldSingleSelectValue {
+                  id
+                  name
+                }
+              }
+              release: fieldValueByName(name: "Release") {
                 ... on ProjectV2ItemFieldSingleSelectValue {
                   id
                   name
@@ -113,6 +132,9 @@ export async function getMergedPRs(): Promise<MergedPR[]> {
             mergedAt
             updatedAt
             baseRefName
+            mergeCommit {
+              oid
+            }
             author {
               login
             }
@@ -224,10 +246,12 @@ export async function getMergedPRs(): Promise<MergedPR[]> {
   return prs;
 }
 
-export async function addCardToBoard(
+export async function addOrUpdateCard(
+  existing: BoardItem | undefined,
   pr: MergedPR,
   assignee: string | undefined,
-  status: Status
+  status: Status,
+  release: Release | undefined
 ) {
   const addCardMutation = `
     mutation($projectId: ID!, $contentId: ID!) {
@@ -256,31 +280,122 @@ export async function addCardToBoard(
       }
     }
   `;
+  const setReleaseMutation = `
+    mutation($projectId: ID!, $itemId: ID!, $fieldId: ID!, $value: ProjectV2FieldValue!) {
+      updateProjectV2ItemFieldValue(input: {projectId: $projectId, itemId: $itemId, fieldId: $fieldId, value: $value}) {
+        projectV2Item {
+          id
+        }
+      }
+    }
+  `;
 
-  const addCardData = await request<{
-    addProjectV2ItemById: { item: { id: string } };
-  }>(addCardMutation, {
-    projectId,
-    contentId: pr.id,
-  });
-  const itemId = addCardData.addProjectV2ItemById.item.id;
+  let itemId = existing?.id;
+  if (!existing) {
+    console.log(
+      `Adding new card for PR #${pr.url.slice(pr.url.lastIndexOf("/") + 1)}: `,
+      pr.title
+    );
+    const addCardData = await request<{
+      addProjectV2ItemById: { item: { id: string } };
+    }>(addCardMutation, {
+      projectId,
+      contentId: pr.id,
+    });
+    itemId = addCardData.addProjectV2ItemById.item.id;
+  } else {
+    console.log(
+      `Updating existing card for PR #${pr.url.slice(
+        pr.url.lastIndexOf("/") + 1
+      )}: `,
+      pr.title
+    );
+  }
 
-  if (assignee) {
+  if (assignee !== existing?.assignee?.text) {
+    console.log("Setting assignee: ", assignee);
     await request(setAssigneeMutation, {
       projectId,
       itemId,
       fieldId: assigneesFieldId,
-      value: { text: assignee },
+      value: { text: assignee ?? "" },
     });
   }
 
-  const statusId = statusOptionIds.get(status);
-  await request(setStatusMutation, {
-    projectId,
-    itemId,
-    fieldId: statusFieldId,
-    value: { singleSelectOptionId: statusId },
-  });
+  // Only set status for new additions
+  if (!existing) {
+    const statusId = statusOptionIds.get(status);
+    await request(setStatusMutation, {
+      projectId,
+      itemId,
+      fieldId: statusFieldId,
+      value: { singleSelectOptionId: statusId },
+    });
+  }
+
+  // Only set release field if release is defined
+  if (release !== undefined) {
+    console.log("Setting release: ", release);
+    const releaseId = releaseOptionIds.get(release);
+    await request(setReleaseMutation, {
+      projectId,
+      itemId,
+      fieldId: releaseFieldId,
+      value: { singleSelectOptionId: releaseId },
+    });
+  }
 
   return itemId;
+}
+
+export async function determineTypeScriptRelease(
+  commitSha: string
+): Promise<Release | undefined> {
+  // Check against each release tag from oldest to newest
+  for (const tag of releaseTags) {
+    try {
+      const query = `
+        query($owner: String!, $repo: String!, $mergeCommitId: String!) {
+          repository(owner: $owner, name: $repo) {
+            ref(qualifiedName: "refs/tags/${tag.name}") {
+              compare(headRef: $mergeCommitId) {
+                status
+              }
+            }
+          }
+        }
+      `;
+
+      const data = await request<{
+        repository: {
+          ref: {
+            compare: {
+              status: string;
+            };
+          } | null;
+        };
+      }>(query, {
+        owner: "microsoft",
+        repo: "TypeScript",
+        mergeCommitId: commitSha,
+      });
+
+      // If the ref exists and the commit is behind or identical, it belongs to this release
+      if (
+        data.repository.ref?.compare.status === "BEHIND" ||
+        data.repository.ref?.compare.status === "IDENTICAL"
+      ) {
+        return tag.release;
+      }
+    } catch (error) {
+      console.warn(
+        `Could not check release ${tag.name} for commit ${commitSha}:`,
+        error
+      );
+      continue;
+    }
+  }
+
+  // If commit doesn't belong to any checked tag, return undefined
+  return undefined;
 }
