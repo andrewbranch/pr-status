@@ -1,6 +1,6 @@
 import type { MergedPR, Status } from "./types.ts";
 
-const teamMembers = new Set([
+export const teamMembers = new Set([
   "sandersn",
   "DanielRosenwasser",
   "weswigham",

@@ -11,7 +11,7 @@ import type {
 } from "./types.ts";
 
 if (!process.env.GITHUB_TOKEN) {
-  // Scopes: ["repo", "project", "read:org"]
+  // Scopes: ["repo", "project", "read:org", "read:user"]
   throw new Error("GITHUB_TOKEN environment variable is required");
 }
 
@@ -41,6 +41,8 @@ const releaseOptionIds = new Map<Release, string>([
   ["5.8 (or earlier)", "955a53a2"],
   ["5.9", "cf015096"],
 ]);
+const typescriptGoRepoId = "R_kgDOM0QWIw";
+const portingPRLabelId = "LA_kwDOM0QWI88AAAACCeGIEQ";
 
 // Release tags to check, ordered from oldest to newest
 const releaseTags = [
@@ -398,4 +400,186 @@ export async function determineTypeScriptRelease(
 
   // If commit doesn't belong to any checked tag, return undefined
   return undefined;
+}
+
+/**
+ * Search for existing issues on microsoft/typescript-go that mention a specific PR number
+ */
+export async function searchTypeScriptGoIssues(
+  searchTitle: string
+): Promise<{ url: string }[]> {
+  const query = `
+    query {
+      search(type: ISSUE, query: "repo:microsoft/typescript-go is:issue label:\\"Porting PR\\" ${searchTitle} in:title", first:100) {
+        nodes {
+          ...on Issue {
+            url
+          }
+        }
+      }
+    }`;
+
+  const data = await request<{
+    search: {
+      nodes: {
+        url: string;
+      }[];
+    };
+  }>(query);
+
+  return data.search.nodes.map((issue) => ({
+    url: issue.url,
+    number: issue.url,
+  }));
+}
+
+/**
+ * Get detailed information about a TypeScript PR
+ */
+export async function getTypeScriptPRDetails(prUrl: string): Promise<{
+  title: string;
+  mergeCommitSha: string;
+  body: string;
+  number: number;
+} | null> {
+  const prNumber = prUrl.split("/").pop();
+  if (!prNumber) return null;
+
+  const query = `
+    query($owner: String!, $repo: String!, $prNumber: Int!) {
+      repository(owner: $owner, name: $repo) {
+        pullRequest(number: $prNumber) {
+          title
+          body
+          number
+          mergeCommit {
+            oid
+          }
+        }
+      }
+    }
+  `;
+
+  try {
+    const data = await request<{
+      repository: {
+        pullRequest: {
+          title: string;
+          body: string;
+          number: number;
+          mergeCommit: {
+            oid: string;
+          };
+        };
+      };
+    }>(query, {
+      owner: "microsoft",
+      repo: "TypeScript",
+      prNumber: parseInt(prNumber),
+    });
+
+    const pr = data.repository.pullRequest;
+    return {
+      title: pr.title,
+      body: pr.body || "",
+      number: pr.number,
+      mergeCommitSha: pr.mergeCommit.oid,
+    };
+  } catch (error) {
+    console.warn(`Error fetching PR details for ${prUrl}:`, error);
+    return null;
+  }
+}
+
+/**
+ * Create an issue on microsoft/typescript-go
+ */
+export async function createTypeScriptGoIssue(
+  title: string,
+  body: string,
+  assignees: string[]
+): Promise<{ url: string; number: number } | null> {
+  const mutation = `
+    mutation($repositoryId: ID!, $title: String!, $body: String!, $assigneeIds: [ID!], $labelIds: [ID!]) {
+      createIssue(input: {
+        repositoryId: $repositoryId
+        title: $title
+        body: $body
+        assigneeIds: $assigneeIds
+        labelIds: $labelIds
+      }) {
+        issue {
+          number
+          url
+        }
+      }
+    }
+  `;
+
+  // Get user IDs for assignees
+  const assigneeIds: string[] = [];
+  for (const assignee of assignees) {
+    const userId = await getUserId(assignee);
+    if (userId) {
+      assigneeIds.push(userId);
+    }
+  }
+
+  const data = await request<{
+    createIssue: {
+      issue: {
+        number: number;
+        url: string;
+      };
+    };
+  }>(mutation, {
+    repositoryId: typescriptGoRepoId,
+    title,
+    body,
+    assigneeIds,
+    labelIds: [portingPRLabelId],
+  });
+
+  return {
+    url: data.createIssue.issue.url,
+    number: data.createIssue.issue.number,
+  };
+}
+
+// Cache for user IDs to avoid repeated API calls
+const userIdCache = new Map<string, string>([
+  ["copilot", "BOT_kgDOC9w8XQ"], // Pre-populate known bot ID
+]);
+
+/**
+ * Get a GitHub user's ID by their login
+ */
+export async function getUserId(login: string): Promise<string | null> {
+  const normalizedLogin = login.toLowerCase();
+
+  // Check cache first
+  if (userIdCache.has(normalizedLogin)) {
+    return userIdCache.get(normalizedLogin)!;
+  }
+
+  try {
+    const userQuery = `
+      query($login: String!) {
+        user(login: $login) {
+          id
+        }
+      }
+    `;
+    const userData = await request<{
+      user: { id: string };
+    }>(userQuery, { login });
+
+    const userId = userData.user.id;
+    // Cache the result
+    userIdCache.set(normalizedLogin, userId);
+    return userId;
+  } catch (error) {
+    console.warn(`Could not find user ID for user ${login}:`, error);
+    return null;
+  }
 }
