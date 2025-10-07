@@ -47,6 +47,7 @@ const portingPRLabelId = "LA_kwDOM0QWI88AAAACCeGIEQ";
 // Release tags to check, ordered from oldest to newest
 const releaseTags = [
   { name: "v5.8.3", release: "5.8 (or earlier)" as const },
+  { name: "v5.9.3", release: "5.9" as const },
 ] as const;
 export async function getBoard() {
   const query = `
